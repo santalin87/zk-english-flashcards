@@ -22,7 +22,7 @@
     <link rel="apple-touch-icon" href="https://img.icons8.com/fluency/192/books.png">
     <link rel="icon" type="image/png" href="https://img.icons8.com/fluency/96/books.png">
 
-    <title>英语速记 v1.2.1</title>
+    <title>英语速记 v1.3.0</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
     
     <style>
@@ -55,21 +55,21 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            padding: max(24px, env(safe-area-inset-top)) 16px 20px 16px;
+            justify-content: flex-start;
+            padding: max(20px, env(safe-area-inset-top)) 16px 20px 16px;
             overflow-x: hidden;
         }
 
         header {
             text-align: center;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             width: 100%;
             max-width: 480px;
             position: relative;
         }
 
         .sub-title {
-            font-size: 0.85rem;
+            font-size: 0.82rem;
             color: var(--text-muted);
             font-weight: 500;
             letter-spacing: 0.05em;
@@ -81,7 +81,7 @@
         }
 
         .streak-banner {
-            font-size: 1.15rem;
+            font-size: 1.1rem;
             font-weight: 600;
             color: var(--text-main);
             display: flex;
@@ -91,7 +91,7 @@
 
         .streak-num {
             color: var(--accent-red);
-            font-size: 1.9rem;
+            font-size: 1.8rem;
             font-weight: 800;
             margin: 0 4px;
             line-height: 1;
@@ -111,7 +111,7 @@
             align-items: center;
             justify-content: space-between;
             gap: 6px;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             width: 100%;
             max-width: 480px;
             background: #FFFFFF;
@@ -169,7 +169,7 @@
         .controls {
             display: flex;
             gap: 6px;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             justify-content: center;
             width: 100%;
             max-width: 480px;
@@ -195,7 +195,7 @@
         .progress-container {
             width: 100%;
             max-width: 480px;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
         .progress-stats {
@@ -217,6 +217,113 @@
             width: 0%;
             background: var(--accent-black);
             transition: width 0.3s ease;
+        }
+
+        /* List View Container */
+        .list-view-container {
+            width: 100%;
+            max-width: 480px;
+            background: #FFFFFF;
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            margin-bottom: 14px;
+        }
+
+        .list-header-bar {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-color);
+            font-size: 0.85rem;
+            outline: none;
+            color: var(--text-main);
+        }
+        .search-input:focus {
+            border-color: var(--text-main);
+            background: #FFFFFF;
+        }
+
+        .btn-start-study {
+            padding: 8px 12px;
+            background: var(--accent-black);
+            color: #FFFFFF;
+            border: none;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .word-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            gap: 8px;
+            max-height: 430px;
+            overflow-y: auto;
+            padding-right: 2px;
+        }
+
+        .word-grid-item {
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            padding: 10px 8px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .word-grid-item:hover, .word-grid-item:active {
+            background: #FFFFFF;
+            border-color: var(--accent-black);
+            transform: translateY(-1px);
+        }
+
+        .grid-item-num {
+            font-size: 0.68rem;
+            color: var(--text-muted);
+            margin-bottom: 2px;
+        }
+
+        .grid-item-word {
+            font-family: var(--font-serif);
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text-main);
+            word-break: break-word;
+        }
+
+        /* Card View Wrapper */
+        .card-view-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 480px;
+            margin-bottom: 6px;
+        }
+
+        .btn-back-list {
+            background: none;
+            border: 1px solid var(--border-color);
+            padding: 4px 10px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            cursor: pointer;
+            background: #FFFFFF;
+        }
+        .btn-back-list:hover {
+            background: #EEEEEE;
         }
 
         .card-wrapper {
@@ -507,7 +614,7 @@
     <header>
         <div class="sub-title">
             <span>英语速记</span>
-            <span class="version-tag">v1.2.1</span>
+            <span class="version-tag">v1.3.0</span>
         </div>
         <div class="streak-banner">
             已打卡 <span class="streak-num" id="streakDaysNum">1</span> 天
@@ -558,82 +665,99 @@
         </div>
     </div>
 
-    <div class="card-wrapper" onclick="toggleFlip()">
-        <div class="card" id="flashcard">
-            <!-- Front -->
-            <div class="card-face card-front">
-                <div class="front-top">
-                    <span class="card-tag" id="cardTag">词汇 #1</span>
-                    <span class="ebbinghaus-badge" id="ebbinghausBadge">🌟 今日新词</span>
-                </div>
-                
-                <div class="card-word" id="cardWord" onclick="event.stopPropagation(); speakWord();" title="点击朗读单词">instead</div>
-                
-                <div style="text-align:center;">
-                    <div class="card-ipa" onclick="event.stopPropagation(); speakWord();" title="点击区域朗读单词发音">
-                        <span id="cardIpa">/ɪnˈsted/</span>
-                        <button class="audio-btn" title="朗读单词">🔊 读音</button>
-                    </div>
-                </div>
-
-                <div class="front-sentence-box" onclick="event.stopPropagation(); speakSentence();" title="点击整框朗读英文例句">
-                    <div class="front-sentence-title">
-                        <span>💬 英文例句语境</span>
-                        <span style="font-size: 0.8rem; color: var(--text-main);">🔊 点击听句</span>
-                    </div>
-                    <div class="front-sentence-text" id="frontSentence">He didn't answer, but smiled instead.</div>
-                </div>
-
-                <div class="flip-hint">👆 点击空白区域翻面验证答案</div>
-            </div>
-
-            <!-- Back -->
-            <div class="card-face card-back">
-                <div class="back-header">
-                    <div class="back-word-box" onclick="event.stopPropagation(); speakWord();" title="点击读单词">
-                        <span class="back-word" id="backWord">instead</span>
-                        <span class="back-ipa" id="backIpa">/ɪnˈsted/</span>
-                        <span style="font-size:0.85rem;">🔊</span>
-                    </div>
-                    <span class="back-meaning" id="backMeaning">adv. 代替;反而;却</span>
-                </div>
-
-                <div class="section-box etymology-box">
-                    <div class="box-title">
-                        <span>🧩 词根演变拆解</span>
-                    </div>
-                    <div class="box-text" id="backEtymology">in- (在内) + stead (地方) ➔ 站在别人的位置上 ➔ 替换、反而</div>
-                </div>
-
-                <div class="section-box phrase-box" onclick="event.stopPropagation(); speakPhrase();" title="点击整框朗读短语">
-                    <div class="box-title">
-                        <span>📌 高频短语 (点击读短语)</span>
-                        <span style="font-size: 0.8rem;">🔊 读短语</span>
-                    </div>
-                    <div class="box-text" id="backPhrase">instead of (代替/而不是) ｜ in - stead (因-斯泰德)</div>
-                </div>
-
-                <div class="section-box sentence-box" onclick="event.stopPropagation(); speakSentence();" title="点击整框朗读例句">
-                    <div class="box-title">
-                        <span>💬 例句翻译 (点击听例句)</span>
-                        <span style="font-size: 0.8rem;">🔊 点击听句</span>
-                    </div>
-                    <div class="box-text" id="backSentence" style="font-size:0.82rem; color:var(--text-muted);">He didn't answer, but smiled instead.</div>
-                    <div class="box-text trans" id="backTranslation" style="font-size:0.88rem; color:var(--text-main); font-weight:500;">他没有回答，反而笑了笑了。</div>
-                </div>
-
-                <div class="flip-hint">👇 点击下方标记掌握状态</div>
-            </div>
+    <!-- List View (Default on tab click) -->
+    <div class="list-view-container" id="listViewContainer">
+        <div class="list-header-bar">
+            <input type="text" class="search-input" id="searchInput" placeholder="🔍 搜索纯英文单词..." oninput="renderWordList()">
+            <button class="btn-start-study" onclick="startCardStudyFromFirst()">🎴 顺序刷卡</button>
         </div>
+        <div class="word-grid" id="wordGrid"></div>
     </div>
 
-    <div class="action-btns" id="actionBtns">
-        <button class="btn-action btn-dont-know" onclick="markResult(false)">
-            ❌ 没记住
-        </button>
-        <button class="btn-action btn-know" onclick="markResult(true)">
-            ✅ 记住啦
-        </button>
+    <!-- Card View (Hidden until a word is tapped or Start Study clicked) -->
+    <div id="cardViewArea" style="display:none; width: 100%; max-width: 480px;">
+        <div class="card-view-header">
+            <button class="btn-back-list" onclick="showListView()">📋 返回单词清单</button>
+            <span style="font-size:0.75rem; color:var(--text-muted);" id="cardModeIndicator">今日任务</span>
+        </div>
+
+        <div class="card-wrapper" onclick="toggleFlip()">
+            <div class="card" id="flashcard">
+                <!-- Front -->
+                <div class="card-face card-front">
+                    <div class="front-top">
+                        <span class="card-tag" id="cardTag">词汇 #1</span>
+                        <span class="ebbinghaus-badge" id="ebbinghausBadge">🌟 今日新词</span>
+                    </div>
+                    
+                    <div class="card-word" id="cardWord" onclick="event.stopPropagation(); speakWord();" title="点击朗读单词">instead</div>
+                    
+                    <div style="text-align:center;">
+                        <div class="card-ipa" onclick="event.stopPropagation(); speakWord();" title="点击区域朗读单词发音">
+                            <span id="cardIpa">/ɪnˈsted/</span>
+                            <button class="audio-btn" title="朗读单词">🔊 读音</button>
+                        </div>
+                    </div>
+
+                    <div class="front-sentence-box" onclick="event.stopPropagation(); speakSentence();" title="点击整框朗读英文例句">
+                        <div class="front-sentence-title">
+                            <span>💬 英文例句语境</span>
+                            <span style="font-size: 0.8rem; color: var(--text-main);">🔊 点击听句</span>
+                        </div>
+                        <div class="front-sentence-text" id="frontSentence">He didn't answer, but smiled instead.</div>
+                    </div>
+
+                    <div class="flip-hint">👆 点击空白区域翻面验证答案</div>
+                </div>
+
+                <!-- Back -->
+                <div class="card-face card-back">
+                    <div class="back-header">
+                        <div class="back-word-box" onclick="event.stopPropagation(); speakWord();" title="点击读单词">
+                            <span class="back-word" id="backWord">instead</span>
+                            <span class="back-ipa" id="backIpa">/ɪnˈsted/</span>
+                            <span style="font-size:0.85rem;">🔊</span>
+                        </div>
+                        <span class="back-meaning" id="backMeaning">adv. 代替;反而;却</span>
+                    </div>
+
+                    <div class="section-box etymology-box">
+                        <div class="box-title">
+                            <span>🧩 词根演变拆解</span>
+                        </div>
+                        <div class="box-text" id="backEtymology">in- (在内) + stead (地方) ➔ 站在别人的位置上 ➔ 替换、反而</div>
+                    </div>
+
+                    <div class="section-box phrase-box" onclick="event.stopPropagation(); speakPhrase();" title="点击整框朗读短语">
+                        <div class="box-title">
+                            <span>📌 高频短语 (点击读短语)</span>
+                            <span style="font-size: 0.8rem;">🔊 读短语</span>
+                        </div>
+                        <div class="box-text" id="backPhrase">instead of (代替/而不是) ｜ in - stead (因-斯泰德)</div>
+                    </div>
+
+                    <div class="section-box sentence-box" onclick="event.stopPropagation(); speakSentence();" title="点击整框朗读例句">
+                        <div class="box-title">
+                            <span>💬 例句翻译 (点击听例句)</span>
+                            <span style="font-size: 0.8rem;">🔊 点击听句</span>
+                        </div>
+                        <div class="box-text" id="backSentence" style="font-size:0.82rem; color:var(--text-muted);">He didn't answer, but smiled instead.</div>
+                        <div class="box-text trans" id="backTranslation" style="font-size:0.88rem; color:var(--text-main); font-weight:500;">他没有回答，反而笑了笑了。</div>
+                    </div>
+
+                    <div class="flip-hint">👇 点击下方标记掌握状态</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="action-btns" id="actionBtns">
+            <button class="btn-action btn-dont-know" onclick="markResult(false)">
+                ❌ 没记住
+            </button>
+            <button class="btn-action btn-know" onclick="markResult(true)">
+                ✅ 记住啦
+            </button>
+        </div>
     </div>
 
     <div class="finish-card" id="finishCard">
@@ -677,6 +801,7 @@
         let lastStreakDate = localStorage.getItem('zk_last_streak_date') || '';
 
         let currentMode = 'daily';
+        let viewState = 'list'; // 'list' or 'card'
         let currentDeck = [];
         let currentDeckIndex = 0;
         let isFlipped = false;
@@ -731,14 +856,7 @@
             updateCounts();
             buildDeck();
             
-            const today = getTodayStr();
-            const savedIndexKey = `zk_daily_index_${today}_${currentMode}`;
-            const savedIdx = parseInt(localStorage.getItem(savedIndexKey));
-            if (!isNaN(savedIdx) && savedIdx >= 0 && savedIdx < currentDeck.length) {
-                currentDeckIndex = savedIdx;
-            }
-
-            renderCard(false);
+            showListView();
             loadVoices();
         }
 
@@ -764,7 +882,9 @@
             speechSpeed = parseFloat(spd);
             localStorage.setItem('zk_speech_speed', speechSpeed);
             syncSpeedUI();
-            speakSentence();
+            if (viewState === 'card') {
+                speakSentence();
+            }
         }
 
         function loadVoices() {
@@ -814,7 +934,7 @@
             dailyGoal = parseInt(document.getElementById('dailyGoalSelect').value);
             localStorage.setItem('zk_daily_goal', dailyGoal);
             buildDeck();
-            renderCard(true);
+            showListView();
         }
 
         function updateCounts() {
@@ -911,7 +1031,6 @@
             
             currentDeckIndex = 0;
             isFlipped = false;
-            document.getElementById('flashcard').classList.remove('flipped');
         }
 
         function setMode(mode) {
@@ -922,28 +1041,67 @@
             if (mode === 'all') document.getElementById('btnAll').classList.add('active');
             
             buildDeck();
+            showListView();
+        }
 
-            const today = getTodayStr();
-            const savedIdx = parseInt(localStorage.getItem(`zk_daily_index_${today}_${currentMode}`));
-            if (!isNaN(savedIdx) && savedIdx >= 0 && savedIdx < currentDeck.length) {
-                currentDeckIndex = savedIdx;
+        function showListView() {
+            viewState = 'list';
+            document.getElementById('listViewContainer').style.display = 'block';
+            document.getElementById('cardViewArea').style.display = 'none';
+            document.getElementById('finishCard').style.display = 'none';
+            renderWordList();
+        }
+
+        function renderWordList() {
+            const query = document.getElementById('searchInput').value.trim().toLowerCase();
+            const grid = document.getElementById('wordGrid');
+            grid.innerHTML = '';
+
+            const filtered = currentDeck.filter(item => item.word.toLowerCase().includes(query));
+
+            if (filtered.length === 0) {
+                grid.innerHTML = '<div style="grid-column:1/-1; text-align:center; color:var(--text-muted); padding:20px; font-size:0.85rem;">未找到相关英文单词</div>';
+                return;
             }
 
+            filtered.forEach((item) => {
+                const origIndex = currentDeck.indexOf(item);
+                const div = document.createElement('div');
+                div.className = 'word-grid-item';
+                div.onclick = function() {
+                    selectWordFromList(origIndex);
+                };
+                
+                div.innerHTML = `
+                    <span class="grid-item-num">#${origIndex + 1}</span>
+                    <span class="grid-item-word">${item.word}</span>
+                `;
+                grid.appendChild(div);
+            });
+        }
+
+        function selectWordFromList(deckIdx) {
+            currentDeckIndex = deckIdx;
+            viewState = 'card';
+            document.getElementById('listViewContainer').style.display = 'none';
+            document.getElementById('cardViewArea').style.display = 'block';
             renderCard(true);
+        }
+
+        function startCardStudyFromFirst() {
+            selectWordFromList(0);
         }
 
         function renderCard(autoSpeak = false) {
             const cardEl = document.getElementById('flashcard');
-            const wrapper = document.querySelector('.card-wrapper');
-            const actions = document.getElementById('actionBtns');
+            const cardArea = document.getElementById('cardViewArea');
             const finishCard = document.getElementById('finishCard');
 
             const today = getTodayStr();
             localStorage.setItem(`zk_daily_index_${today}_${currentMode}`, currentDeckIndex);
 
             if (currentDeck.length === 0 || currentDeckIndex >= currentDeck.length) {
-                wrapper.style.display = 'none';
-                actions.style.display = 'none';
+                cardArea.style.display = 'none';
                 finishCard.style.display = 'block';
 
                 const reviewsDone = currentDeck.filter(i => i._isReview).length;
@@ -956,12 +1114,13 @@
                 return;
             }
 
-            wrapper.style.display = 'block';
-            actions.style.display = 'flex';
+            cardArea.style.display = 'block';
             finishCard.style.display = 'none';
 
             const item = currentDeck[currentDeckIndex];
             
+            const modeText = currentMode === 'daily' ? '今日任务' : (currentMode === 'unlearned' ? '顽固生词本' : '全量词库');
+            document.getElementById('cardModeIndicator').innerText = modeText;
             document.getElementById('cardTag').innerText = `#${currentDeckIndex + 1} (${item.word})`;
             
             const badgeEl = document.getElementById('ebbinghausBadge');
@@ -1122,26 +1281,23 @@
             renderCard(true);
         }
 
-        function resetCurrentDeck() {
-            currentDeckIndex = 0;
-            renderCard(true);
-        }
-
         function continueExtraDeck() {
             currentDeckIndex = 0;
             buildDeck();
-            renderCard(true);
+            showListView();
         }
 
         document.addEventListener('keydown', (e) => {
-            if (e.key === ' ' || e.key === 'Enter') {
-                toggleFlip();
-            } else if (e.key === 'ArrowLeft') {
-                markResult(false);
-            } else if (e.key === 'ArrowRight') {
-                markResult(true);
-            } else if (e.key === 's' || e.key === 'S') {
-                speakWord();
+            if (viewState === 'card') {
+                if (e.key === ' ' || e.key === 'Enter') {
+                    toggleFlip();
+                } else if (e.key === 'ArrowLeft') {
+                    markResult(false);
+                } else if (e.key === 'ArrowRight') {
+                    markResult(true);
+                } else if (e.key === 's' || e.key === 'S') {
+                    speakWord();
+                }
             }
         });
 
