@@ -399,29 +399,17 @@
     "eng": "...a future reduction in interest rates.",
     "chn": "…一次未来利率的降低。"
   },
-  "role": {
-    "eng": "She has just landed the lead role in their latest production.",
-    "chn": "她刚在他们最新的作品中取得了主角。"
+  "religion": {
+    "eng": "...his understanding of Indian philosophy and religion.",
+    "chn": "…他对于印度哲学和宗教的理解。"
   },
-  "save": {
-    "eng": "...an austerity programme designed to save the country's failing economy.",
-    "chn": "…一个旨在拯救该国衰退的经济的紧缩计划。"
-  },
-  "satisfied": {
-    "eng": "We are not satisfied with these results.",
-    "chn": "我们对这些结果不满意。"
+  "remote": {
+    "eng": "Landslides have cut off many villages in remote areas.",
+    "chn": "滑坡阻隔了许多边远地区的村子。"
   },
   "renew": {
     "eng": "He renewed his attack on government policy toward Europe.",
     "chn": "他重新开始抨击政府的欧洲政策。"
-  },
-  "routine": {
-    "eng": "The players had to change their daily routine and lifestyle.",
-    "chn": "这些运动员不得不改变他们的每日常规和生活方式。"
-  },
-  "room": {
-    "eng": "A minute later he excused himself and left the room.",
-    "chn": "一分钟后他告辞了，离开了房间。"
   },
   "rich": {
     "eng": "You're going to be a very rich man.",
@@ -431,21 +419,29 @@
     "eng": "I saw a girl riding a horse.",
     "chn": "我看见一个骑着马的女孩。"
   },
-  "rose": {
-    "eng": "She bent to pick a red rose.",
-    "chn": "她弯下腰摘了一朵红玫瑰。"
-  },
-  "religion": {
-    "eng": "...his understanding of Indian philosophy and religion.",
-    "chn": "…他对于印度哲学和宗教的理解。"
-  },
   "rise": {
     "eng": "Wilson's ice-cold eyes watched the smoke rise from his cigarette.",
     "chn": "威尔逊那双冰冷的眼睛注视着烟雾从他的香烟中冒出。"
   },
+  "role": {
+    "eng": "She has just landed the lead role in their latest production.",
+    "chn": "她刚在他们最新的作品中取得了主角。"
+  },
+  "room": {
+    "eng": "A minute later he excused himself and left the room.",
+    "chn": "一分钟后他告辞了，离开了房间。"
+  },
+  "rose": {
+    "eng": "She bent to pick a red rose.",
+    "chn": "她弯下腰摘了一朵红玫瑰。"
+  },
   "rough": {
     "eng": "His hands were rough and callused, from years of karate practice.",
     "chn": "他的双手由于多年的空手道练习，粗糙而布满老茧。"
+  },
+  "routine": {
+    "eng": "The players had to change their daily routine and lifestyle.",
+    "chn": "这些运动员不得不改变他们的每日常规和生活方式。"
   },
   "run": {
     "eng": "I excused myself and ran back to the telephone.",
@@ -455,6 +451,14 @@
     "eng": "A schoolgirl rushed into a burning apartment to save a man's life.",
     "chn": "一名女学童冲进一栋着火的公寓去救一个男子的命。"
   },
+  "satisfied": {
+    "eng": "We are not satisfied with these results.",
+    "chn": "我们对这些结果不满意。"
+  },
+  "save": {
+    "eng": "...an austerity programme designed to save the country's failing economy.",
+    "chn": "…一个旨在拯救该国衰退的经济的紧缩计划。"
+  },
   "second": {
     "eng": "For a few seconds nobody said anything.",
     "chn": "有几秒钟没一个人说话。"
@@ -463,25 +467,17 @@
     "eng": "I sow the seed in pots of soil-based compost.",
     "chn": "我把种子种在一盆盆施有堆肥的土里。"
   },
-  "shine": {
-    "eng": "It is a mild morning and the sun is shining.",
-    "chn": "这是一个和煦的早晨，太阳在照耀着。"
-  },
-  "shopping": {
-    "eng": "I'll do the shopping this afternoon.",
-    "chn": "我今天下午要去购物。"
+  "sense": {
+    "eng": "She stared at him again, unable to believe the evidence of her senses.",
+    "chn": "她再次盯着他，不敢相信自己的感觉。"
   },
   "sensitive": {
     "eng": "The classroom teacher must be sensitive to a child's needs.",
     "chn": "课堂教师必须理解孩子的需求。"
   },
-  "remote": {
-    "eng": "Landslides have cut off many villages in remote areas.",
-    "chn": "滑坡阻隔了许多边远地区的村子。"
-  },
-  "shoulder": {
-    "eng": "She led him to an armchair, with her arm round his shoulder.",
-    "chn": "她把他领到扶手椅上，手臂搂住了他的肩膀。"
+  "shine": {
+    "eng": "It is a mild morning and the sun is shining.",
+    "chn": "这是一个和煦的早晨，太阳在照耀着。"
   },
   "ship": {
     "eng": "Within ninety minutes the ship was ready for departure.",
@@ -491,57 +487,57 @@
     "eng": "...a gift shop.",
     "chn": "…一个礼品店。"
   },
-  "sense": {
-    "eng": "She stared at him again, unable to believe the evidence of her senses.",
-    "chn": "她再次盯着他，不敢相信自己的感觉。"
-  },
-  "show": {
-    "eng": "These figures show an increase of over one million in unemployment.",
-    "chn": "这些数据表明失业人数增长超过100万。"
-  },
-  "skill": {
-    "eng": "The cut of a diamond depends on the skill of its craftsman.",
-    "chn": "切割钻石的好坏取决于工匠的技艺。"
+  "shopping": {
+    "eng": "I'll do the shopping this afternoon.",
+    "chn": "我今天下午要去购物。"
   },
   "should": {
     "eng": "I should exercise more.",
     "chn": "我应该多锻炼。"
   },
-  "simple": {
-    "eng": "...simple pictures and diagrams.",
-    "chn": "…简明的图片和图表。"
+  "shoulder": {
+    "eng": "She led him to an armchair, with her arm round his shoulder.",
+    "chn": "她把他领到扶手椅上，手臂搂住了他的肩膀。"
   },
-  "slavery": {
-    "eng": "My people have survived 400 years of slavery.",
-    "chn": "我的民族历经400年的奴隶制度后幸存了下来。"
+  "show": {
+    "eng": "These figures show an increase of over one million in unemployment.",
+    "chn": "这些数据表明失业人数增长超过100万。"
   },
   "sight": {
     "eng": "My sight is failing, and I can't see to read any more.",
     "chn": "我的视力正在下降，不能再看书了。"
   },
-  "smell": {
-    "eng": "...the smell of freshly baked bread.",
-    "chn": "…新烤面包的气味。"
+  "simple": {
+    "eng": "...simple pictures and diagrams.",
+    "chn": "…简明的图片和图表。"
   },
-  "soil": {
-    "eng": "We have the most fertile soil in the Midwest.",
-    "chn": "我们在中西部有最肥沃的土壤。"
+  "skill": {
+    "eng": "The cut of a diamond depends on the skill of its craftsman.",
+    "chn": "切割钻石的好坏取决于工匠的技艺。"
   },
-  "smart": {
-    "eng": "He thinks he's smarter than Sarah is.",
-    "chn": "他认为他比萨拉更聪明。"
-  },
-  "start": {
-    "eng": "John then unlocked the front door and I started to follow him up the stairs.",
-    "chn": "接着约翰打开前门，我开始随他上楼。"
+  "slavery": {
+    "eng": "My people have survived 400 years of slavery.",
+    "chn": "我的民族历经400年的奴隶制度后幸存了下来。"
   },
   "slow": {
     "eng": "The traffic is heavy and slow.",
     "chn": "车很多，走得慢。"
   },
+  "smart": {
+    "eng": "He thinks he's smarter than Sarah is.",
+    "chn": "他认为他比萨拉更聪明。"
+  },
+  "smell": {
+    "eng": "...the smell of freshly baked bread.",
+    "chn": "…新烤面包的气味。"
+  },
   "social": {
     "eng": "...the worst effects of unemployment, low pay, and other social problems.",
     "chn": "…失业、低工资和其他社会问题造成的最坏影响。"
+  },
+  "soil": {
+    "eng": "We have the most fertile soil in the Midwest.",
+    "chn": "我们在中西部有最肥沃的土壤。"
   },
   "spring": {
     "eng": "They are planning to move house next spring.",
@@ -551,37 +547,45 @@
     "eng": "The nights were pure with cold air and lit with stars.",
     "chn": "那些夜晚十分清静，空气清凉、繁星点点。"
   },
-  "supply": {
-    "eng": "...an agreement not to produce or supply chemical weapons.",
-    "chn": "…一份不生产或不供应化学武器的协议。"
+  "start": {
+    "eng": "John then unlocked the front door and I started to follow him up the stairs.",
+    "chn": "接着约翰打开前门，我开始随他上楼。"
   },
   "stop": {
     "eng": "Stop throwing those stones!",
     "chn": "别再扔那些石头了！"
   },
-  "stress": {
-    "eng": "The spokesman stressed that the measures did not amount to an overall ban.",
-    "chn": "发言人强调说，这些措施并不等于全面禁止。"
-  },
   "store": {
     "eng": "They are selling them for $10 apiece at a few stores in Texas and Oklahoma.",
     "chn": "得克萨斯和俄克拉何马的一些商店正以每个$10的价钱出售它们。"
   },
-  "swim": {
-    "eng": "She learned to swim when she was really tiny.",
-    "chn": "她很小就学会了游泳。"
-  },
-  "surprise": {
-    "eng": "I have a surprise for you: We are moving to Switzerland!",
-    "chn": "我要告诉你一件意想不到的事：我们要搬到瑞士去！"
+  "stress": {
+    "eng": "The spokesman stressed that the measures did not amount to an overall ban.",
+    "chn": "发言人强调说，这些措施并不等于全面禁止。"
   },
   "suffer": {
     "eng": "Within a few days she had become seriously ill, suffering great pain and discomfort.",
     "chn": "在几天时间里她已病得很重，经受了极大的痛苦和不适。"
   },
+  "supply": {
+    "eng": "...an agreement not to produce or supply chemical weapons.",
+    "chn": "…一份不生产或不供应化学武器的协议。"
+  },
+  "surprise": {
+    "eng": "I have a surprise for you: We are moving to Switzerland!",
+    "chn": "我要告诉你一件意想不到的事：我们要搬到瑞士去！"
+  },
   "survival": {
     "eng": "...companies which have been struggling for survival in the advancing recession.",
     "chn": "…在不断恶化的萧条期中一直挣扎求生的各家公司。"
+  },
+  "swim": {
+    "eng": "She learned to swim when she was really tiny.",
+    "chn": "她很小就学会了游泳。"
+  },
+  "taste": {
+    "eng": "...a keen sense of taste.",
+    "chn": "…灵敏的味觉。"
   },
   "tasty": {
     "eng": "Try this tasty dish for supper with a crispy salad.",
@@ -591,61 +595,61 @@
     "eng": "...a cup of tea.",
     "chn": "…一杯茶。"
   },
-  "taste": {
-    "eng": "...a keen sense of taste.",
-    "chn": "…灵敏的味觉。"
-  },
-  "television": {
-    "eng": "She turned the television on and flicked around between news programmes.",
-    "chn": "她打开电视机，不停地在新闻节目间切换。"
+  "teach": {
+    "eng": "She taught me fractions and counting.",
+    "chn": "他教我分数和计算。"
   },
   "teacher": {
     "eng": "I'm a teacher with 21 years' experience.",
     "chn": "我是一个有21年经验的教师。"
   },
-  "till": {
-    "eng": "They had to wait till Monday to phone the bank.",
-    "chn": "他们不得不等到星期一才打电话给银行。"
-  },
-  "teach": {
-    "eng": "She taught me fractions and counting.",
-    "chn": "他教我分数和计算。"
-  },
-  "underneath": {
-    "eng": "The device exploded underneath a van.",
-    "chn": "那个装置在一辆面包车底下爆炸了。"
-  },
   "team": {
     "eng": "...football team.",
     "chn": "…一支足球队。"
   },
-  "towards": {
-    "eng": "She pushed the cup towards me.",
-    "chn": "她把杯子推向我这边。"
-  },
-  "tour": {
-    "eng": "The band is currently on a two-month tour of Europe.",
-    "chn": "这个乐队目前正在欧洲进行为期两个月的巡回演出。"
+  "television": {
+    "eng": "She turned the television on and flicked around between news programmes.",
+    "chn": "她打开电视机，不停地在新闻节目间切换。"
   },
   "tend": {
     "eng": "A problem for manufacturers is that lighter cars tend to be noisy.",
     "chn": "制造商遇到的一个问题是重量较轻的汽车往往噪音大。"
   },
-  "trust": {
-    "eng": "\"I trust you completely,\" he said.",
-    "chn": "“我完全信任你。”他说。"
-  },
-  "under": {
-    "eng": "They found a labyrinth of tunnels under the ground.",
-    "chn": "他们发现了地下一处迷宫似的地道。"
+  "till": {
+    "eng": "They had to wait till Monday to phone the bank.",
+    "chn": "他们不得不等到星期一才打电话给银行。"
   },
   "touch": {
     "eng": "Her tiny hands gently touched my face.",
     "chn": "她的小手轻轻地触摸我的脸。"
   },
+  "tour": {
+    "eng": "The band is currently on a two-month tour of Europe.",
+    "chn": "这个乐队目前正在欧洲进行为期两个月的巡回演出。"
+  },
+  "towards": {
+    "eng": "She pushed the cup towards me.",
+    "chn": "她把杯子推向我这边。"
+  },
+  "treat": {
+    "eng": "Artie treated most women with indifference.",
+    "chn": "阿蒂对待大多数女性颇为冷淡。"
+  },
+  "trust": {
+    "eng": "\"I trust you completely,\" he said.",
+    "chn": "“我完全信任你。”他说。"
+  },
   "turn": {
     "eng": "He turned abruptly and walked away.",
     "chn": "他突然转身走开了。"
+  },
+  "under": {
+    "eng": "They found a labyrinth of tunnels under the ground.",
+    "chn": "他们发现了地下一处迷宫似的地道。"
+  },
+  "underneath": {
+    "eng": "The device exploded underneath a van.",
+    "chn": "那个装置在一辆面包车底下爆炸了。"
   },
   "university": {
     "eng": "She goes to Duke University.",
@@ -655,81 +659,65 @@
     "eng": "Usually, the work is boring.",
     "chn": "通常这种工作很乏味。"
   },
-  "treat": {
-    "eng": "Artie treated most women with indifference.",
-    "chn": "阿蒂对待大多数女性颇为冷淡。"
+  "vacation": {
+    "eng": "They planned a late summer vacation in Europe.",
+    "chn": "他们计划了一个夏末在欧洲的休假。"
   },
   "value": {
     "eng": "The value of this work experience should not be underestimated.",
     "chn": "这项工作经验的重要性不应该被低估。"
   },
-  "war": {
-    "eng": "He spent part of the war in the National Guard.",
-    "chn": "他战时在国民警卫队服役了一段时间。"
-  },
-  "warmth": {
-    "eng": "She went further into the room, drawn by the warmth of the fire.",
-    "chn": "她被火的温暖吸引着，走进了房间。"
-  },
-  "weather": {
-    "eng": "The weather was bad.",
-    "chn": "天气恶劣。"
-  },
-  "watch": {
-    "eng": "The man was standing in his doorway watching him.",
-    "chn": "那个男人正站在自家门道里看着他。"
-  },
-  "warm": {
-    "eng": "Wheat is grown in places which have cold winters and warm, dry summers.",
-    "chn": "小麦生长在冬季寒冷、夏季温暖干燥的地方。"
-  },
-  "vacation": {
-    "eng": "They planned a late summer vacation in Europe.",
-    "chn": "他们计划了一个夏末在欧洲的休假。"
+  "wake": {
+    "eng": "It was cold and dark when I woke at 6:30.",
+    "chn": "我6点30分醒来时，天又冷又黑。"
   },
   "walk": {
     "eng": "Rosanna and Forbes walked in silence.",
     "chn": "罗莎娜与福布斯默默地走着。"
   },
-  "wake": {
-    "eng": "It was cold and dark when I woke at 6:30.",
-    "chn": "我6点30分醒来时，天又冷又黑。"
+  "war": {
+    "eng": "He spent part of the war in the National Guard.",
+    "chn": "他战时在国民警卫队服役了一段时间。"
   },
-  "whom": {
-    "eng": "\"I want to send a telegram.\"—\"Fine, to whom?\"",
-    "chn": "“我想发个电报。” — “好的，给谁？”"
+  "warm": {
+    "eng": "Wheat is grown in places which have cold winters and warm, dry summers.",
+    "chn": "小麦生长在冬季寒冷、夏季温暖干燥的地方。"
   },
-  "which": {
-    "eng": "\"You go down that passageway over there.\"—\"Which one?\"",
-    "chn": "“你顺着那边的过道走。”—“哪个过道？”"
+  "warmth": {
+    "eng": "She went further into the room, drawn by the warmth of the fire.",
+    "chn": "她被火的温暖吸引着，走进了房间。"
   },
-  "weight": {
-    "eng": "What is your height and weight?",
-    "chn": "你的身高和体重是多少？"
+  "watch": {
+    "eng": "The man was standing in his doorway watching him.",
+    "chn": "那个男人正站在自家门道里看着他。"
   },
-  "worry": {
-    "eng": "Don't worry, your luggage will come on afterwards by taxi.",
-    "chn": "不要担心，你的行李随后将由出租车送到。"
+  "weather": {
+    "eng": "The weather was bad.",
+    "chn": "天气恶劣。"
   },
   "weekend": {
     "eng": "She had agreed to have dinner with him in town the following weekend.",
     "chn": "她同意下周末和他一起到城里吃晚饭。"
   },
-  "Africa": {
-    "eng": "The disease originated in Africa.",
-    "chn": "这种疾病起源于非洲。"
+  "weight": {
+    "eng": "What is your height and weight?",
+    "chn": "你的身高和体重是多少？"
   },
-  "Greece": {
-    "eng": "They met while on holiday in Greece.",
-    "chn": "他们是在希腊度假时认识的。"
+  "which": {
+    "eng": "\"You go down that passageway over there.\"—\"Which one?\"",
+    "chn": "“你顺着那边的过道走。”—“哪个过道？”"
+  },
+  "whom": {
+    "eng": "\"I want to send a telegram.\"—\"Fine, to whom?\"",
+    "chn": "“我想发个电报。” — “好的，给谁？”"
   },
   "woman": {
     "eng": "...a young Lithuanian woman named Dayva.",
     "chn": "…一个名叫戴瓦的年轻立陶宛女子。"
   },
-  "Egyptian": {
-    "eng": "...the Egyptian pharaoh.",
-    "chn": "...古埃及法老。"
+  "worry": {
+    "eng": "Don't worry, your luggage will come on afterwards by taxi.",
+    "chn": "不要担心，你的行李随后将由出租车送到。"
   },
   "yet": {
     "eng": "They haven't finished yet.",
@@ -739,33 +727,49 @@
     "eng": "...sex information written for young people.",
     "chn": "…为年轻人写的性知识。"
   },
-  "European": {
-    "eng": "...in some other European countries.",
-    "chn": "…在其他一些欧洲国家。"
+  "Africa": {
+    "eng": "The disease originated in Africa.",
+    "chn": "这种疾病起源于非洲。"
   },
   "Asian": {
     "eng": "...Asian music.",
     "chn": "…亚洲音乐。"
   },
+  "DVD": {
+    "eng": "...a DVD player.",
+    "chn": "…一个数字视频光盘播放器。"
+  },
+  "Egyptian": {
+    "eng": "...the Egyptian pharaoh.",
+    "chn": "...古埃及法老。"
+  },
+  "European": {
+    "eng": "...in some other European countries.",
+    "chn": "…在其他一些欧洲国家。"
+  },
   "Germany": {
     "eng": "Germany annexed Austria in 1938.",
     "chn": "1938年德国吞并了奥地利。"
   },
-  "DVD": {
-    "eng": "...a DVD player.",
-    "chn": "…一个数字视频光盘播放器。"
+  "Greece": {
+    "eng": "They met while on holiday in Greece.",
+    "chn": "他们是在希腊度假时认识的。"
   },
   "Greek": {
     "eng": "I had to learn Greek.",
     "chn": "我只好学希腊语。"
   },
+  "Italy": {
+    "eng": "His father hailed from Italy.",
+    "chn": "他父亲出生于意大利。"
+  },
   "London": {
     "eng": "We always get lost in London.",
     "chn": "我们在伦敦老是迷路。"
   },
-  "Italy": {
-    "eng": "His father hailed from Italy.",
-    "chn": "他父亲出生于意大利。"
+  "Pacific": {
+    "eng": "...an island in the Pacific.",
+    "chn": "...太平洋上的一个岛。"
   },
   "Scotland": {
     "eng": "I felt homesick for Scotland.",
@@ -774,6 +778,18 @@
   "Scottish": {
     "eng": "She's English—Scottish, I mean.",
     "chn": "她是英国人—更确切地说，她是苏格兰人。"
+  },
+  "Swiss": {
+    "eng": "I was eating ham and Swiss cheese on rye.",
+    "chn": "我当时正在吃夹火腿和瑞士乳酪的黑麦面包。"
+  },
+  "Switzerland": {
+    "eng": "Switzerland is completely landlocked.",
+    "chn": "瑞士完全是个内陆国。"
+  },
+  "ability": {
+    "eng": "The public never had faith in his ability to handle the job.",
+    "chn": "公众从来都不相信他有处理这个工作的能力。"
   },
   "accurate": {
     "eng": "The test can accurately predict what a bigger explosion would do.",
@@ -787,61 +803,49 @@
     "eng": "The government is taking emergency action to deal with a housing crisis.",
     "chn": "该政府正在采取紧急行动来处理一次住房危机。"
   },
-  "Switzerland": {
-    "eng": "Switzerland is completely landlocked.",
-    "chn": "瑞士完全是个内陆国。"
-  },
-  "Swiss": {
-    "eng": "I was eating ham and Swiss cheese on rye.",
-    "chn": "我当时正在吃夹火腿和瑞士乳酪的黑麦面包。"
-  },
-  "ability": {
-    "eng": "The public never had faith in his ability to handle the job.",
-    "chn": "公众从来都不相信他有处理这个工作的能力。"
-  },
   "actual": {
     "eng": "The segments are filmed using either local actors or the actual people involved.",
     "chn": "这些片段是用当地的演员或真实的当事人拍摄的。"
   },
-  "Pacific": {
-    "eng": "...an island in the Pacific.",
-    "chn": "...太平洋上的一个岛。"
-  },
-  "advise": {
-    "eng": "The minister advised him to leave as soon as possible.",
-    "chn": "部长建议他尽快离开。"
-  },
-  "agent": {
-    "eng": "You are buying direct, rather than through an agent.",
-    "chn": "你在直接购买，而不是通过代理商购买。"
-  },
-  "again": {
-    "eng": "He kissed her again.",
-    "chn": "他再一次亲了她。"
-  },
-  "ago": {
-    "eng": "He was killed a few days ago in a skiing accident.",
-    "chn": "他几天以前在一次滑雪事故中丧生。"
+  "admission": {
+    "eng": "Students apply for admission to a particular college.",
+    "chn": "学生们申请某学院的入学许可。"
   },
   "advanced": {
     "eng": "...a superpower equipped with the most advanced military technology in the world.",
     "chn": "…一个拥有世界上最先进的军事技术的超级大国。"
   },
-  "air-": {
-    "eng": "Draughts help to circulate air.",
-    "chn": "通风有助于循环空气。"
+  "advise": {
+    "eng": "The minister advised him to leave as soon as possible.",
+    "chn": "部长建议他尽快离开。"
+  },
+  "again": {
+    "eng": "He kissed her again.",
+    "chn": "他再一次亲了她。"
+  },
+  "agent": {
+    "eng": "You are buying direct, rather than through an agent.",
+    "chn": "你在直接购买，而不是通过代理商购买。"
   },
   "aggressive": {
     "eng": "Some children are much more aggressive than others.",
     "chn": "一些孩子比其他孩子好斗得多。"
   },
+  "ago": {
+    "eng": "He was killed a few days ago in a skiing accident.",
+    "chn": "他几天以前在一次滑雪事故中丧生。"
+  },
   "aid": {
     "eng": "...regular flights carrying humanitarian aid to Cambodia.",
     "chn": "…向柬埔寨运送人道主义援助的定期班机。"
   },
-  "admission": {
-    "eng": "Students apply for admission to a particular college.",
-    "chn": "学生们申请某学院的入学许可。"
+  "air-": {
+    "eng": "Draughts help to circulate air.",
+    "chn": "通风有助于循环空气。"
+  },
+  "alcohol": {
+    "eng": "Do either of you smoke cigarettes or drink alcohol?",
+    "chn": "你们两个人有人抽烟喝酒吗？"
   },
   "allow": {
     "eng": "The children are allowed to watch TV after school.",
@@ -851,6 +855,10 @@
     "eng": "The couple had been dating for almost three years.",
     "chn": "这对情侣谈恋爱差不多三年了。"
   },
+  "alone": {
+    "eng": "There is nothing so fearful as to be alone in a combat situation.",
+    "chn": "没有比独自一人处于战斗环境中更可怕的事了。"
+  },
   "already": {
     "eng": "They had already voted for him at the first ballot.",
     "chn": "他们已经在第一轮投票中投了他的票。"
@@ -859,53 +867,53 @@
     "eng": "Although he is known to only a few, his reputation among them is very great.",
     "chn": "尽管只有几个人知道他，但是他在他们之中的名声很大。"
   },
-  "alcohol": {
-    "eng": "Do either of you smoke cigarettes or drink alcohol?",
-    "chn": "你们两个人有人抽烟喝酒吗？"
-  },
-  "annoy": {
-    "eng": "Try making a note of the things that annoy you.",
-    "chn": "试着把让你心烦的事记下来。"
-  },
   "among": {
     "eng": "...youths in their late teens sitting among adults.",
     "chn": "…坐在成年人当中的十八九岁的青年们。"
-  },
-  "angry": {
-    "eng": "Are you angry with me for some reason?",
-    "chn": "你是因为某个原因生我的气了吗？"
   },
   "amount": {
     "eng": "He needs that amount of money to survive.",
     "chn": "他需要那笔钱来维持生活。"
   },
-  "alone": {
-    "eng": "There is nothing so fearful as to be alone in a combat situation.",
-    "chn": "没有比独自一人处于战斗环境中更可怕的事了。"
-  },
-  "anxiety": {
-    "eng": "Her voice was full of anxiety.",
-    "chn": "她的声音饱含焦虑。"
+  "angry": {
+    "eng": "Are you angry with me for some reason?",
+    "chn": "你是因为某个原因生我的气了吗？"
   },
   "animal": {
     "eng": "He was attacked by wild animals.",
     "chn": "他被野兽袭击了。"
   },
+  "annoy": {
+    "eng": "Try making a note of the things that annoy you.",
+    "chn": "试着把让你心烦的事记下来。"
+  },
   "answer": {
     "eng": "Just answer the question.",
     "chn": "只回答这个问题。"
   },
-  "appreciate": {
-    "eng": "Anyone can appreciate our music.",
-    "chn": "任何人都能欣赏我们的音乐。"
+  "anxiety": {
+    "eng": "Her voice was full of anxiety.",
+    "chn": "她的声音饱含焦虑。"
   },
   "anyone": {
     "eng": "I won't tell anyone I saw you here.",
     "chn": "我不会告诉任何人我在这儿看见了你。"
   },
+  "appreciate": {
+    "eng": "Anyone can appreciate our music.",
+    "chn": "任何人都能欣赏我们的音乐。"
+  },
   "approach": {
     "eng": "He didn't approach the front door at once.",
     "chn": "他没有立即走近前门。"
+  },
+  "arrive": {
+    "eng": "Fresh groups of guests arrived.",
+    "chn": "新客成批到达了。"
+  },
+  "article": {
+    "eng": "...a newspaper article.",
+    "chn": "…一篇报上的文章。"
   },
   "ashamed": {
     "eng": "I felt incredibly ashamed of myself for getting so angry.",
@@ -915,18 +923,6 @@
     "eng": "Sarah closed the book and laid it aside.",
     "chn": "萨拉合上书并将其放到了一边。"
   },
-  "arrive": {
-    "eng": "Fresh groups of guests arrived.",
-    "chn": "新客成批到达了。"
-  },
-  "attitude": {
-    "eng": "...the general change in attitude toward handicapped people.",
-    "chn": "…对残疾人态度的普遍转变。"
-  },
-  "article": {
-    "eng": "...a newspaper article.",
-    "chn": "…一篇报上的文章。"
-  },
   "aspect": {
     "eng": "Climate and weather affect every aspect of our lives.",
     "chn": "气候和天气影响我们生活的每个方面。"
@@ -935,101 +931,117 @@
     "eng": "Since 1976 he has been operating the shop with the assistance of volunteers.",
     "chn": "自1976年以来他一直在志愿者的帮助下经营着这家商店。"
   },
+  "athlete": {
+    "eng": "Mark Spitz was a great athlete.",
+    "chn": "马克·斯皮茨是一名伟大的运动员。"
+  },
+  "attitude": {
+    "eng": "...the general change in attitude toward handicapped people.",
+    "chn": "…对残疾人态度的普遍转变。"
+  },
   "attract": {
     "eng": "The Cardiff Bay project is attracting many visitors.",
     "chn": "加的夫湾工程吸引着众多的参观者。"
-  },
-  "available": {
-    "eng": "Since 1978, the amount of money available to buy books has fallen by 17%.",
-    "chn": "自1978年以来，可供买书的钱已减少了17%。"
   },
   "attraction": {
     "eng": "...the attractions of living on the waterfront.",
     "chn": "…滨水生活的吸引力。"
   },
-  "athlete": {
-    "eng": "Mark Spitz was a great athlete.",
-    "chn": "马克·斯皮茨是一名伟大的运动员。"
-  },
-  "award": {
-    "eng": "...worker's compensation awards.",
-    "chn": "…工人的赔偿金裁定额。"
-  },
-  "background": {
-    "eng": "The Warners were from a Jewish working-class background.",
-    "chn": "沃纳一家人是犹太工人阶级出身。"
-  },
-  "baby": {
-    "eng": "She used to take care of me when I was a baby.",
-    "chn": "她曾在我还是婴儿的时候照看过我。"
+  "available": {
+    "eng": "Since 1978, the amount of money available to buy books has fallen by 17%.",
+    "chn": "自1978年以来，可供买书的钱已减少了17%。"
   },
   "avoid": {
     "eng": "The pilots had to take emergency action to avoid a disaster.",
     "chn": "飞行员们不得不采取紧急措施以避免灾难的发生。"
   },
-  "ball": {
-    "eng": "...a golf ball.",
-    "chn": "…一个高尔夫球。"
+  "award": {
+    "eng": "...worker's compensation awards.",
+    "chn": "…工人的赔偿金裁定额。"
+  },
+  "baby": {
+    "eng": "She used to take care of me when I was a baby.",
+    "chn": "她曾在我还是婴儿的时候照看过我。"
+  },
+  "background": {
+    "eng": "The Warners were from a Jewish working-class background.",
+    "chn": "沃纳一家人是犹太工人阶级出身。"
   },
   "bag": {
     "eng": "...a bag of sweets.",
     "chn": "…一袋糖果。"
   },
+  "ball": {
+    "eng": "...a golf ball.",
+    "chn": "…一个高尔夫球。"
+  },
   "bank": {
     "eng": "I have banked with Coutts & Co. for years.",
     "chn": "我已经使用雇资银行很多年了。"
-  },
-  "basket": {
-    "eng": "...big wicker picnic baskets filled with sandwiches.",
-    "chn": "…装满三明治的大的藤条野餐篮。"
-  },
-  "beach": {
-    "eng": "...a beautiful sandy beach.",
-    "chn": "…一片美丽的沙滩。"
-  },
-  "bat": {
-    "eng": "...a baseball bat.",
-    "chn": "…一只棒球棒。"
-  },
-  "behavior": {
-    "eng": "Your behavior was very remiss.",
-    "chn": "你的行为很失礼。"
-  },
-  "beef": {
-    "eng": "...roast beef.",
-    "chn": "…烤牛肉。"
-  },
-  "behave": {
-    "eng": "I couldn't believe these people were behaving in this way.",
-    "chn": "我无法相信这些人竟这样行事。"
   },
   "base": {
     "eng": "There was a bike path running along this side of the wall, right at its base.",
     "chn": "沿着墙的这一边，就在墙脚下，有一条自行车道。"
   },
-  "bee": {
-    "eng": "A bee buzzed in the flowers.",
-    "chn": "一只蜜蜂在花丛中嗡嗡作响。"
+  "basket": {
+    "eng": "...big wicker picnic baskets filled with sandwiches.",
+    "chn": "…装满三明治的大的藤条野餐篮。"
   },
-  "bell": {
-    "eng": "My brother, Nick, was born on a Sunday, when all the church bells were ringing.",
-    "chn": "我的弟弟尼克，出生在一个星期天，当时所有教堂的钟都在鸣响。"
+  "bat": {
+    "eng": "...a baseball bat.",
+    "chn": "…一只棒球棒。"
+  },
+  "beach": {
+    "eng": "...a beautiful sandy beach.",
+    "chn": "…一片美丽的沙滩。"
   },
   "beat": {
     "eng": "My wife tried to stop them and they beat her.",
     "chn": "我妻子试图阻止他们，他们就猛打她。"
   },
+  "bee": {
+    "eng": "A bee buzzed in the flowers.",
+    "chn": "一只蜜蜂在花丛中嗡嗡作响。"
+  },
+  "beef": {
+    "eng": "...roast beef.",
+    "chn": "…烤牛肉。"
+  },
   "begin": {
     "eng": "He stood up and began to move around the room.",
     "chn": "他站了起来，开始在屋子里走来走去。"
+  },
+  "behave": {
+    "eng": "I couldn't believe these people were behaving in this way.",
+    "chn": "我无法相信这些人竟这样行事。"
+  },
+  "behavior": {
+    "eng": "Your behavior was very remiss.",
+    "chn": "你的行为很失礼。"
   },
   "belief": {
     "eng": "One billion people throughout the world are Muslims, united by belief in one god.",
     "chn": "全世界有10亿人是穆斯林，因为对一位神灵的信仰而团结在一起。"
   },
+  "bell": {
+    "eng": "My brother, Nick, was born on a Sunday, when all the church bells were ringing.",
+    "chn": "我的弟弟尼克，出生在一个星期天，当时所有教堂的钟都在鸣响。"
+  },
   "belong": {
     "eng": "The house had belonged to her family for three or four generations.",
     "chn": "这座房子属于她家已有三四代了。"
+  },
+  "below": {
+    "eng": "He appeared from the apartment directly below Leonard's.",
+    "chn": "他从伦纳德家正下方的公寓里走了出来。"
+  },
+  "bend": {
+    "eng": "I bent over and kissed her cheek.",
+    "chn": "我俯身亲吻了她的面颊。"
+  },
+  "beside": {
+    "eng": "On the table beside an empty plate was a pile of books.",
+    "chn": "桌上的空碟子旁摆着一摞书。"
   },
   "besides": {
     "eng": "I think she has many good qualities besides being very beautiful.",
@@ -1039,61 +1051,65 @@
     "eng": "The house had a fabulous view out to the Strait of Georgia and the Rockies beyond.",
     "chn": "这座房子有很棒的景观，可以看到乔治亚海峡以及另一头的落基山脉。"
   },
-  "bone": {
-    "eng": "Many passengers suffered broken bones.",
-    "chn": "许多乘客骨折了。"
-  },
-  "beside": {
-    "eng": "On the table beside an empty plate was a pile of books.",
-    "chn": "桌上的空碟子旁摆着一摞书。"
-  },
-  "bend": {
-    "eng": "I bent over and kissed her cheek.",
-    "chn": "我俯身亲吻了她的面颊。"
+  "birth": {
+    "eng": "It was the birth of his grandchildren that gave him greatest pleasure.",
+    "chn": "是孙儿孙女们的降生给了他最大的欢乐。"
   },
   "blame": {
     "eng": "The commission is expected to blame the army for many of the atrocities.",
     "chn": "该委员会预计会将大量暴行归咎于军队。"
   },
-  "boost": {
-    "eng": "It would get the economy going and give us the boost that we need.",
-    "chn": "这会推动经济发展并带给我们所需要的推动力。"
-  },
-  "birth": {
-    "eng": "It was the birth of his grandchildren that gave him greatest pleasure.",
-    "chn": "是孙儿孙女们的降生给了他最大的欢乐。"
-  },
-  "bottle": {
-    "eng": "There were two empty beer bottles on the table.",
-    "chn": "桌上有两个空啤酒瓶。"
-  },
-  "boss": {
-    "eng": "He cannot stand his boss.",
-    "chn": "他受不了他的老板。"
-  },
-  "brand": {
-    "eng": "Winston is a brand of cigarette.",
-    "chn": "云斯顿是一种香烟品牌。"
+  "bone": {
+    "eng": "Many passengers suffered broken bones.",
+    "chn": "许多乘客骨折了。"
   },
   "book": {
     "eng": "His eighth book came out earlier this year and was an instant best-seller.",
     "chn": "他的第8本书今年早些时候出版了，并很快成为了一本畅销书。"
   },
+  "boost": {
+    "eng": "It would get the economy going and give us the boost that we need.",
+    "chn": "这会推动经济发展并带给我们所需要的推动力。"
+  },
+  "boss": {
+    "eng": "He cannot stand his boss.",
+    "chn": "他受不了他的老板。"
+  },
+  "bottle": {
+    "eng": "There were two empty beer bottles on the table.",
+    "chn": "桌上有两个空啤酒瓶。"
+  },
   "box": {
     "eng": "He reached into the cardboard box beside him.",
     "chn": "他把手伸进他旁边的纸板箱。"
+  },
+  "brand": {
+    "eng": "Winston is a brand of cigarette.",
+    "chn": "云斯顿是一种香烟品牌。"
+  },
+  "brave": {
+    "eng": "He was not brave enough to report the loss of the documents.",
+    "chn": "他当时不够勇敢去报失文件的丢失。"
   },
   "bread": {
     "eng": "...a loaf of bread.",
     "chn": "…一条面包"
   },
-  "below": {
-    "eng": "He appeared from the apartment directly below Leonard's.",
-    "chn": "他从伦纳德家正下方的公寓里走了出来。"
+  "break": {
+    "eng": "He fell through the window, breaking the glass.",
+    "chn": "他打破玻璃，从窗口摔了出去。"
   },
-  "brave": {
-    "eng": "He was not brave enough to report the loss of the documents.",
-    "chn": "他当时不够勇敢去报失文件的丢失。"
+  "bridge": {
+    "eng": "He walked back over the railway bridge.",
+    "chn": "他从铁路桥上走了回去。"
+  },
+  "build": {
+    "eng": "There are no plans to build new offices.",
+    "chn": "现在没有建新办公楼的计划。"
+  },
+  "building": {
+    "eng": "They were on the upper floor of the building.",
+    "chn": "他们在该建筑物的上层。"
   },
   "busy": {
     "eng": "What is it? I'm busy.",
@@ -1103,17 +1119,25 @@
     "eng": "He could not afford to buy a house.",
     "chn": "他买不起房子。"
   },
+  "calm": {
+    "eng": "She is usually a calm and diplomatic woman.",
+    "chn": "她通常是个冷静而圆滑的女人。"
+  },
   "canal": {
     "eng": "...the Grand Union Canal.",
     "chn": "…大联盟运河。"
   },
-  "building": {
-    "eng": "They were on the upper floor of the building.",
-    "chn": "他们在该建筑物的上层。"
+  "casual": {
+    "eng": "It's difficult for me to be casual about anything.",
+    "chn": "要我轻松待事有难度。"
   },
-  "break": {
-    "eng": "He fell through the window, breaking the glass.",
-    "chn": "他打破玻璃，从窗口摔了出去。"
+  "catch": {
+    "eng": "Police say they are confident of catching the gunman.",
+    "chn": "警方说他们有信心抓获枪手。"
+  },
+  "cause": {
+    "eng": "Smoking is the biggest preventable cause of death and disease.",
+    "chn": "吸烟是造成不必要疾病和死亡的最大原因。"
   },
   "cave": {
     "eng": "Outside the cave mouth the blackness of night was like a curtain.",
@@ -1123,30 +1147,6 @@
     "eng": "I'm not a hundred per cent sure.",
     "chn": "我不能百分之百肯定。"
   },
-  "bridge": {
-    "eng": "He walked back over the railway bridge.",
-    "chn": "他从铁路桥上走了回去。"
-  },
-  "cause": {
-    "eng": "Smoking is the biggest preventable cause of death and disease.",
-    "chn": "吸烟是造成不必要疾病和死亡的最大原因。"
-  },
-  "build": {
-    "eng": "There are no plans to build new offices.",
-    "chn": "现在没有建新办公楼的计划。"
-  },
-  "calm": {
-    "eng": "She is usually a calm and diplomatic woman.",
-    "chn": "她通常是个冷静而圆滑的女人。"
-  },
-  "catch": {
-    "eng": "Police say they are confident of catching the gunman.",
-    "chn": "警方说他们有信心抓获枪手。"
-  },
-  "casual": {
-    "eng": "It's difficult for me to be casual about anything.",
-    "chn": "要我轻松待事有难度。"
-  },
   "central": {
     "eng": "...Central America's Caribbean coast.",
     "chn": "…美国中部的加勒比海岸。"
@@ -1155,9 +1155,13 @@
     "eng": "She's absolutely certain she's going to make it in the world.",
     "chn": "她确信自己将享誉全球。"
   },
-  "cheek": {
-    "eng": "Tears were running down her cheeks.",
-    "chn": "眼泪顺着她面颊流下。"
+  "change": {
+    "eng": "The ambassador appealed for a change in U.S. policy.",
+    "chn": "该大使呼吁美国政策的变革。"
+  },
+  "character": {
+    "eng": "Perhaps there is a negative side to his character that you haven't seen yet.",
+    "chn": "或许他性格中有你还未看到的消极一面。"
   },
   "chat": {
     "eng": "The women were chatting.",
@@ -1167,17 +1171,13 @@
     "eng": "I'm going to live off campus if I can find somewhere cheap enough.",
     "chn": "如果我能找到一个足够便宜的地方，我打算住在校外。"
   },
-  "character": {
-    "eng": "Perhaps there is a negative side to his character that you haven't seen yet.",
-    "chn": "或许他性格中有你还未看到的消极一面。"
+  "cheek": {
+    "eng": "Tears were running down her cheeks.",
+    "chn": "眼泪顺着她面颊流下。"
   },
-  "change": {
-    "eng": "The ambassador appealed for a change in U.S. policy.",
-    "chn": "该大使呼吁美国政策的变革。"
-  },
-  "childhood": {
-    "eng": "She had a happy childhood.",
-    "chn": "她有过一个快乐的童年。"
+  "cheerful": {
+    "eng": "Paddy was always cheerful and jolly.",
+    "chn": "帕迪总是很高兴，很开心。"
   },
   "chemical": {
     "eng": "...chemical reactions that cause ozone destruction.",
@@ -1187,13 +1187,21 @@
     "eng": "When I was a child I lived in a country village.",
     "chn": "小时候我住在乡村里。"
   },
-  "cheerful": {
-    "eng": "Paddy was always cheerful and jolly.",
-    "chn": "帕迪总是很高兴，很开心。"
+  "childhood": {
+    "eng": "She had a happy childhood.",
+    "chn": "她有过一个快乐的童年。"
   },
   "choose": {
     "eng": "They will be able to choose their own leaders in democratic elections.",
     "chn": "在民主选举中他们将可以选出他们自己的领导人。"
+  },
+  "circumstance": {
+    "eng": "The strategy was too dangerous in the explosive circumstances of the times.",
+    "chn": "在当时爆炸性的形势下，这一战略太危险了。"
+  },
+  "civilization": {
+    "eng": "The ancient civilizations of Central and Latin America were founded upon corn.",
+    "chn": "中美洲和拉丁美洲的古代文明社会是建立在玉米之上的。"
   },
   "classmate": {
     "eng": "She felt like a fifth-grader who had snitched on a classmate.",
@@ -1203,9 +1211,9 @@
     "eng": "The subway is efficient and spotlessly clean.",
     "chn": "地铁快，而且一尘不染。"
   },
-  "circumstance": {
-    "eng": "The strategy was too dangerous in the explosive circumstances of the times.",
-    "chn": "在当时爆炸性的形势下，这一战略太危险了。"
+  "climb": {
+    "eng": "Climbing the first hill took half an hour.",
+    "chn": "爬第一座山花了半个小时。"
   },
   "closet": {
     "eng": "That's the closet?",
@@ -1215,6 +1223,22 @@
     "eng": "Moira walked upstairs to change her clothes.",
     "chn": "莫伊拉上楼去换衣服了。"
   },
+  "clothing": {
+    "eng": "Some locals offered food and clothing to the refugees.",
+    "chn": "一些当地人向难民提供食物和衣服。"
+  },
+  "club": {
+    "eng": "...the Young Republicans Club.",
+    "chn": "… 青年共和党会社。"
+  },
+  "clue": {
+    "eng": "The vital clue to the killer's identity was his nickname, Peanuts.",
+    "chn": "关于杀手身份的重大线索是他的绰号——花生。"
+  },
+  "coat": {
+    "eng": "He turned off the television, put on his coat, and walked out.",
+    "chn": "他关掉电视，穿上外套，走了出去。"
+  },
   "collect": {
     "eng": "Two young girls were collecting firewood.",
     "chn": "两位年轻女孩在采集柴火。"
@@ -1223,45 +1247,21 @@
     "eng": "Purple is her favorite color.",
     "chn": "紫色是她最爱的颜色。"
   },
-  "clue": {
-    "eng": "The vital clue to the killer's identity was his nickname, Peanuts.",
-    "chn": "关于杀手身份的重大线索是他的绰号——花生。"
-  },
-  "club": {
-    "eng": "...the Young Republicans Club.",
-    "chn": "… 青年共和党会社。"
-  },
-  "climb": {
-    "eng": "Climbing the first hill took half an hour.",
-    "chn": "爬第一座山花了半个小时。"
-  },
-  "civilization": {
-    "eng": "The ancient civilizations of Central and Latin America were founded upon corn.",
-    "chn": "中美洲和拉丁美洲的古代文明社会是建立在玉米之上的。"
-  },
-  "clothing": {
-    "eng": "Some locals offered food and clothing to the refugees.",
-    "chn": "一些当地人向难民提供食物和衣服。"
-  },
   "combine": {
     "eng": "The Church has something to say on how to combine freedom with responsibility.",
     "chn": "教会要讲一讲如何使自由和责任相结合。"
-  },
-  "coat": {
-    "eng": "He turned off the television, put on his coat, and walked out.",
-    "chn": "他关掉电视，穿上外套，走了出去。"
   },
   "comfortable": {
     "eng": "...a comfortable fireside chair.",
     "chn": "…一把令人舒服的炉边椅子。"
   },
-  "commit": {
-    "eng": "I have never committed any crime.",
-    "chn": "我从没有犯过任何罪。"
-  },
   "command": {
     "eng": "He commanded his troops to attack.",
     "chn": "他命令他的部队进攻。"
+  },
+  "commit": {
+    "eng": "I have never committed any crime.",
+    "chn": "我从没有犯过任何罪。"
   },
   "commitment": {
     "eng": "...commitment to the ideals of democracy.",
@@ -1271,6 +1271,14 @@
     "eng": "My birth mother has never communicated with me.",
     "chn": "我的生母从未与我交流过。"
   },
+  "communication": {
+    "eng": "...a communications satellite.",
+    "chn": "…一颗通信卫星。"
+  },
+  "commute": {
+    "eng": "Mike commutes to Miami every day.",
+    "chn": "迈克每天通勤去迈阿密。"
+  },
   "comparative": {
     "eng": "The task was accomplished with comparative ease.",
     "chn": "这项任务完成得比较容易。"
@@ -1278,10 +1286,6 @@
   "compare": {
     "eng": "Compare the two illustrations in Figure 60.",
     "chn": "比较一下图60中的两个图示。"
-  },
-  "communication": {
-    "eng": "...a communications satellite.",
-    "chn": "…一颗通信卫星。"
   },
   "comparison": {
     "eng": "...a comparison of the Mexican and Guatemalan economies.",
@@ -1295,18 +1299,6 @@
     "eng": "There's been some fierce competition for the title.",
     "chn": "已有一些为此头衔的激烈竞争。"
   },
-  "complaint": {
-    "eng": "There's been a record number of complaints about the standard of service.",
-    "chn": "已有对服务水准的创纪录数量的投诉。"
-  },
-  "commute": {
-    "eng": "Mike commutes to Miami every day.",
-    "chn": "迈克每天通勤去迈阿密。"
-  },
-  "completely": {
-    "eng": "They're completely unmusical.",
-    "chn": "他们彻底是五音不全。"
-  },
   "competitive": {
     "eng": "Japan is a highly competitive market system.",
     "chn": "日本实行的是一个高度竞争的市场体制。"
@@ -1315,41 +1307,29 @@
     "eng": "The bank isn't performing as well as some of its competitors.",
     "chn": "这家银行没有它的一些竞争对手表现好。"
   },
-  "concept": {
-    "eng": "She added that the concept of arranged marriages is misunderstood in the west.",
-    "chn": "她补充说包办婚姻的概念在西方被误解了。"
-  },
   "complain": {
     "eng": "Miners have complained bitterly that the government did not fulfil their promises.",
     "chn": "矿工们已愤愤地抱怨政府没有兑现他们的承诺。"
   },
-  "concentrate": {
-    "eng": "It was up to him to concentrate on his studies and make something of himself.",
-    "chn": "他能否专心学习并有所成就取决于他自己。"
+  "complaint": {
+    "eng": "There's been a record number of complaints about the standard of service.",
+    "chn": "已有对服务水准的创纪录数量的投诉。"
+  },
+  "completely": {
+    "eng": "They're completely unmusical.",
+    "chn": "他们彻底是五音不全。"
   },
   "computer": {
     "eng": "The data are then fed into a computer.",
     "chn": "这些数据之后被输入一台计算机。"
   },
-  "confidence": {
-    "eng": "I have every confidence in you.",
-    "chn": "我对你有完全的信任。"
+  "concentrate": {
+    "eng": "It was up to him to concentrate on his studies and make something of himself.",
+    "chn": "他能否专心学习并有所成就取决于他自己。"
   },
-  "confident": {
-    "eng": "I am confident that everything will come out right in time.",
-    "chn": "我相信最终一切都会好起来的。"
-  },
-  "conduct": {
-    "eng": "I decided to conduct an experiment.",
-    "chn": "我决定做一项实验。"
-  },
-  "conflict": {
-    "eng": "Try to keep any conflict between you and your ex-partner to a minimum.",
-    "chn": "尽量把你和前合伙人之间的争执控制到最少。"
-  },
-  "constant": {
-    "eng": "She suggests that women are under constant pressure to be abnormally thin.",
-    "chn": "她提出女性受持续的压力之下要异常苗条。"
+  "concept": {
+    "eng": "She added that the concept of arranged marriages is misunderstood in the west.",
+    "chn": "她补充说包办婚姻的概念在西方被误解了。"
   },
   "concern": {
     "eng": "The group has expressed concern about reports of political violence in Africa.",
@@ -1359,21 +1339,33 @@
     "eng": "He remains in a critical condition in a California hospital.",
     "chn": "他在加利福尼亚的一家医院里，仍处于危急的状况。"
   },
-  "consumption": {
-    "eng": "The laws have led to a reduction in fuel consumption in the U.S.",
-    "chn": "这些法律已导致美国燃料消耗的降低。"
+  "conduct": {
+    "eng": "I decided to conduct an experiment.",
+    "chn": "我决定做一项实验。"
   },
-  "contain": {
-    "eng": "The envelope contained a Christmas card.",
-    "chn": "该信封里装有一张圣诞贺卡。"
+  "confidence": {
+    "eng": "I have every confidence in you.",
+    "chn": "我对你有完全的信任。"
+  },
+  "confident": {
+    "eng": "I am confident that everything will come out right in time.",
+    "chn": "我相信最终一切都会好起来的。"
   },
   "confine": {
     "eng": "Health officials have successfully confined the epidemic to the Tabatinga area.",
     "chn": "卫生官员们已经成功地将该传染病控制在塔巴廷加地区。"
   },
+  "conflict": {
+    "eng": "Try to keep any conflict between you and your ex-partner to a minimum.",
+    "chn": "尽量把你和前合伙人之间的争执控制到最少。"
+  },
   "connect": {
     "eng": "You can connect the speakers to your CD player.",
     "chn": "你可以将这些扬声器与你的激光唱机连接起来。"
+  },
+  "constant": {
+    "eng": "She suggests that women are under constant pressure to be abnormally thin.",
+    "chn": "她提出女性受持续的压力之下要异常苗条。"
   },
   "consume": {
     "eng": "Martha would consume nearly a pound of cheese per day.",
@@ -1383,29 +1375,49 @@
     "eng": "We are living in a consumer culture.",
     "chn": "我们生活在一种消费文化之中。"
   },
+  "consumption": {
+    "eng": "The laws have led to a reduction in fuel consumption in the U.S.",
+    "chn": "这些法律已导致美国燃料消耗的降低。"
+  },
+  "contain": {
+    "eng": "The envelope contained a Christmas card.",
+    "chn": "该信封里装有一张圣诞贺卡。"
+  },
   "container": {
     "eng": "...the plastic containers in which fish are stored and sold.",
     "chn": "…储藏和出售鱼的塑料容器。"
-  },
-  "contribute": {
-    "eng": "The three sons also contribute to the family business.",
-    "chn": "3个儿子也为家族企业做贡献。"
   },
   "continent": {
     "eng": "She loved the African continent.",
     "chn": "她热爱非洲大陆。"
   },
-  "conversation": {
-    "eng": "He's a talkative guy, and I struck up a conversation with him.",
-    "chn": "他是一个健谈的人，我和他聊了起来。"
+  "contrary": {
+    "eng": "Contrary to popular belief, moderate exercise actually decreases your appetite.",
+    "chn": "与大部分人的想法相反，适度的运动实际上会降低食欲。"
   },
-  "cooperate": {
-    "eng": "A deal with Japan could open the door to economic cooperation with East Asia.",
-    "chn": "与日本的交易可以打开与东亚经济合作的大门。"
+  "contribute": {
+    "eng": "The three sons also contribute to the family business.",
+    "chn": "3个儿子也为家族企业做贡献。"
   },
   "controversial": {
     "eng": "Immigration is a controversial issue in many countries.",
     "chn": "移民在很多国家都是一个有争议的问题。"
+  },
+  "convenience": {
+    "eng": "He was happy to make a detour for her convenience.",
+    "chn": "为了方便她，他乐意绕道而行。"
+  },
+  "conversation": {
+    "eng": "He's a talkative guy, and I struck up a conversation with him.",
+    "chn": "他是一个健谈的人，我和他聊了起来。"
+  },
+  "cool": {
+    "eng": "I felt a current of cool air.",
+    "chn": "我感觉到了一阵凉风。"
+  },
+  "cooperate": {
+    "eng": "A deal with Japan could open the door to economic cooperation with East Asia.",
+    "chn": "与日本的交易可以打开与东亚经济合作的大门。"
   },
   "cooperation": {
     "eng": "Cooperation equals success.",
@@ -1415,18 +1427,6 @@
     "eng": "Never before has the industry had to cope with war and recession at the same time.",
     "chn": "企业以前从来没有同时应付过战争和经济衰退。"
   },
-  "cool": {
-    "eng": "I felt a current of cool air.",
-    "chn": "我感觉到了一阵凉风。"
-  },
-  "contrary": {
-    "eng": "Contrary to popular belief, moderate exercise actually decreases your appetite.",
-    "chn": "与大部分人的想法相反，适度的运动实际上会降低食欲。"
-  },
-  "corporation": {
-    "eng": "...multinational corporations.",
-    "chn": "…跨国公司。"
-  },
   "copy": {
     "eng": "The reporter apparently obtained a copy of Steve's resignation letter.",
     "chn": "记者显然得到了史蒂夫辞职信的复件。"
@@ -1435,61 +1435,49 @@
     "eng": "He saw the corner of a magazine sticking out from under the blanket.",
     "chn": "他看到毯子下露出了杂志的一角。"
   },
-  "convenience": {
-    "eng": "He was happy to make a detour for her convenience.",
-    "chn": "为了方便她，他乐意绕道而行。"
-  },
-  "cough": {
-    "eng": "Graham began to cough violently.",
-    "chn": "格雷厄姆开始剧烈地咳嗽。"
-  },
-  "countryside": {
-    "eng": "I've always loved the English countryside.",
-    "chn": "我一直很喜欢英国的乡村。"
-  },
-  "council": {
-    "eng": "The city council has voted almost unanimously in favour.",
-    "chn": "市议会几乎全部投了赞成票。"
+  "corporation": {
+    "eng": "...multinational corporations.",
+    "chn": "…跨国公司。"
   },
   "cost": {
     "eng": "The cost of a loaf of bread has increased five-fold.",
     "chn": "一块面包的价格已经涨了5倍。"
   },
-  "couple": {
-    "eng": "Across the street from me there are a couple of police officers standing guard.",
-    "chn": "我所在的街对面有一两个警察在站岗。"
+  "cough": {
+    "eng": "Graham began to cough violently.",
+    "chn": "格雷厄姆开始剧烈地咳嗽。"
   },
-  "creator": {
-    "eng": "...Ian Fleming, the creator of James Bond.",
-    "chn": "…伊恩·弗莱明，詹姆斯·邦德的创作者。"
-  },
-  "cover": {
-    "eng": "Cover the casserole with a tight-fitting lid.",
-    "chn": "用紧实的盖子把砂锅盖住。"
+  "council": {
+    "eng": "The city council has voted almost unanimously in favour.",
+    "chn": "市议会几乎全部投了赞成票。"
   },
   "count": {
     "eng": "He was counting slowly under his breath.",
     "chn": "他在低声慢慢地数数。"
   },
-  "cow": {
-    "eng": "He kept a few dairy cows.",
-    "chn": "他养了几头奶牛。"
+  "countryside": {
+    "eng": "I've always loved the English countryside.",
+    "chn": "我一直很喜欢英国的乡村。"
+  },
+  "couple": {
+    "eng": "Across the street from me there are a couple of police officers standing guard.",
+    "chn": "我所在的街对面有一两个警察在站岗。"
   },
   "course": {
     "eng": "Aircraft can avoid each other by altering course to left or right.",
     "chn": "飞行器可以通过向左或向右改变航线来避免相撞。"
   },
-  "criticize": {
-    "eng": "His mother had rarely criticized him or any of her other children.",
-    "chn": "他母亲很少批评他或她的其他孩子。"
+  "cover": {
+    "eng": "Cover the casserole with a tight-fitting lid.",
+    "chn": "用紧实的盖子把砂锅盖住。"
   },
-  "crime": {
-    "eng": "He and Lieutenant Cassidy were checking the scene of the crime.",
-    "chn": "当时他正与卡西迪中尉一起检查犯罪现场。"
+  "cow": {
+    "eng": "He kept a few dairy cows.",
+    "chn": "他养了几头奶牛。"
   },
-  "crisis": {
-    "eng": "Natural disasters have obviously contributed to the continent's economic crisis.",
-    "chn": "自然灾害显然促使了该大陆的经济危机。"
+  "craft": {
+    "eng": "With great difficulty, the fisherman manoeuvred his small craft close to the reef.",
+    "chn": "渔夫艰难地驾着小船靠近了礁石。"
   },
   "crazy": {
     "eng": "People thought they were all crazy to try to make money from manufacturing.",
@@ -1499,49 +1487,33 @@
     "eng": "We set business free to create more jobs.",
     "chn": "我们让企业自由以创造更多的就业机会。"
   },
+  "creator": {
+    "eng": "...Ian Fleming, the creator of James Bond.",
+    "chn": "…伊恩·弗莱明，詹姆斯·邦德的创作者。"
+  },
   "creep": {
     "eng": "Back I go to the hotel and creep up to my room.",
     "chn": "我回到旅馆，蹑手蹑脚地进了房间。"
+  },
+  "crime": {
+    "eng": "He and Lieutenant Cassidy were checking the scene of the crime.",
+    "chn": "当时他正与卡西迪中尉一起检查犯罪现场。"
   },
   "criminal": {
     "eng": "A group of gunmen attacked a prison and set free nine criminals.",
     "chn": "一伙持枪歹徒袭击了一所监狱并放走了9名罪犯。"
   },
-  "craft": {
-    "eng": "With great difficulty, the fisherman manoeuvred his small craft close to the reef.",
-    "chn": "渔夫艰难地驾着小船靠近了礁石。"
+  "crisis": {
+    "eng": "Natural disasters have obviously contributed to the continent's economic crisis.",
+    "chn": "自然灾害显然促使了该大陆的经济危机。"
+  },
+  "criticize": {
+    "eng": "His mother had rarely criticized him or any of her other children.",
+    "chn": "他母亲很少批评他或她的其他孩子。"
   },
   "crop": {
     "eng": "Rice farmers here still plant and harvest their crops by hand.",
     "chn": "这里的稻农仍然用手工种植和收割庄稼。"
-  },
-  "crowded": {
-    "eng": "He peered slowly around the small crowded room.",
-    "chn": "他慢慢地仔细打量着那间拥挤的小房间的每个角落。"
-  },
-  "culture": {
-    "eng": "There is just not enough fun and frivolity in culture today.",
-    "chn": "当今文化中太缺少乐趣和轻松。"
-  },
-  "cultural": {
-    "eng": "...a deep sense of personal honour which was part of his cultural heritage.",
-    "chn": "…成为他文化遗产中一部分的强烈的个人荣誉感。"
-  },
-  "crucial": {
-    "eng": "He had administrators under him but made the crucial decisions himself.",
-    "chn": "尽管他手下有许多官员，但重要的决定还是他自己做。"
-  },
-  "curiosity": {
-    "eng": "Ryle accepted more out of curiosity than anything else.",
-    "chn": "赖尔接受更多是出于好奇心而不是别的原因。"
-  },
-  "customer": {
-    "eng": "...a satisfied customer.",
-    "chn": "…一位满意的顾客。"
-  },
-  "cry": {
-    "eng": "I hung up the phone and started to cry.",
-    "chn": "我挂掉电话，开始哭了起来。"
   },
   "cross": {
     "eng": "She was partly to blame for failing to look as she crossed the road.",
@@ -1551,9 +1523,33 @@
     "eng": "A huge crowd gathered in a square outside the Kremlin walls.",
     "chn": "一大群人聚集在了克里姆林宫墙外的广场上。"
   },
-  "custom": {
-    "eng": "The custom of lighting the Olympic flame goes back centuries.",
-    "chn": "点燃奥运圣火的风俗可追溯到几个世纪前。"
+  "crowded": {
+    "eng": "He peered slowly around the small crowded room.",
+    "chn": "他慢慢地仔细打量着那间拥挤的小房间的每个角落。"
+  },
+  "crucial": {
+    "eng": "He had administrators under him but made the crucial decisions himself.",
+    "chn": "尽管他手下有许多官员，但重要的决定还是他自己做。"
+  },
+  "cry": {
+    "eng": "I hung up the phone and started to cry.",
+    "chn": "我挂掉电话，开始哭了起来。"
+  },
+  "cultural": {
+    "eng": "...a deep sense of personal honour which was part of his cultural heritage.",
+    "chn": "…成为他文化遗产中一部分的强烈的个人荣誉感。"
+  },
+  "culture": {
+    "eng": "There is just not enough fun and frivolity in culture today.",
+    "chn": "当今文化中太缺少乐趣和轻松。"
+  },
+  "cup": {
+    "eng": "...cups and saucers.",
+    "chn": "…茶杯和茶碟。"
+  },
+  "curiosity": {
+    "eng": "Ryle accepted more out of curiosity than anything else.",
+    "chn": "赖尔接受更多是出于好奇心而不是别的原因。"
   },
   "current": {
     "eng": "I felt a current of cool air blowing in my face.",
@@ -1563,9 +1559,21 @@
     "eng": "Her bedroom curtains were drawn.",
     "chn": "她卧室的窗帘拉上了。"
   },
-  "cup": {
-    "eng": "...cups and saucers.",
-    "chn": "…茶杯和茶碟。"
+  "custom": {
+    "eng": "The custom of lighting the Olympic flame goes back centuries.",
+    "chn": "点燃奥运圣火的风俗可追溯到几个世纪前。"
+  },
+  "customer": {
+    "eng": "...a satisfied customer.",
+    "chn": "…一位满意的顾客。"
+  },
+  "cut": {
+    "eng": "Mrs. Haines stood nearby, holding scissors to cut a ribbon.",
+    "chn": "海恩斯太太站在旁边，拿着剪刀剪缎带。"
+  },
+  "cycle": {
+    "eng": "...the life cycle of the plant.",
+    "chn": "…植物的生命周期。"
   },
   "daily": {
     "eng": "Cathay Pacific flies daily nonstop to Hong Kong.",
@@ -1575,97 +1583,97 @@
     "eng": "He maliciously damaged a car with a baseball bat.",
     "chn": "他用棒球棍恶意地损坏了一辆汽车。"
   },
-  "cycle": {
-    "eng": "...the life cycle of the plant.",
-    "chn": "…植物的生命周期。"
-  },
   "dark": {
     "eng": "It was too dark inside to see much.",
     "chn": "里面太黑，看不见什么东西。"
-  },
-  "debt": {
-    "eng": "Three years later, he is still paying off his debts.",
-    "chn": "三年后，他仍旧在还他的债务。"
-  },
-  "decision": {
-    "eng": "I don't want to make the wrong decision and regret it later.",
-    "chn": "我不想作出错误的决定，以后后悔。"
-  },
-  "decrease": {
-    "eng": "Population growth is decreasing by 1.4% each year.",
-    "chn": "人口增长每年下降1.4%。"
-  },
-  "decoration": {
-    "eng": "The decoration and furnishings had to be practical enough for a family home.",
-    "chn": "装修和家具陈设必须对一个家庭住房来说够实用。"
-  },
-  "declare": {
-    "eng": "He declared he would not run for a second term as president.",
-    "chn": "他声明不再竞选连任总统。"
   },
   "data": {
     "eng": "The study was based on data from 2,100 women.",
     "chn": "此项研究以从2100位女性身上获得的资料为依据。"
   },
-  "cut": {
-    "eng": "Mrs. Haines stood nearby, holding scissors to cut a ribbon.",
-    "chn": "海恩斯太太站在旁边，拿着剪刀剪缎带。"
-  },
-  "deficiency": {
-    "eng": "Vitamin deficiency in the diet can cause illness.",
-    "chn": "饮食中缺乏维生素可能导致疾病。"
+  "debt": {
+    "eng": "Three years later, he is still paying off his debts.",
+    "chn": "三年后，他仍旧在还他的债务。"
   },
   "decide": {
     "eng": "She decided to take a course in philosophy.",
     "chn": "她决定修一门哲学课。"
   },
+  "decision": {
+    "eng": "I don't want to make the wrong decision and regret it later.",
+    "chn": "我不想作出错误的决定，以后后悔。"
+  },
+  "declare": {
+    "eng": "He declared he would not run for a second term as president.",
+    "chn": "他声明不再竞选连任总统。"
+  },
+  "decoration": {
+    "eng": "The decoration and furnishings had to be practical enough for a family home.",
+    "chn": "装修和家具陈设必须对一个家庭住房来说够实用。"
+  },
+  "decrease": {
+    "eng": "Population growth is decreasing by 1.4% each year.",
+    "chn": "人口增长每年下降1.4%。"
+  },
   "defeat": {
     "eng": "His guerrillas defeated the colonial army in 1954.",
     "chn": "他的游击队在1954年打败了殖民军。"
+  },
+  "deficiency": {
+    "eng": "Vitamin deficiency in the diet can cause illness.",
+    "chn": "饮食中缺乏维生素可能导致疾病。"
   },
   "define": {
     "eng": "We need to define the task ahead very clearly.",
     "chn": "我们需要明确今后的任务。"
   },
-  "demand": {
-    "eng": "Human rights groups are demanding an investigation into the shooting.",
-    "chn": "人权组织正强烈要求对这一枪击案进行调查。"
-  },
   "degree": {
     "eng": "It's over 80 degrees outside.",
     "chn": "外面超过80度。"
-  },
-  "depress": {
-    "eng": "I must admit the state of the country depresses me.",
-    "chn": "我必须承认国家的形势令我沮丧。"
-  },
-  "dependent": {
-    "eng": "The local economy is overwhelmingly dependent on oil and gas extraction.",
-    "chn": "当地经济严重依赖石油和天然气提炼。"
-  },
-  "desert": {
-    "eng": "...the Sahara Desert.",
-    "chn": "…撒哈拉沙漠。"
   },
   "deliver": {
     "eng": "The Canadians plan to deliver more food to southern Somalia.",
     "chn": "加拿大人计划向索马里南部运送更多的食物。"
   },
-  "description": {
-    "eng": "Police have issued a description of the man who was aged between fifty and sixty.",
-    "chn": "警方已已公布了这一年龄在50至60之间的男子的相貌特征。"
+  "demand": {
+    "eng": "Human rights groups are demanding an investigation into the shooting.",
+    "chn": "人权组织正强烈要求对这一枪击案进行调查。"
+  },
+  "depend": {
+    "eng": "The cooking time needed depends on the size of the potato.",
+    "chn": "烹饪时间长短取决于土豆的大小。"
+  },
+  "dependent": {
+    "eng": "The local economy is overwhelmingly dependent on oil and gas extraction.",
+    "chn": "当地经济严重依赖石油和天然气提炼。"
   },
   "deposit": {
     "eng": "The initial deposit required to open an account is a minimum 100 dollars.",
     "chn": "开户需要的首笔存入额是至少100美元。"
   },
-  "describe": {
-    "eng": "We asked her to describe what kind of things she did in her spare time.",
-    "chn": "我们请她描述她在闲暇时做些什么。"
+  "depress": {
+    "eng": "I must admit the state of the country depresses me.",
+    "chn": "我必须承认国家的形势令我沮丧。"
   },
   "depression": {
     "eng": "Mr. Thomas was suffering from depression.",
     "chn": "托马斯先生当时正受抑郁症折磨。"
+  },
+  "describe": {
+    "eng": "We asked her to describe what kind of things she did in her spare time.",
+    "chn": "我们请她描述她在闲暇时做些什么。"
+  },
+  "description": {
+    "eng": "Police have issued a description of the man who was aged between fifty and sixty.",
+    "chn": "警方已已公布了这一年龄在50至60之间的男子的相貌特征。"
+  },
+  "desert": {
+    "eng": "...the Sahara Desert.",
+    "chn": "…撒哈拉沙漠。"
+  },
+  "design": {
+    "eng": "They wanted to design a machine that was both attractive and practical.",
+    "chn": "他们想设计一台既美观又实用的机器。"
   },
   "desire": {
     "eng": "I had a strong desire to help and care for people.",
@@ -1675,17 +1683,9 @@
     "eng": "Let our news desk know as quickly as possible.",
     "chn": "尽快通知我们的新闻部。"
   },
-  "design": {
-    "eng": "They wanted to design a machine that was both attractive and practical.",
-    "chn": "他们想设计一台既美观又实用的机器。"
-  },
   "despite": {
     "eng": "Despite our worries everything turned out well.",
     "chn": "尽管我们都很担心，结果一切都顺利。"
-  },
-  "depend": {
-    "eng": "The cooking time needed depends on the size of the potato.",
-    "chn": "烹饪时间长短取决于土豆的大小。"
   },
   "destination": {
     "eng": "Ellis Island has become one of America's most popular tourist destinations.",
@@ -1695,29 +1695,13 @@
     "eng": "The details of the plan are still being worked out.",
     "chn": "计划的细节还在制定中。"
   },
+  "develop": {
+    "eng": "It's hard to say at this stage how the market will develop.",
+    "chn": "在现阶段很难说市场会如何发展。"
+  },
   "development": {
     "eng": "...an ideal system for studying the development of the embryo.",
     "chn": "…研究胚胎发育的理想系统。"
-  },
-  "diet": {
-    "eng": "It's never too late to improve your diet.",
-    "chn": "改善饮食什么时候都不嫌晚。"
-  },
-  "difficulty": {
-    "eng": "...the difficulty of getting accurate information.",
-    "chn": "…获得准确信息的困难。"
-  },
-  "differ": {
-    "eng": "The story he told police differed from the one he told his mother.",
-    "chn": "他告诉警察的话和告诉他母亲的不同。"
-  },
-  "directly": {
-    "eng": "The second rainbow will be bigger than the first, and directly above it.",
-    "chn": "第二道彩虹将比第一道更大，并位于第一道的正上方。"
-  },
-  "direct": {
-    "eng": "They'd come on a direct flight from Athens.",
-    "chn": "他们是从雅典乘坐直达航班来的。"
   },
   "devote": {
     "eng": "He decided to devote the rest of his life to scientific investigation.",
@@ -1727,29 +1711,45 @@
     "eng": "The soldiers were diagnosed as having flu.",
     "chn": "这些士兵被诊断为患了流感。"
   },
-  "disadvantage": {
-    "eng": "The children from poor families were at a distinct disadvantage.",
-    "chn": "贫困家庭的孩子明显处于劣势。"
+  "die": {
+    "eng": "A year later my dog died.",
+    "chn": "1年后，我的狗死了。"
+  },
+  "diet": {
+    "eng": "It's never too late to improve your diet.",
+    "chn": "改善饮食什么时候都不嫌晚。"
+  },
+  "differ": {
+    "eng": "The story he told police differed from the one he told his mother.",
+    "chn": "他告诉警察的话和告诉他母亲的不同。"
+  },
+  "difficulty": {
+    "eng": "...the difficulty of getting accurate information.",
+    "chn": "…获得准确信息的困难。"
   },
   "digest": {
     "eng": "She couldn't digest food properly.",
     "chn": "她无法正常消化食物。"
   },
-  "develop": {
-    "eng": "It's hard to say at this stage how the market will develop.",
-    "chn": "在现阶段很难说市场会如何发展。"
+  "direct": {
+    "eng": "They'd come on a direct flight from Athens.",
+    "chn": "他们是从雅典乘坐直达航班来的。"
   },
-  "disappear": {
-    "eng": "The black car drove away from them and disappeared.",
-    "chn": "黑色的小汽车驶离了他们便消失了。"
+  "directly": {
+    "eng": "The second rainbow will be bigger than the first, and directly above it.",
+    "chn": "第二道彩虹将比第一道更大，并位于第一道的正上方。"
+  },
+  "disadvantage": {
+    "eng": "The children from poor families were at a distinct disadvantage.",
+    "chn": "贫困家庭的孩子明显处于劣势。"
   },
   "disagree": {
     "eng": "You must continue to see them no matter how much you may disagree with them.",
     "chn": "不管你与他们有多大分歧，都必须一如既往地去看他们。"
   },
-  "die": {
-    "eng": "A year later my dog died.",
-    "chn": "1年后，我的狗死了。"
+  "disappear": {
+    "eng": "The black car drove away from them and disappeared.",
+    "chn": "黑色的小汽车驶离了他们便消失了。"
   },
   "disappointing": {
     "eng": "The wine was excellent, but the meat was overdone and the vegetables disappointing.",
@@ -1767,17 +1767,33 @@
     "eng": "...a rare nerve disorder that can cause paralysis of the arms.",
     "chn": "…一种罕见的能导致手臂瘫痪的神经紊乱疾病。"
   },
+  "display": {
+    "eng": "Most of the other artists whose work is on display were his pupils or colleagues.",
+    "chn": "其他有作品展出的艺术家大多数是他的学生或同事。"
+  },
   "distance": {
     "eng": "...the distance between the island and the nearby shore.",
     "chn": "…岛屿和附近海岸之间的距离。"
   },
+  "distract": {
+    "eng": "Tom admits that playing video games sometimes distracts him from his homework.",
+    "chn": "汤姆承认玩电子游戏有时让他做家庭作业时分心。"
+  },
+  "divide": {
+    "eng": "The physical benefits of exercise can be divided into three factors.",
+    "chn": "锻炼对身体的好处可以分成3个方面。"
+  },
+  "doctor": {
+    "eng": "Do not discontinue the treatment without consulting your doctor.",
+    "chn": "不要不征求医生的意见就中断治疗。"
+  },
+  "dog": {
+    "eng": "The British are renowned as a nation of dog lovers.",
+    "chn": "英国人以爱狗著称。"
+  },
   "dollar": {
     "eng": "She gets paid seven dollars an hour.",
     "chn": "她的报酬是每小时7元。"
-  },
-  "display": {
-    "eng": "Most of the other artists whose work is on display were his pupils or colleagues.",
-    "chn": "其他有作品展出的艺术家大多数是他的学生或同事。"
   },
   "dominate": {
     "eng": "The book is expected to dominate the best-seller lists.",
@@ -1787,29 +1803,13 @@
     "eng": "I was knocking at the front door but there was no answer.",
     "chn": "我敲了敲前门，但无人应答。"
   },
-  "divide": {
-    "eng": "The physical benefits of exercise can be divided into three factors.",
-    "chn": "锻炼对身体的好处可以分成3个方面。"
-  },
-  "downstairs": {
-    "eng": "Denise went downstairs and made some tea.",
-    "chn": "丹尼丝下楼沏茶。"
-  },
-  "dog": {
-    "eng": "The British are renowned as a nation of dog lovers.",
-    "chn": "英国人以爱狗著称。"
-  },
-  "distract": {
-    "eng": "Tom admits that playing video games sometimes distracts him from his homework.",
-    "chn": "汤姆承认玩电子游戏有时让他做家庭作业时分心。"
-  },
   "download": {
     "eng": "Users can download their material to a desktop PC back in the office.",
     "chn": "用户们可以将他们的资料下载到办公室的台式计算机上。"
   },
-  "doctor": {
-    "eng": "Do not discontinue the treatment without consulting your doctor.",
-    "chn": "不要不征求医生的意见就中断治疗。"
+  "downstairs": {
+    "eng": "Denise went downstairs and made some tea.",
+    "chn": "丹尼丝下楼沏茶。"
   },
   "draw": {
     "eng": "She would sit there drawing with the pencil stub.",
@@ -1827,25 +1827,13 @@
     "eng": "We proceeded to drift on up the river.",
     "chn": "我们继续在河上漂流着。"
   },
-  "driver": {
-    "eng": "The driver got out of his van.",
-    "chn": "司机从货车里下来。"
-  },
-  "drunk": {
-    "eng": "I got drunk and had to be carried home.",
-    "chn": "我喝醉了，只得被搀扶回家。"
-  },
   "drive": {
     "eng": "I drove into town and went to a restaurant for dinner.",
     "chn": "我开车进城到一家餐馆用餐。"
   },
-  "duty": {
-    "eng": "Staff must report for duty at their normal place of work.",
-    "chn": "职员必须到他们平常的岗位报到上班。"
-  },
-  "dull": {
-    "eng": "I felt she found me boring and dull.",
-    "chn": "我觉得她认为我令人厌烦而又乏味。"
+  "driver": {
+    "eng": "The driver got out of his van.",
+    "chn": "司机从货车里下来。"
   },
   "drop": {
     "eng": "Temperatures can drop to freezing at night.",
@@ -1855,9 +1843,25 @@
     "eng": "The drug will be useful to hundreds of thousands of infected people.",
     "chn": "这种药物将会对成千上万感染者有用。"
   },
+  "drunk": {
+    "eng": "I got drunk and had to be carried home.",
+    "chn": "我喝醉了，只得被搀扶回家。"
+  },
+  "dull": {
+    "eng": "I felt she found me boring and dull.",
+    "chn": "我觉得她认为我令人厌烦而又乏味。"
+  },
+  "duty": {
+    "eng": "Staff must report for duty at their normal place of work.",
+    "chn": "职员必须到他们平常的岗位报到上班。"
+  },
   "dye": {
     "eng": "The women prepared, spun, and dyed the wool.",
     "chn": "妇女们将羊毛预备、纺线并染色。"
+  },
+  "eager": {
+    "eng": "Robert was eager to talk about life in the Army.",
+    "chn": "罗伯特渴望谈论军旅生活。"
   },
   "earth": {
     "eng": "The space shuttle Atlantis returned safely to Earth today.",
@@ -1871,10 +1875,6 @@
     "eng": "It could easily be another year before the economy starts to show some improvement.",
     "chn": "很可能再过一年经济才会开始有所好转。"
   },
-  "eager": {
-    "eng": "Robert was eager to talk about life in the Army.",
-    "chn": "罗伯特渴望谈论军旅生活。"
-  },
   "east": {
     "eng": "...the vast swamps that lie to the east of the River Nile.",
     "chn": "…位于尼罗河以东的大片沼泽。"
@@ -1887,13 +1887,21 @@
     "eng": "Zimbabwe boasts Africa's most industrialized economy.",
     "chn": "津巴布韦自夸有着非洲最为工业化的经济体制。"
   },
+  "educate": {
+    "eng": "He was educated at Yale and Stanford.",
+    "chn": "他是在耶鲁和斯坦福接受的教育。"
+  },
   "educated": {
     "eng": "The new CEO is an educated, amiable, and decent man.",
     "chn": "新的首席执行官是一位受过良好教育、亲切、正派的人。"
   },
-  "educate": {
-    "eng": "He was educated at Yale and Stanford.",
-    "chn": "他是在耶鲁和斯坦福接受的教育。"
+  "education": {
+    "eng": "They're cutting funds for education.",
+    "chn": "他们正在削减教育经费。"
+  },
+  "effect": {
+    "eng": "Parents worry about the effect of music on their adolescent's behaviour.",
+    "chn": "家长们担心音乐对于其青少年子女行为的影响。"
   },
   "effective": {
     "eng": "Simple antibiotics are effective against this organism.",
@@ -1903,37 +1911,25 @@
     "eng": "With today's more efficient contraception women can plan their families and careers.",
     "chn": "有了当今更为高效的避孕方法妇女们能够规划好自己的家庭和事业。"
   },
-  "education": {
-    "eng": "They're cutting funds for education.",
-    "chn": "他们正在削减教育经费。"
-  },
-  "elderly": {
-    "eng": "There was an elderly couple on the terrace.",
-    "chn": "露台上有一对上年纪的老人。"
+  "either": {
+    "eng": "Sightseeing is best done either by tour bus or by bicycles.",
+    "chn": "观光最好要么乘游览巴士，要么骑自行车。"
   },
   "elaborate": {
     "eng": "...an elaborate research project.",
     "chn": "…一项复杂的研究项目。"
   },
+  "elderly": {
+    "eng": "There was an elderly couple on the terrace.",
+    "chn": "露台上有一对上年纪的老人。"
+  },
   "elephant": {
     "eng": "The elephant flapped its ears.",
     "chn": "大象拍打着双耳。"
   },
-  "effect": {
-    "eng": "Parents worry about the effect of music on their adolescent's behaviour.",
-    "chn": "家长们担心音乐对于其青少年子女行为的影响。"
-  },
   "eliminate": {
     "eng": "Recent measures have not eliminated discrimination in employment.",
     "chn": "最近的举措还未能根除就业歧视。"
-  },
-  "emotion": {
-    "eng": "Happiness was an emotion that Jerry was having to relearn.",
-    "chn": "幸福是一种杰瑞当时不得不再学习的感情。"
-  },
-  "either": {
-    "eng": "Sightseeing is best done either by tour bus or by bicycles.",
-    "chn": "观光最好要么乘游览巴士，要么骑自行车。"
   },
   "email": {
     "eng": "I'll email her the documents.",
@@ -1943,17 +1939,37 @@
     "eng": "His clumsiness embarrassed him.",
     "chn": "他的笨拙令他尴尬。"
   },
+  "emotion": {
+    "eng": "Happiness was an emotion that Jerry was having to relearn.",
+    "chn": "幸福是一种杰瑞当时不得不再学习的感情。"
+  },
+  "employ": {
+    "eng": "The company employs 18 workers.",
+    "chn": "该公司雇用18位职工。"
+  },
   "enable": {
     "eng": "The new test should enable doctors to detect the disease early.",
     "chn": "新的检验使医生能在早期发现该种疾病。"
+  },
+  "encounter": {
+    "eng": "Every day of our lives we encounter major and minor stresses of one kind or another.",
+    "chn": "生活中的每一天，我们会遇到或大或小的这样那样的压力。"
+  },
+  "encourage": {
+    "eng": "When things aren't going well, he encourages me, telling me not to give up.",
+    "chn": "当事情不顺利的时候，他鼓励我，告诉我不要放弃。"
+  },
+  "encouragement": {
+    "eng": "Friends gave me a great deal of encouragement.",
+    "chn": "朋友们给了我极大的鼓励。"
   },
   "ending": {
     "eng": "The film has a Hollywood happy ending.",
     "chn": "这部电影具有好莱坞式的美满结局。"
   },
-  "employ": {
-    "eng": "The company employs 18 workers.",
-    "chn": "该公司雇用18位职工。"
+  "endure": {
+    "eng": "The company endured heavy financial losses.",
+    "chn": "公司承受了沉重的财务损失。"
   },
   "enemy": {
     "eng": "Imagine loving your enemy and doing good to those who hated you.",
@@ -1963,89 +1979,77 @@
     "eng": "He was saving his energy for next week's race in Tuscon.",
     "chn": "他正为下周在特斯康举行的比赛养精蓄锐。"
   },
-  "endure": {
-    "eng": "The company endured heavy financial losses.",
-    "chn": "公司承受了沉重的财务损失。"
-  },
-  "encounter": {
-    "eng": "Every day of our lives we encounter major and minor stresses of one kind or another.",
-    "chn": "生活中的每一天，我们会遇到或大或小的这样那样的压力。"
-  },
-  "encouragement": {
-    "eng": "Friends gave me a great deal of encouragement.",
-    "chn": "朋友们给了我极大的鼓励。"
-  },
-  "encourage": {
-    "eng": "When things aren't going well, he encourages me, telling me not to give up.",
-    "chn": "当事情不顺利的时候，他鼓励我，告诉我不要放弃。"
-  },
-  "enrich": {
-    "eng": "It is important to enrich the soil prior to planting.",
-    "chn": "栽种之前给土壤施肥很重要。"
+  "engage": {
+    "eng": "I have never engaged in drug trafficking.",
+    "chn": "我从来没有从事过贩毒。"
   },
   "enhance": {
     "eng": "The White House is eager to protect and enhance that reputation.",
     "chn": "白宫急于保护并提高那声望。"
   },
-  "engage": {
-    "eng": "I have never engaged in drug trafficking.",
-    "chn": "我从来没有从事过贩毒。"
+  "enjoy": {
+    "eng": "Ross had always enjoyed the company of women.",
+    "chn": "罗斯一直都很享受女人的陪伴。"
   },
   "enormous": {
     "eng": "The main bedroom is enormous.",
     "chn": "主卧室大极了。"
   },
-  "enjoy": {
-    "eng": "Ross had always enjoyed the company of women.",
-    "chn": "罗斯一直都很享受女人的陪伴。"
+  "enrich": {
+    "eng": "It is important to enrich the soil prior to planting.",
+    "chn": "栽种之前给土壤施肥很重要。"
   },
   "ensure": {
     "eng": "We must ensure that all patients have access to high quality care.",
     "chn": "我们必须确保所有的病人都能够得到高质量的护理。"
   },
-  "essay": {
-    "eng": "We asked Jason to write an essay about his hometown.",
-    "chn": "我们让杰森写一篇关于他家乡的短文。"
-  },
-  "equal": {
-    "eng": "Investors can borrow an amount equal to the property's purchase price.",
-    "chn": "投资者可以借与房地产购买价相等数额的款项。"
-  },
-  "escape": {
-    "eng": "A prisoner has escaped from a jail in northern Texas.",
-    "chn": "一名囚犯已经从北德克萨斯州的一个监狱逃走。"
+  "entire": {
+    "eng": "He had spent his entire life in China as a doctor.",
+    "chn": "他整个一生都在中国做医生。"
   },
   "environment": {
     "eng": "Students in our schools are taught in a safe, secure environment.",
     "chn": "我校学生在安全无忧的环境中接受教育。"
   },
-  "essential": {
-    "eng": "As they must also sprint over short distances, speed is essential.",
-    "chn": "由于他们还必须疾速短跑，因此速度是至关重要的。"
+  "equal": {
+    "eng": "Investors can borrow an amount equal to the property's purchase price.",
+    "chn": "投资者可以借与房地产购买价相等数额的款项。"
   },
   "equipment": {
     "eng": "...computers, electronic equipment and machine tools.",
     "chn": "…电脑、电子设备和机床。"
   },
-  "entire": {
-    "eng": "He had spent his entire life in China as a doctor.",
-    "chn": "他整个一生都在中国做医生。"
+  "escape": {
+    "eng": "A prisoner has escaped from a jail in northern Texas.",
+    "chn": "一名囚犯已经从北德克萨斯州的一个监狱逃走。"
   },
   "especially": {
     "eng": "Millions of wild flowers colour the valleys, especially in April and May.",
     "chn": "成千上万的野花使峡谷五彩斑斓，特别是在四五月份。"
   },
-  "evening": {
-    "eng": "All he did that evening was sit around the house.",
-    "chn": "那天晚上他所做的就是闲坐在家里。"
+  "essay": {
+    "eng": "We asked Jason to write an essay about his hometown.",
+    "chn": "我们让杰森写一篇关于他家乡的短文。"
   },
-  "everybody": {
-    "eng": "The news heartened everybody.",
-    "chn": "这个消息鼓舞了每个人。"
+  "essential": {
+    "eng": "As they must also sprint over short distances, speed is essential.",
+    "chn": "由于他们还必须疾速短跑，因此速度是至关重要的。"
   },
   "estimate": {
     "eng": "Try to estimate how many steps it will take to get to a close object.",
     "chn": "估计一下需要多少步才能到达一个近距目标。"
+  },
+  "evening": {
+    "eng": "All he did that evening was sit around the house.",
+    "chn": "那天晚上他所做的就是闲坐在家里。"
+  },
+  "event": {
+    "eng": "A new inquiry into the events of the day was opened in 2002.",
+    "chn": "对那天发生的事件的新一轮调查于2002年开始。"
+  },
+  "everybody": {
+    "eng": "The news heartened everybody.",
+    "chn": "这个消息鼓舞了每个人。"
   },
   "everyday": {
     "eng": "In the course of my everyday life, I had very little contact with teenagers.",
@@ -2055,61 +2059,49 @@
     "eng": "His footprints were clearly evident in the heavy dust.",
     "chn": "他的脚印在厚厚的灰尘中清晰可见。"
   },
-  "event": {
-    "eng": "A new inquiry into the events of the day was opened in 2002.",
-    "chn": "对那天发生的事件的新一轮调查于2002年开始。"
+  "exact": {
+    "eng": "I don't remember the exact words.",
+    "chn": "我不记得确切的话了。"
   },
   "examine": {
     "eng": "He examined her passport and stamped it.",
     "chn": "他仔细检查了她的护照，然后在上面盖了章。"
   },
-  "exact": {
-    "eng": "I don't remember the exact words.",
-    "chn": "我不记得确切的话了。"
+  "excellent": {
+    "eng": "The recording quality is excellent.",
+    "chn": "录制质量极好。"
   },
   "excessive": {
     "eng": "Managers are also accused of paying themselves excessively high salaries.",
     "chn": "经理们还被指责给自己发过高的工资。"
   },
-  "exhibit": {
-    "eng": "He has exhibited symptoms of anxiety and overwhelming worry.",
-    "chn": "他已表现出焦虑和忧心如焚的症状。"
+  "excite": {
+    "eng": "I only take on work that excites me, even if it means turning down lots of money.",
+    "chn": "我只承接让我感兴趣的工作，即使这意味着损失很多钱。"
   },
   "exciting": {
     "eng": "The race itself is very exciting.",
     "chn": "比赛本身就令人非常兴奋。"
   },
-  "excite": {
-    "eng": "I only take on work that excites me, even if it means turning down lots of money.",
-    "chn": "我只承接让我感兴趣的工作，即使这意味着损失很多钱。"
-  },
-  "excellent": {
-    "eng": "The recording quality is excellent.",
-    "chn": "录制质量极好。"
-  },
   "exhaust": {
     "eng": "Don't exhaust him.",
     "chn": "别让他精疲力竭了。"
+  },
+  "exhibit": {
+    "eng": "He has exhibited symptoms of anxiety and overwhelming worry.",
+    "chn": "他已表现出焦虑和忧心如焚的症状。"
   },
   "expensive": {
     "eng": "Broadband is still more expensive than dial-up services.",
     "chn": "宽带还是要比拨号服务费钱得多。"
   },
-  "extraordinary": {
-    "eng": "We've made extraordinary progress as a society in that regard.",
-    "chn": "我们社会在那方面已经取得了巨大进步。"
-  },
-  "express": {
-    "eng": "He expressed grave concern at American attitudes.",
-    "chn": "他对美国的态度表达了严肃关注。"
-  },
   "experiment": {
     "eng": "In 1857 Mendel started experimenting with peas in his monastery garden.",
     "chn": "1857年孟德尔开始在其修道院菜园里用豌豆做实验。"
   },
-  "explorer": {
-    "eng": "...the travels of Columbus, Magellan, and many other explorers.",
-    "chn": "…哥伦布、麦哲伦和许多其他探险家的旅行。"
+  "expert": {
+    "eng": "...a yoga expert.",
+    "chn": "…一位瑜伽专家。"
   },
   "explain": {
     "eng": "Not every judge, however, has the ability to explain the law in simple terms.",
@@ -2119,53 +2111,69 @@
     "eng": "They were clearing up when the second bomb exploded.",
     "chn": "他们在清理时第二颗炸弹爆炸了。"
   },
-  "expert": {
-    "eng": "...a yoga expert.",
-    "chn": "…一位瑜伽专家。"
+  "explorer": {
+    "eng": "...the travels of Columbus, Magellan, and many other explorers.",
+    "chn": "…哥伦布、麦哲伦和许多其他探险家的旅行。"
   },
-  "faith": {
-    "eng": "People have lost faith in the government.",
-    "chn": "人们已失去了对政府的信心。"
+  "express": {
+    "eng": "He expressed grave concern at American attitudes.",
+    "chn": "他对美国的态度表达了严肃关注。"
   },
-  "factory": {
-    "eng": "He owned furniture factories in New York State.",
-    "chn": "他在纽约州拥有一些家具厂。"
+  "extraordinary": {
+    "eng": "We've made extraordinary progress as a society in that regard.",
+    "chn": "我们社会在那方面已经取得了巨大进步。"
   },
   "eye": {
     "eng": "I opened my eyes and looked.",
     "chn": "我睁开眼睛看了看。"
   },
-  "failure": {
-    "eng": "This policy is doomed to failure.",
-    "chn": "这项政策注定要失败。"
-  },
   "face": {
     "eng": "He rolled down his window and stuck his face out.",
     "chn": "他摇下窗户，探出脸来。"
-  },
-  "farmer": {
-    "eng": "There once was a poor farmer who had four sons.",
-    "chn": "从前有一个贫苦的农夫，他有四个儿子。"
   },
   "factor": {
     "eng": "Physical activity is an important factor in maintaining fitness.",
     "chn": "体育活动是保持健康的一个重要因素。"
   },
+  "factory": {
+    "eng": "He owned furniture factories in New York State.",
+    "chn": "他在纽约州拥有一些家具厂。"
+  },
+  "failure": {
+    "eng": "This policy is doomed to failure.",
+    "chn": "这项政策注定要失败。"
+  },
+  "faith": {
+    "eng": "People have lost faith in the government.",
+    "chn": "人们已失去了对政府的信心。"
+  },
   "fall": {
     "eng": "He has again fallen from his horse.",
     "chn": "他又一次从马上落下来。"
+  },
+  "farmer": {
+    "eng": "There once was a poor farmer who had four sons.",
+    "chn": "从前有一个贫苦的农夫，他有四个儿子。"
+  },
+  "fault": {
+    "eng": "There was no escaping the fact: it was all his fault.",
+    "chn": "无法逃避这一事实：这都是他的错。"
+  },
+  "favorite": {
+    "eng": "That's my favorite.",
+    "chn": "那是我的最爱。"
   },
   "fear": {
     "eng": "These youngsters are motivated by fear of failure.",
     "chn": "这些年轻人因担心失败而被激发。"
   },
+  "feature": {
+    "eng": "Patriotic songs have long been a feature of Kuwaiti life.",
+    "chn": "爱国歌曲长期以来一直是科威特人生活的一个特点。"
+  },
   "federal": {
     "eng": "The federal government controls just 6% of the education budget.",
     "chn": "联邦政府只掌控教育预算的6％。"
-  },
-  "favorite": {
-    "eng": "That's my favorite.",
-    "chn": "那是我的最爱。"
   },
   "fee": {
     "eng": "He paid his licence fee, and walked out with a brand-new driving licence.",
@@ -2175,17 +2183,17 @@
     "eng": "We brought along pieces of old bread and fed the birds.",
     "chn": "我们带了几片陈面包来喂鸟。"
   },
-  "feature": {
-    "eng": "Patriotic songs have long been a feature of Kuwaiti life.",
-    "chn": "爱国歌曲长期以来一直是科威特人生活的一个特点。"
-  },
-  "fault": {
-    "eng": "There was no escaping the fact: it was all his fault.",
-    "chn": "无法逃避这一事实：这都是他的错。"
-  },
   "fellow": {
     "eng": "She discovered to her pleasure, a talent for making her fellow guests laugh.",
     "chn": "她高兴地发现一个把她同来的客人逗笑的本事。"
+  },
+  "female": {
+    "eng": "...a sixteen-piece dance band with a female singer.",
+    "chn": "…一支有一名女歌手的16人伴舞乐队。"
+  },
+  "fence": {
+    "eng": "Villagers say the fence would restrict public access to the hills.",
+    "chn": "村民们说栅栏将限制公众进入山区。"
   },
   "fertile": {
     "eng": "...fertile soil.",
@@ -2203,41 +2211,45 @@
     "eng": "My Uncle Jim had a high fever.",
     "chn": "我的叔叔吉姆发高烧了。"
   },
-  "fence": {
-    "eng": "Villagers say the fence would restrict public access to the hills.",
-    "chn": "村民们说栅栏将限制公众进入山区。"
+  "field": {
+    "eng": "...a field of wheat.",
+    "chn": "…一片麦田。"
   },
   "figure": {
     "eng": "It will not be long before the inflation figure starts to fall.",
     "chn": "过不了多久，通货膨胀的数字就会开始下降。"
   },
-  "financial": {
-    "eng": "The company is in financial difficulties.",
-    "chn": "这个公司处于财务困难之中。"
-  },
-  "female": {
-    "eng": "...a sixteen-piece dance band with a female singer.",
-    "chn": "…一支有一名女歌手的16人伴舞乐队。"
+  "film": {
+    "eng": "Everything about the film was good. Good acting, good story, good fun.",
+    "chn": "这部电影样样都好：演技好，故事好，非常有趣。"
   },
   "finance": {
     "eng": "The fund has been used largely to finance the construction of federal prisons.",
     "chn": "该基金大部分已用于资助联邦监狱的建造。"
   },
-  "field": {
-    "eng": "...a field of wheat.",
-    "chn": "…一片麦田。"
+  "financial": {
+    "eng": "The company is in financial difficulties.",
+    "chn": "这个公司处于财务困难之中。"
   },
-  "film": {
-    "eng": "Everything about the film was good. Good acting, good story, good fun.",
-    "chn": "这部电影样样都好：演技好，故事好，非常有趣。"
+  "finish": {
+    "eng": "As soon as he'd finished eating, he excused himself.",
+    "chn": "他一吃完就借口离开了。"
   },
-  "football": {
-    "eng": "Two blocks beyond our school was a field where boys played football.",
-    "chn": "离我们学校两个街区远，有一个男孩子们玩橄榄球的场地。"
+  "fit": {
+    "eng": "The sash, kimono, and other garments were made to fit a child.",
+    "chn": "这些腰带、和服和其他衣服都做得适合孩子穿。"
+  },
+  "five": {
+    "eng": "I spent five years there and had a really good time.",
+    "chn": "我在那里呆了5年，过得很愉快。"
   },
   "flexible": {
     "eng": "...brushes with long, flexible bristles.",
     "chn": "…毛长而柔韧的刷子。"
+  },
+  "floor": {
+    "eng": "Jack's sitting on the floor watching TV.",
+    "chn": "杰克正坐在地板上看电视。"
   },
   "flower": {
     "eng": "Each individual flower is tiny.",
@@ -2247,97 +2259,85 @@
     "eng": "The blood vessels may leak fluid, which distorts vision.",
     "chn": "血管可能渗漏出液体，扰乱视觉。"
   },
-  "five": {
-    "eng": "I spent five years there and had a really good time.",
-    "chn": "我在那里呆了5年，过得很愉快。"
-  },
-  "fit": {
-    "eng": "The sash, kimono, and other garments were made to fit a child.",
-    "chn": "这些腰带、和服和其他衣服都做得适合孩子穿。"
-  },
-  "finish": {
-    "eng": "As soon as he'd finished eating, he excused himself.",
-    "chn": "他一吃完就借口离开了。"
-  },
-  "floor": {
-    "eng": "Jack's sitting on the floor watching TV.",
-    "chn": "杰克正坐在地板上看电视。"
-  },
   "focus": {
     "eng": "Today he was able to focus his message exclusively on the economy.",
     "chn": "今天他能够将重点聚焦在经济方面。"
   },
-  "forgive": {
-    "eng": "Hopefully Jane will understand and forgive you, if she really loves you.",
-    "chn": "如果简真的爱你，希望她会理解并原谅你。"
+  "football": {
+    "eng": "Two blocks beyond our school was a field where boys played football.",
+    "chn": "离我们学校两个街区远，有一个男孩子们玩橄榄球的场地。"
   },
   "foreign": {
     "eng": "She was on her first foreign holiday without her parents.",
     "chn": "她首次不在父母的陪同下到国外度假。"
   },
-  "former": {
-    "eng": "The unemployed executives include former sales managers, directors and accountants.",
-    "chn": "失业的高管包括前销售经理、主管和会计。"
-  },
   "foreigner": {
     "eng": "They are discouraged from becoming close friends with foreigners.",
     "chn": "他们被劝不要同外国人成为密友。"
   },
-  "fourteen": {
-    "eng": "I'm fourteen years old.",
-    "chn": "我14岁。"
+  "forgive": {
+    "eng": "Hopefully Jane will understand and forgive you, if she really loves you.",
+    "chn": "如果简真的爱你，希望她会理解并原谅你。"
   },
   "form": {
     "eng": "He contracted a rare form of cancer.",
     "chn": "他患上了一种罕见的癌症。"
   },
-  "frequent": {
-    "eng": "Bordeaux is on the main Paris-Madrid line so there are frequent trains.",
-    "chn": "波尔多位于巴黎至马德里的铁路主干线上，因此有频繁的列车。"
-  },
-  "frame": {
-    "eng": "Estelle kept a photograph of her mother in a silver frame on the kitchen mantelpiece.",
-    "chn": "埃丝特尔把她母亲的一张照片放在厨房壁炉架上的银质相框里。"
-  },
-  "frustrate": {
-    "eng": "These questions frustrated me.",
-    "chn": "这些问题使我懊丧。"
+  "former": {
+    "eng": "The unemployed executives include former sales managers, directors and accountants.",
+    "chn": "失业的高管包括前销售经理、主管和会计。"
   },
   "fortunate": {
     "eng": "He was extremely fortunate to survive.",
     "chn": "她极为幸运地活了下来。"
   },
-  "four": {
-    "eng": "Judith is married with four children.",
-    "chn": "朱迪斯已经结婚，有4个孩子。"
-  },
   "forty": {
     "eng": "He was a big man in his forties, smartly dressed in a suit and tie.",
     "chn": "他是一个四十几岁的高大男子，穿着西服打着领带，很精神。"
-  },
-  "fuel": {
-    "eng": "They ran out of fuel.",
-    "chn": "他们用完了燃料。"
-  },
-  "fruit": {
-    "eng": "Fresh fruit and vegetables provide fibre and vitamins.",
-    "chn": "新鲜的水果和蔬菜提供纤维素和多种维生素。"
-  },
-  "fresh": {
-    "eng": "There were no fresh car tracks or footprints in the snow.",
-    "chn": "雪地里没有新的车辙或脚印。"
   },
   "foster": {
     "eng": "Little Jack was placed with foster parents.",
     "chn": "小杰克被安置在养父母家。"
   },
-  "function": {
-    "eng": "The main function of the investment banks is to raise capital for industry.",
-    "chn": "各投资银行的主要作用是为产业筹集资金。"
+  "four": {
+    "eng": "Judith is married with four children.",
+    "chn": "朱迪斯已经结婚，有4个孩子。"
+  },
+  "fourteen": {
+    "eng": "I'm fourteen years old.",
+    "chn": "我14岁。"
+  },
+  "frame": {
+    "eng": "Estelle kept a photograph of her mother in a silver frame on the kitchen mantelpiece.",
+    "chn": "埃丝特尔把她母亲的一张照片放在厨房壁炉架上的银质相框里。"
+  },
+  "frequent": {
+    "eng": "Bordeaux is on the main Paris-Madrid line so there are frequent trains.",
+    "chn": "波尔多位于巴黎至马德里的铁路主干线上，因此有频繁的列车。"
+  },
+  "fresh": {
+    "eng": "There were no fresh car tracks or footprints in the snow.",
+    "chn": "雪地里没有新的车辙或脚印。"
+  },
+  "fruit": {
+    "eng": "Fresh fruit and vegetables provide fibre and vitamins.",
+    "chn": "新鲜的水果和蔬菜提供纤维素和多种维生素。"
+  },
+  "frustrate": {
+    "eng": "These questions frustrated me.",
+    "chn": "这些问题使我懊丧。"
+  },
+  "fuel": {
+    "eng": "They ran out of fuel.",
+    "chn": "他们用完了燃料。"
   },
   "full": {
     "eng": "Once the container is full, it stays shut until you turn it clockwise.",
     "chn": "该容器一旦满了就会保持关闭，直到你将其按顺时针方向旋转。"
+  },
+  "function": {
+    "eng": "The main function of the investment banks is to raise capital for industry.",
+    "chn": "各投资银行的主要作用是为产业筹集资金。"
   },
   "funeral": {
     "eng": "The funeral will be held in Joplin, Missouri.",
@@ -2355,9 +2355,13 @@
     "eng": "Coal is actually cheaper than gas.",
     "chn": "煤炭实际上比煤气便宜。"
   },
-  "global": {
-    "eng": "...a global ban on nuclear testing.",
-    "chn": "…一项全球性核试验禁令。"
+  "generous": {
+    "eng": "Dietler is generous with his time and money.",
+    "chn": "迪特勒在他的时间和金钱方面慷慨大方。"
+  },
+  "gesture": {
+    "eng": "Sarah made a menacing gesture with her fist.",
+    "chn": "萨拉用拳头做了个威胁的手势。"
   },
   "girl": {
     "eng": "...an eleven-year-old girl.",
@@ -2367,41 +2371,45 @@
     "eng": "...a pane of glass.",
     "chn": "…一块玻璃。"
   },
-  "generous": {
-    "eng": "Dietler is generous with his time and money.",
-    "chn": "迪特勒在他的时间和金钱方面慷慨大方。"
-  },
-  "gesture": {
-    "eng": "Sarah made a menacing gesture with her fist.",
-    "chn": "萨拉用拳头做了个威胁的手势。"
-  },
-  "glove": {
-    "eng": "He stuck his gloves in his pocket.",
-    "chn": "他把手套塞进了口袋里。"
-  },
-  "god": {
-    "eng": "He believes in God.",
-    "chn": "他信奉上帝。"
+  "global": {
+    "eng": "...a global ban on nuclear testing.",
+    "chn": "…一项全球性核试验禁令。"
   },
   "glory": {
     "eng": "Walsham had his moment of glory when he won a 20km race.",
     "chn": "沃尔沙姆有过赢得20公里赛跑的光荣时刻。"
   },
+  "glove": {
+    "eng": "He stuck his gloves in his pocket.",
+    "chn": "他把手套塞进了口袋里。"
+  },
   "goal": {
     "eng": "The Dragons had only one shot on goal.",
     "chn": "龙队只有一次射门。"
   },
-  "government": {
-    "eng": "The Government has insisted that confidence is needed before the economy can improve.",
-    "chn": "政府强调需要有信心经济状况才能改善。"
+  "god": {
+    "eng": "He believes in God.",
+    "chn": "他信奉上帝。"
+  },
+  "gold": {
+    "eng": "...a sapphire set in gold.",
+    "chn": "…一颗镶嵌在金子里的蓝宝石。"
   },
   "govern": {
     "eng": "Marine insurance is governed by a strict series of rules and regulations.",
     "chn": "海上保险受一系列严格的规章条例所制约。"
   },
-  "gold": {
-    "eng": "...a sapphire set in gold.",
-    "chn": "…一颗镶嵌在金子里的蓝宝石。"
+  "government": {
+    "eng": "The Government has insisted that confidence is needed before the economy can improve.",
+    "chn": "政府强调需要有信心经济状况才能改善。"
+  },
+  "grade": {
+    "eng": "Dust masks are graded according to the protection they offer.",
+    "chn": "防尘面具根据其提供的防护而分级。"
+  },
+  "graduate": {
+    "eng": "When the boys graduated from high school, Ann moved to a small town in Vermont.",
+    "chn": "男孩们中学毕业后安迁到了佛蒙特州的一座小镇。"
   },
   "grandmother": {
     "eng": "My grandmothers are both widows.",
@@ -2411,17 +2419,13 @@
     "eng": "Tammy was raised by her grandparents.",
     "chn": "塔米是由她的祖父母抚养大的。"
   },
-  "graduate": {
-    "eng": "When the boys graduated from high school, Ann moved to a small town in Vermont.",
-    "chn": "男孩们中学毕业后安迁到了佛蒙特州的一座小镇。"
+  "grant": {
+    "eng": "They'd got a special grant to encourage research.",
+    "chn": "他们已得到了一笔用来支持研究的特别补助金。"
   },
   "grasp": {
     "eng": "He grasped both my hands.",
     "chn": "他紧紧地抓住我的双手。"
-  },
-  "grade": {
-    "eng": "Dust masks are graded according to the protection they offer.",
-    "chn": "防尘面具根据其提供的防护而分级。"
   },
   "grateful": {
     "eng": "She was grateful to him for being so good to her.",
@@ -2431,6 +2435,10 @@
     "eng": "His greeting was familiar and friendly.",
     "chn": "他的问候亲切而友好。"
   },
+  "ground": {
+    "eng": "Forty or fifty women were sitting cross-legged on the ground.",
+    "chn": "四五十个妇女正盘腿坐在地上。"
+  },
   "growth": {
     "eng": "...the growth of nationalism.",
     "chn": "…民族主义的高涨。"
@@ -2439,145 +2447,145 @@
     "eng": "Surplus resources alone do not guarantee growth.",
     "chn": "仅有富足的资源并不能确保发展。"
   },
+  "guess": {
+    "eng": "Yvonne guessed that he was a very successful publisher or a banker.",
+    "chn": "伊冯娜猜测他是一位非常成功的出版商或银行家。"
+  },
   "guidance": {
     "eng": "Adam sought guidance from the Almighty.",
     "chn": "亚当向上帝寻求指导。"
-  },
-  "ground": {
-    "eng": "Forty or fifty women were sitting cross-legged on the ground.",
-    "chn": "四五十个妇女正盘腿坐在地上。"
   },
   "habit": {
     "eng": "He has an endearing habit of licking his lips when he's nervous.",
     "chn": "他有个紧张时舔嘴唇的可爱习惯。"
   },
-  "handle": {
-    "eng": "I turned the handle and found the door was open.",
-    "chn": "我转动把手，发现门是开着的。"
-  },
-  "guess": {
-    "eng": "Yvonne guessed that he was a very successful publisher or a banker.",
-    "chn": "伊冯娜猜测他是一位非常成功的出版商或银行家。"
-  },
   "half": {
     "eng": "She wore a diamond ring worth half a million dollars.",
     "chn": "她戴了一枚价值50万美元的钻戒。"
-  },
-  "handful": {
-    "eng": "He surveyed the handful of customers at the bar.",
-    "chn": "他打量着吧台边仅有的几位顾客。"
-  },
-  "grant": {
-    "eng": "They'd got a special grant to encourage research.",
-    "chn": "他们已得到了一笔用来支持研究的特别补助金。"
-  },
-  "handy": {
-    "eng": "The book gives handy hints on looking after indoor plants.",
-    "chn": "这本书提供了关于如何照料室内植物的有用信息。"
   },
   "hand": {
     "eng": "I put my hand into my pocket and pulled out the letter.",
     "chn": "我把手伸进衣袋，掏出那封信。"
   },
+  "handful": {
+    "eng": "He surveyed the handful of customers at the bar.",
+    "chn": "他打量着吧台边仅有的几位顾客。"
+  },
+  "handle": {
+    "eng": "I turned the handle and found the door was open.",
+    "chn": "我转动把手，发现门是开着的。"
+  },
   "handmade": {
     "eng": "Because they're handmade, each one varies slightly.",
     "chn": "因为它们是手工制作的，每一件都略有不同。"
   },
-  "harvest": {
-    "eng": "There was about 300 million tons of grain in the fields at the start of the harvest.",
-    "chn": "收割伊始田间大约有三亿吨的谷物。"
-  },
-  "harmful": {
-    "eng": "...the harmful effects of smoking.",
-    "chn": "…吸烟的危害。"
+  "handy": {
+    "eng": "The book gives handy hints on looking after indoor plants.",
+    "chn": "这本书提供了关于如何照料室内植物的有用信息。"
   },
   "hang": {
     "eng": "Notices painted on sheets hang at every entrance.",
     "chn": "写在纸上的通告悬挂在每个入口处。"
   },
-  "hire": {
-    "eng": "Sixteen of the contestants have hired lawyers and are suing the organizers.",
-    "chn": "参赛者中有16人已经聘了律师，正在起诉主办方。"
-  },
   "harm": {
     "eng": "The hijackers seemed anxious not to harm anyone.",
     "chn": "劫机犯们似乎并不急于伤害任何人。"
+  },
+  "harmful": {
+    "eng": "...the harmful effects of smoking.",
+    "chn": "…吸烟的危害。"
+  },
+  "harvest": {
+    "eng": "There was about 300 million tons of grain in the fields at the start of the harvest.",
+    "chn": "收割伊始田间大约有三亿吨的谷物。"
   },
   "hill": {
     "eng": "...the shady street that led up the hill to the office building.",
     "chn": "…通往山上的办公楼的林荫道。"
   },
-  "historical": {
-    "eng": "...an important historical figure.",
-    "chn": "…一位重要的历史人物。"
+  "hire": {
+    "eng": "Sixteen of the contestants have hired lawyers and are suing the organizers.",
+    "chn": "参赛者中有16人已经聘了律师，正在起诉主办方。"
   },
   "historic": {
     "eng": "...the historic changes in Eastern Europe.",
     "chn": "…东欧有历史性意义的变化。"
   },
-  "honor": {
-    "eng": "He won the Medal of Honor for his actions in 1943.",
-    "chn": "他因在1943年的勇敢行为获得荣誉勋章。"
-  },
-  "horrible": {
-    "eng": "Her voice sounds horrible.",
-    "chn": "她的嗓音难听死了。"
-  },
-  "honey": {
-    "eng": "Honey, I don't really think that's a good idea.",
-    "chn": "亲爱的，我不认为那是个好主意。"
+  "historical": {
+    "eng": "...an important historical figure.",
+    "chn": "…一位重要的历史人物。"
   },
   "hobby": {
     "eng": "My hobbies are letter writing, music, photography, and tennis.",
     "chn": "我的业余爱好是写信、音乐、摄影和网球。"
   },
+  "homework": {
+    "eng": "Have you done your homework, Gemma?",
+    "chn": "你做完家庭作业了吗，杰玛？"
+  },
+  "honey": {
+    "eng": "Honey, I don't really think that's a good idea.",
+    "chn": "亲爱的，我不认为那是个好主意。"
+  },
+  "honor": {
+    "eng": "He won the Medal of Honor for his actions in 1943.",
+    "chn": "他因在1943年的勇敢行为获得荣誉勋章。"
+  },
   "hope": {
     "eng": "He hesitates before leaving, almost as though he had been hoping for conversation.",
     "chn": "他离开前有些犹豫，好像希望跟人说些什么。"
-  },
-  "however": {
-    "eng": "You should always strive to achieve more, however well you have done before.",
-    "chn": "不管以前做得多么好，你应该始终争取更大的进步。"
-  },
-  "housework": {
-    "eng": "Men are doing more housework nowadays.",
-    "chn": "现今男人正在承担越来越多的家务。"
   },
   "hopeless": {
     "eng": "He had not heard her cry before in this uncontrolled, hopeless way.",
     "chn": "之前他从没有听过她这样失态、绝望地哭泣。"
   },
-  "homework": {
-    "eng": "Have you done your homework, Gemma?",
-    "chn": "你做完家庭作业了吗，杰玛？"
+  "horrible": {
+    "eng": "Her voice sounds horrible.",
+    "chn": "她的嗓音难听死了。"
   },
   "horror": {
     "eng": "I felt numb with horror.",
     "chn": "我惊呆了。"
   },
+  "housework": {
+    "eng": "Men are doing more housework nowadays.",
+    "chn": "现今男人正在承担越来越多的家务。"
+  },
+  "however": {
+    "eng": "You should always strive to achieve more, however well you have done before.",
+    "chn": "不管以前做得多么好，你应该始终争取更大的进步。"
+  },
   "huge": {
     "eng": "...a tiny little woman with huge black glasses.",
     "chn": "…一位个子很小的戴着硕大黑色眼镜的女人。"
-  },
-  "hunt": {
-    "eng": "A forensic team was hunting for clues.",
-    "chn": "法医小组正在搜寻线索。"
-  },
-  "ignore": {
-    "eng": "She said her husband ignored her.",
-    "chn": "她说她丈夫对她置之不理。"
   },
   "humor": {
     "eng": "The movie mixes broad humor with romance.",
     "chn": "那部电影把粗俗幽默和浪漫故事结合在一起。"
   },
-  "identity": {
-    "eng": "Abu is not his real name, but it's one he uses to disguise his identity.",
-    "chn": "阿布不是他的真名，而是一个他用来掩盖自己身份的假名。"
+  "hunt": {
+    "eng": "A forensic team was hunting for clues.",
+    "chn": "法医小组正在搜寻线索。"
+  },
+  "hurry": {
+    "eng": "Claire hurried along the road.",
+    "chn": "克莱尔匆匆地沿路而行。"
   },
   "hurt": {
     "eng": "Yasin had seriously hurt himself while trying to escape from the police.",
     "chn": "亚辛在企图从警方手中逃脱时把自己伤得很厉害。"
+  },
+  "identity": {
+    "eng": "Abu is not his real name, but it's one he uses to disguise his identity.",
+    "chn": "阿布不是他的真名，而是一个他用来掩盖自己身份的假名。"
+  },
+  "ignore": {
+    "eng": "She said her husband ignored her.",
+    "chn": "她说她丈夫对她置之不理。"
+  },
+  "ill": {
+    "eng": "In November 1941 Payne was seriously ill with pneumonia.",
+    "chn": "1941年11月，佩恩患了严重的肺炎。"
   },
   "illegal": {
     "eng": "It is illegal to intercept radio messages.",
@@ -2591,9 +2599,9 @@
     "eng": "The image of art theft as a gentleman's crime is outdated.",
     "chn": "艺术品盗窃是绅士犯罪这一观念已经过时了。"
   },
-  "hurry": {
-    "eng": "Claire hurried along the road.",
-    "chn": "克莱尔匆匆地沿路而行。"
+  "immediate": {
+    "eng": "These tragic incidents have had an immediate effect.",
+    "chn": "这些悲惨事件已经有了立杆见影的结果。"
   },
   "immediately": {
     "eng": "He immediately flung himself to the floor.",
@@ -2607,14 +2615,6 @@
     "eng": "Investors are growing impatient with promises of improved earnings.",
     "chn": "投资者们对提高收益的承诺越来越不耐烦了。"
   },
-  "ill": {
-    "eng": "In November 1941 Payne was seriously ill with pneumonia.",
-    "chn": "1941年11月，佩恩患了严重的肺炎。"
-  },
-  "immediate": {
-    "eng": "These tragic incidents have had an immediate effect.",
-    "chn": "这些悲惨事件已经有了立杆见影的结果。"
-  },
   "import": {
     "eng": "Rich countries benefited from importing Indonesia's timber.",
     "chn": "富国从进口印度尼西亚木材中获利。"
@@ -2623,21 +2623,21 @@
     "eng": "It was impossible for anyone to get in because no one knew the password.",
     "chn": "任何人都不可能进得去，因为没人知道口令。"
   },
-  "improvement": {
-    "eng": "...the dramatic improvements in organ transplantation in recent years.",
-    "chn": "…近几年器官移植上令人瞩目的改进。"
-  },
   "impression": {
     "eng": "What were your first impressions of college?",
     "chn": "你对大学的第一印象是什么？"
   },
-  "increasingly": {
-    "eng": "He was finding it increasingly difficult to make decisions.",
-    "chn": "他发现决策越来越困难了。"
+  "improvement": {
+    "eng": "...the dramatic improvements in organ transplantation in recent years.",
+    "chn": "…近几年器官移植上令人瞩目的改进。"
   },
   "income": {
     "eng": "Many families on low incomes will be unable to afford to buy their own home.",
     "chn": "许多低收入家庭根本无力购买房子。"
+  },
+  "increasingly": {
+    "eng": "He was finding it increasingly difficult to make decisions.",
+    "chn": "他发现决策越来越困难了。"
   },
   "indeed": {
     "eng": "Later, he admitted that the payments had indeed been made.",
@@ -2647,21 +2647,17 @@
     "eng": "Your questions should be independent of each other.",
     "chn": "你们的问题应该是相互间毫无关联的。"
   },
-  "indoor": {
-    "eng": "No smoking in any indoor facilities.",
-    "chn": "在任何室内场所都禁止抽烟。"
+  "indicate": {
+    "eng": "A survey of retired people has indicated that most are independent and enjoying life.",
+    "chn": "一项对退休人员的调查表明，他们中的大部分人生活自立而愉快。"
   },
   "individual": {
     "eng": "...waiting for the group to decide rather than making individual decisions.",
     "chn": "…等待集体作决定而不是作单独的决定。"
   },
-  "indicate": {
-    "eng": "A survey of retired people has indicated that most are independent and enjoying life.",
-    "chn": "一项对退休人员的调查表明，他们中的大部分人生活自立而愉快。"
-  },
-  "inflation": {
-    "eng": "...rising unemployment and high inflation.",
-    "chn": "…上涨的失业率和高通胀。"
+  "indoor": {
+    "eng": "No smoking in any indoor facilities.",
+    "chn": "在任何室内场所都禁止抽烟。"
   },
   "induce": {
     "eng": "Doctors said surgery could induce a heart attack.",
@@ -2671,97 +2667,109 @@
     "eng": "Our industry suffers through insufficient investment in research.",
     "chn": "我们的工业因研究投入不足而大吃苦头。"
   },
-  "injure": {
-    "eng": "A number of bombs have exploded, seriously injuring at least five people.",
-    "chn": "一些炸弹爆炸了，至少5人严重受伤。"
-  },
-  "instance": {
-    "eng": "...an investigation into a serious instance of corruption.",
-    "chn": "…对一例严重腐败事件的调查。"
+  "inflation": {
+    "eng": "...rising unemployment and high inflation.",
+    "chn": "…上涨的失业率和高通胀。"
   },
   "influence": {
     "eng": "He used his influence to get his son into medical school.",
     "chn": "他利用权势把儿子弄进了医学院。"
   },
-  "international": {
-    "eng": "...an international agreement against exporting arms to that country.",
-    "chn": "…一项禁止向那个国家出口武器的国际协议。"
-  },
-  "interact": {
-    "eng": "While the other children interacted and played together, Ted ignored them.",
-    "chn": "当其他孩子们相互交往、一起玩耍时，泰德却不理他们。"
-  },
-  "interesting": {
-    "eng": "It was interesting to be in a different environment.",
-    "chn": "换一换环境很有趣。"
-  },
-  "interaction": {
-    "eng": "They scored higher on social interaction.",
-    "chn": "他们在社交互动方面得分更高。"
-  },
-  "intelligent": {
-    "eng": "Susan's a very bright and intelligent woman who knows her own mind.",
-    "chn": "苏珊是一个非常聪明伶俐而且清楚自己想法的女人。"
-  },
-  "intellectual": {
-    "eng": "High levels of lead could damage the intellectual development of children.",
-    "chn": "高含铅量会损害儿童的智力发育。"
+  "injure": {
+    "eng": "A number of bombs have exploded, seriously injuring at least five people.",
+    "chn": "一些炸弹爆炸了，至少5人严重受伤。"
   },
   "insect": {
     "eng": "At rest the insect looks like a dead leaf.",
     "chn": "这种昆虫不动时看上去像一片枯叶。"
   },
-  "internet": {
-    "eng": "I looked it up on the Internet.",
-    "chn": "我在互联网上查过此事。"
-  },
   "inside": {
     "eng": "Inside the passport was a folded slip of paper.",
     "chn": "护照里面是一张折叠的纸条。"
   },
-  "involve": {
-    "eng": "Running a kitchen involves lots of discipline and speed.",
-    "chn": "管理厨房需要讲究纪律和速度。"
+  "instance": {
+    "eng": "...an investigation into a serious instance of corruption.",
+    "chn": "…对一例严重腐败事件的调查。"
+  },
+  "intellectual": {
+    "eng": "High levels of lead could damage the intellectual development of children.",
+    "chn": "高含铅量会损害儿童的智力发育。"
+  },
+  "intelligent": {
+    "eng": "Susan's a very bright and intelligent woman who knows her own mind.",
+    "chn": "苏珊是一个非常聪明伶俐而且清楚自己想法的女人。"
   },
   "intend": {
     "eng": "Maybe he intends to leave her.",
     "chn": "也许他打算离开她。"
   },
-  "introduce": {
-    "eng": "MGM introduced a new system for hiring writers.",
-    "chn": "米高梅公司引进了一项新的制度来雇人写作。"
+  "interact": {
+    "eng": "While the other children interacted and played together, Ted ignored them.",
+    "chn": "当其他孩子们相互交往、一起玩耍时，泰德却不理他们。"
   },
-  "isolate": {
-    "eng": "They are finding themselves increasingly isolated within the teaching profession.",
-    "chn": "他们发现自己在教育界中越来越孤立。"
+  "interaction": {
+    "eng": "They scored higher on social interaction.",
+    "chn": "他们在社交互动方面得分更高。"
+  },
+  "interesting": {
+    "eng": "It was interesting to be in a different environment.",
+    "chn": "换一换环境很有趣。"
+  },
+  "international": {
+    "eng": "...an international agreement against exporting arms to that country.",
+    "chn": "…一项禁止向那个国家出口武器的国际协议。"
+  },
+  "internet": {
+    "eng": "I looked it up on the Internet.",
+    "chn": "我在互联网上查过此事。"
   },
   "interview": {
     "eng": "The interview went well.",
     "chn": "面试很顺利。"
   },
-  "jacket": {
-    "eng": "...a black leather jacket.",
-    "chn": "…一件黑色皮夹克。"
-  },
-  "juice": {
-    "eng": "...fresh orange juice.",
-    "chn": "…新鲜橙汁。"
+  "introduce": {
+    "eng": "MGM introduced a new system for hiring writers.",
+    "chn": "米高梅公司引进了一项新的制度来雇人写作。"
   },
   "introduction": {
     "eng": "The book is a friendly, down-to-earth introduction to physics.",
     "chn": "这是一本简明、实用的物理学入门书。"
   },
-  "key": {
-    "eng": "They put the key in the door and entered.",
-    "chn": "他们用钥匙开了门然后走了进去。"
+  "involve": {
+    "eng": "Running a kitchen involves lots of discipline and speed.",
+    "chn": "管理厨房需要讲究纪律和速度。"
+  },
+  "involved": {
+    "eng": "If she were involved in business, she would make a strong chief executive.",
+    "chn": "如果她经商的话，将会是一位有力的首席执行官。"
+  },
+  "isolate": {
+    "eng": "They are finding themselves increasingly isolated within the teaching profession.",
+    "chn": "他们发现自己在教育界中越来越孤立。"
+  },
+  "issue": {
+    "eng": "Agents will raise the issue of prize-money for next year's world championships.",
+    "chn": "代理商们会提出明年世界锦标赛的奖金问题。"
+  },
+  "jacket": {
+    "eng": "...a black leather jacket.",
+    "chn": "…一件黑色皮夹克。"
   },
   "join": {
     "eng": "His wife and children moved to join him in their new home.",
     "chn": "他的妻子和孩子们搬来和他一起住在新家。"
   },
-  "involved": {
-    "eng": "If she were involved in business, she would make a strong chief executive.",
-    "chn": "如果她经商的话，将会是一位有力的首席执行官。"
+  "juice": {
+    "eng": "...fresh orange juice.",
+    "chn": "…新鲜橙汁。"
+  },
+  "key": {
+    "eng": "They put the key in the door and entered.",
+    "chn": "他们用钥匙开了门然后走了进去。"
+  },
+  "kill": {
+    "eng": "More than 1,000 people have been killed by the armed forces.",
+    "chn": "已经有一千多人被武装部队杀死。"
   },
   "kilogram": {
     "eng": "...a parcel weighing around 4.5 kilograms.",
@@ -2775,21 +2783,13 @@
     "eng": "She leaned up and kissed him on the cheek.",
     "chn": "她靠过来吻了他的脸颊。"
   },
-  "issue": {
-    "eng": "Agents will raise the issue of prize-money for next year's world championships.",
-    "chn": "代理商们会提出明年世界锦标赛的奖金问题。"
-  },
-  "kill": {
-    "eng": "More than 1,000 people have been killed by the armed forces.",
-    "chn": "已经有一千多人被武装部队杀死。"
-  },
   "knowledge": {
     "eng": "She disclaims any knowledge of her husband's business concerns.",
     "chn": "她自称不知道丈夫生意上的顾虑。"
   },
-  "limited": {
-    "eng": "They may only have a limited amount of time to get their points across.",
-    "chn": "他们可能只有有限的时间来阐述清楚他们的观点。"
+  "land": {
+    "eng": "Good agricultural land is in short supply.",
+    "chn": "肥沃的农业用地短缺。"
   },
   "latest": {
     "eng": "...her latest book.",
@@ -2799,61 +2799,61 @@
     "eng": "He was about to offer an explanation, but she was beginning to laugh.",
     "chn": "他刚要加以解释，她就开始笑起来了。"
   },
+  "lie": {
+    "eng": "There was a child lying on the ground.",
+    "chn": "地上躺着一个小孩。"
+  },
   "likely": {
     "eng": "Experts say a \"yes\" vote is still the likely outcome.",
     "chn": "专家们表示投赞成票仍是可能的结果。"
-  },
-  "land": {
-    "eng": "Good agricultural land is in short supply.",
-    "chn": "肥沃的农业用地短缺。"
   },
   "limit": {
     "eng": "Her love for him was being tested to its limits.",
     "chn": "她对他的爱正在考验着极限。"
   },
-  "listen": {
-    "eng": "He spent his time listening to the radio.",
-    "chn": "他把时间花在了听收音机上。"
-  },
-  "loaf": {
-    "eng": "...a loaf of crusty bread.",
-    "chn": "…一条硬皮面包。"
-  },
-  "lie": {
-    "eng": "There was a child lying on the ground.",
-    "chn": "地上躺着一个小孩。"
-  },
-  "link": {
-    "eng": "...the link between smoking and lung cancer.",
-    "chn": "…吸烟和肺癌之间的关系。"
-  },
-  "locate": {
-    "eng": "The scientists want to locate the position of the gene on a chromosome.",
-    "chn": "科学家们想找到该基因在染色体上的位置。"
-  },
-  "loan": {
-    "eng": "The country has no access to foreign loans or financial aid.",
-    "chn": "该国得不到外国贷款或财政援助。"
+  "limited": {
+    "eng": "They may only have a limited amount of time to get their points across.",
+    "chn": "他们可能只有有限的时间来阐述清楚他们的观点。"
   },
   "line": {
     "eng": "Draw a line down that page's centre.",
     "chn": "沿着那一页的中心向下画一条线。"
   },
+  "link": {
+    "eng": "...the link between smoking and lung cancer.",
+    "chn": "…吸烟和肺癌之间的关系。"
+  },
+  "listen": {
+    "eng": "He spent his time listening to the radio.",
+    "chn": "他把时间花在了听收音机上。"
+  },
   "living": {
     "eng": "Father never talked about what he did for a living.",
     "chn": "父亲从未谈起他是做什么来谋生的。"
+  },
+  "loaf": {
+    "eng": "...a loaf of crusty bread.",
+    "chn": "…一条硬皮面包。"
+  },
+  "loan": {
+    "eng": "The country has no access to foreign loans or financial aid.",
+    "chn": "该国得不到外国贷款或财政援助。"
+  },
+  "locate": {
+    "eng": "The scientists want to locate the position of the gene on a chromosome.",
+    "chn": "科学家们想找到该基因在染色体上的位置。"
   },
   "location": {
     "eng": "The first thing he looked at was his office's location.",
     "chn": "他首先看的是他办公室的位置。"
   },
-  "machine": {
-    "eng": "I put the coin in the machine and pulled the lever.",
-    "chn": "我把硬币投进机器，然后拉了控制杆。"
-  },
   "loss": {
     "eng": "...loss of sight.",
     "chn": "…失明。"
+  },
+  "loud": {
+    "eng": "Suddenly there was a loud bang.",
+    "chn": "突然砰地一声响。"
   },
   "lunch": {
     "eng": "Shall we meet somewhere for lunch?",
@@ -2863,21 +2863,33 @@
     "eng": "By all accounts he leads a life of considerable luxury.",
     "chn": "从方方面面来讲，他都过着极为奢侈的生活。"
   },
+  "machine": {
+    "eng": "I put the coin in the machine and pulled the lever.",
+    "chn": "我把硬币投进机器，然后拉了控制杆。"
+  },
   "magazine": {
     "eng": "Her face is on the cover of a dozen or more magazines.",
     "chn": "她的面孔出现在10多种杂志的封面上。"
-  },
-  "loud": {
-    "eng": "Suddenly there was a loud bang.",
-    "chn": "突然砰地一声响。"
   },
   "mail": {
     "eng": "Your cheque is in the mail.",
     "chn": "你的支票在邮寄中。"
   },
+  "main": {
+    "eng": "...one of the main tourist areas of San Francisco.",
+    "chn": "…旧金山的主要旅游区之一。"
+  },
+  "maintain": {
+    "eng": "After the divorce, their father still maintained close contact with the boys.",
+    "chn": "离婚后，他们的父亲仍和儿子们保持着密切联系。"
+  },
   "maintenance": {
     "eng": "...maintenance work on government buildings.",
     "chn": "…政府各大楼的检修工作。"
+  },
+  "major": {
+    "eng": "The major factor in the decision to stay or to leave was usually professional.",
+    "chn": "决定去留的主要因素通常与职业相关。"
   },
   "male": {
     "eng": "Many women achievers appear to pose a threat to their male colleagues.",
@@ -2887,53 +2899,45 @@
     "eng": "Within two years he was managing the shop.",
     "chn": "两年内他经营着该商店。"
   },
-  "manager": {
-    "eng": "The chef, staff, and managers are all Chinese.",
-    "chn": "厨师、工作人员和经理都是中国人。"
-  },
-  "maintain": {
-    "eng": "After the divorce, their father still maintained close contact with the boys.",
-    "chn": "离婚后，他们的父亲仍和儿子们保持着密切联系。"
-  },
-  "main": {
-    "eng": "...one of the main tourist areas of San Francisco.",
-    "chn": "…旧金山的主要旅游区之一。"
-  },
   "management": {
     "eng": "The zoo needed better management rather than more money.",
     "chn": "动物园需要更好的管理而非更多的钱。"
   },
-  "major": {
-    "eng": "The major factor in the decision to stay or to leave was usually professional.",
-    "chn": "决定去留的主要因素通常与职业相关。"
-  },
-  "married": {
-    "eng": "We have been married for 14 years.",
-    "chn": "我们已经结婚14年了。"
-  },
-  "marriage": {
-    "eng": "In a good marriage, both husband and wife work hard to solve any problems that arise.",
-    "chn": "在一桩美满的婚姻中，夫妻双方共同致力于解决出现的任何问题。"
-  },
-  "mass": {
-    "eng": "On his desk is a mass of books and papers.",
-    "chn": "在他书桌上有大堆的书和文件。"
-  },
-  "material": {
-    "eng": "...electrons in a conducting material such as a metal.",
-    "chn": "…金属等导电物质中的电子。"
-  },
-  "match": {
-    "eng": "He was watching a football match.",
-    "chn": "他正在看一场英式足球比赛。"
+  "manager": {
+    "eng": "The chef, staff, and managers are all Chinese.",
+    "chn": "厨师、工作人员和经理都是中国人。"
   },
   "market": {
     "eng": "He sold boots at a market stall.",
     "chn": "他在市场的一个摊位上卖靴子。"
   },
+  "marriage": {
+    "eng": "In a good marriage, both husband and wife work hard to solve any problems that arise.",
+    "chn": "在一桩美满的婚姻中，夫妻双方共同致力于解决出现的任何问题。"
+  },
+  "married": {
+    "eng": "We have been married for 14 years.",
+    "chn": "我们已经结婚14年了。"
+  },
   "marry": {
     "eng": "I thought he would change after we got married.",
     "chn": "我原以为他会在我们结婚后改变的。"
+  },
+  "mass": {
+    "eng": "On his desk is a mass of books and papers.",
+    "chn": "在他书桌上有大堆的书和文件。"
+  },
+  "master": {
+    "eng": "My master ordered me not to deliver the message except in private.",
+    "chn": "主人命令我不能传送信息，除非在私下里。"
+  },
+  "match": {
+    "eng": "He was watching a football match.",
+    "chn": "他正在看一场英式足球比赛。"
+  },
+  "material": {
+    "eng": "...electrons in a conducting material such as a metal.",
+    "chn": "…金属等导电物质中的电子。"
   },
   "math": {
     "eng": "I flunked math in second grade.",
@@ -2943,9 +2947,17 @@
     "eng": "Maybe she is in love.",
     "chn": "也许她是恋爱了。"
   },
-  "master": {
-    "eng": "My master ordered me not to deliver the message except in private.",
-    "chn": "主人命令我不能传送信息，除非在私下里。"
+  "mean": {
+    "eng": "\"Credible\" means \"believable.\"",
+    "chn": "的意思是。"
+  },
+  "meanwhile": {
+    "eng": "Meanwhile, my debts were mounting up.",
+    "chn": "同时，我的债务在不断增加。"
+  },
+  "measure": {
+    "eng": "I continued to measure his progress against the charts in the doctor's office.",
+    "chn": "我继续根据医生办公室里的图表来估量他的进展。"
   },
   "media": {
     "eng": "It is hard work and not a glamorous job as portrayed by the media.",
@@ -2955,61 +2967,53 @@
     "eng": "A medium dose produces severe nausea within hours.",
     "chn": "中等剂量会在几小时内引起严重的恶心。"
   },
-  "mental": {
-    "eng": "I think you are mentally tired.",
-    "chn": "我觉得你的头脑累了。"
-  },
-  "mean": {
-    "eng": "\"Credible\" means \"believable.\"",
-    "chn": "的意思是。"
-  },
-  "measure": {
-    "eng": "I continued to measure his progress against the charts in the doctor's office.",
-    "chn": "我继续根据医生办公室里的图表来估量他的进展。"
-  },
   "member": {
     "eng": "He refused to name the members of staff involved.",
     "chn": "他拒绝说出所涉职员的名字。"
   },
-  "meanwhile": {
-    "eng": "Meanwhile, my debts were mounting up.",
-    "chn": "同时，我的债务在不断增加。"
-  },
-  "military": {
-    "eng": "Military action may become necessary.",
-    "chn": "军事行动可能会成为必要。"
-  },
-  "mile": {
-    "eng": "They drove 600 miles across the desert.",
-    "chn": "他们驱车600英里横穿沙漠。"
-  },
-  "method": {
-    "eng": "The pill is the most efficient method of birth control.",
-    "chn": "避孕药是最有效的节育办法。"
-  },
-  "message": {
-    "eng": "I got a message you were trying to reach me.",
-    "chn": "我得到了一条留言，说你在设法联系我。"
+  "mental": {
+    "eng": "I think you are mentally tired.",
+    "chn": "我觉得你的头脑累了。"
   },
   "mention": {
     "eng": "She did not mention her mother's absence.",
     "chn": "她没有提到她母亲的缺席。"
   },
-  "minority": {
-    "eng": "Local authority child-care provision covers only a tiny minority of working mothers.",
-    "chn": "地方政府提供的儿童保育服务只惠及了极少数上班族母亲们。"
+  "mess": {
+    "eng": "The house is a mess.",
+    "chn": "这个房间又脏又乱。"
+  },
+  "message": {
+    "eng": "I got a message you were trying to reach me.",
+    "chn": "我得到了一条留言，说你在设法联系我。"
+  },
+  "method": {
+    "eng": "The pill is the most efficient method of birth control.",
+    "chn": "避孕药是最有效的节育办法。"
   },
   "middle": {
     "eng": "Howard stood in the middle of the room sipping a cup of coffee.",
     "chn": "霍华德站在房子中间，啜饮着一杯咖啡。"
   },
-  "mess": {
-    "eng": "The house is a mess.",
-    "chn": "这个房间又脏又乱。"
-  },
   "mild": {
     "eng": "Teddy turned to Mona with a look of mild confusion.",
     "chn": "特迪转向莫娜，脸上带着些许困惑。"
+  },
+  "mile": {
+    "eng": "They drove 600 miles across the desert.",
+    "chn": "他们驱车600英里横穿沙漠。"
+  },
+  "military": {
+    "eng": "Military action may become necessary.",
+    "chn": "军事行动可能会成为必要。"
+  },
+  "million": {
+    "eng": "Up to five million people a year visit the county.",
+    "chn": "每年多达500万人到这个县游览。"
+  },
+  "minority": {
+    "eng": "Local authority child-care provision covers only a tiny minority of working mothers.",
+    "chn": "地方政府提供的儿童保育服务只惠及了极少数上班族母亲们。"
   },
   "miracle": {
     "eng": "It is a miracle no one was killed.",
@@ -3019,33 +3023,33 @@
     "eng": "I see I was mistaken about you.",
     "chn": "我明白我错看了你。"
   },
-  "motto": {
-    "eng": "\"Stay true to yourself\" has always been his motto.",
-    "chn": "“忠于自己”一直是他的座右铭。"
-  },
-  "million": {
-    "eng": "Up to five million people a year visit the county.",
-    "chn": "每年多达500万人到这个县游览。"
+  "mix": {
+    "eng": "Oil and water don't mix.",
+    "chn": "油与水无法混合。"
   },
   "mixture": {
     "eng": "They looked at him with a mixture of horror, envy, and awe.",
     "chn": "他们带着害怕、羡慕和敬畏的混合表情看着他。"
   },
-  "mix": {
-    "eng": "Oil and water don't mix.",
-    "chn": "油与水无法混合。"
+  "model": {
+    "eng": "...an architect's model of a wooden house.",
+    "chn": "…一名建筑师的木屋模型。"
   },
   "moment": {
     "eng": "In a moment he was gone.",
     "chn": "不一会儿他就不见了。"
   },
-  "model": {
-    "eng": "...an architect's model of a wooden house.",
-    "chn": "…一名建筑师的木屋模型。"
+  "month": {
+    "eng": "The trial is due to begin next month.",
+    "chn": "审判定于下个月开始。"
   },
   "moral": {
     "eng": "...Western ideas and morals.",
     "chn": "…西方的思想和道德。"
+  },
+  "motto": {
+    "eng": "\"Stay true to yourself\" has always been his motto.",
+    "chn": "“忠于自己”一直是他的座右铭。"
   },
   "mountain": {
     "eng": "Mt. McKinley, in Alaska, is the highest mountain in North America.",
@@ -3055,65 +3059,61 @@
     "eng": "She clamped her hand against her mouth.",
     "chn": "她用手紧紧捂住嘴。"
   },
-  "myth": {
-    "eng": "There is a famous Greek myth in which Icarus flew too near to the Sun.",
-    "chn": "一个著名的希腊神话中说，伊卡洛斯飞得离太阳太近了。"
-  },
   "musician": {
     "eng": "He was a brilliant musician.",
     "chn": "他曾是一位出色的音乐家。"
   },
-  "nearby": {
-    "eng": "He might easily have been seen by someone who lived nearby.",
-    "chn": "他可能很容易被住在附近的人看到。"
-  },
-  "month": {
-    "eng": "The trial is due to begin next month.",
-    "chn": "审判定于下个月开始。"
-  },
-  "nation": {
-    "eng": "Such policies would require unprecedented cooperation between nations.",
-    "chn": "这样的一些政策会要求国与国之间前所未有的合作。"
-  },
-  "narrow": {
-    "eng": "...through the town's narrow streets.",
-    "chn": "…穿过小镇狭窄的街道。"
-  },
-  "necessity": {
-    "eng": "There is agreement on the necessity of reforms.",
-    "chn": "关于改革的必要性有一致意见。"
+  "myth": {
+    "eng": "There is a famous Greek myth in which Icarus flew too near to the Sun.",
+    "chn": "一个著名的希腊神话中说，伊卡洛斯飞得离太阳太近了。"
   },
   "name": {
     "eng": "\"What's his name?\"—\"Peter.\"",
     "chn": "“他叫什么名字？”—“彼得。”"
   },
-  "northern": {
-    "eng": "Their two children were immigrants to Northern Ireland from Pennsylvania.",
-    "chn": "他们的两个孩子是从宾夕法尼亚到北爱尔兰的移民。"
+  "narrow": {
+    "eng": "...through the town's narrow streets.",
+    "chn": "…穿过小镇狭窄的街道。"
+  },
+  "nation": {
+    "eng": "Such policies would require unprecedented cooperation between nations.",
+    "chn": "这样的一些政策会要求国与国之间前所未有的合作。"
   },
   "native": {
     "eng": "It was his first visit to his native country since 1948.",
     "chn": "这是1948年以来他首次访问祖国。"
   },
-  "neighborhood": {
-    "eng": "Our neighborhood is so dirty.",
-    "chn": "我们的社区太脏了。"
+  "nearby": {
+    "eng": "He might easily have been seen by someone who lived nearby.",
+    "chn": "他可能很容易被住在附近的人看到。"
   },
-  "newspaper": {
-    "eng": "He was carrying a newspaper.",
-    "chn": "他正拿着一份报纸。"
+  "necessity": {
+    "eng": "There is agreement on the necessity of reforms.",
+    "chn": "关于改革的必要性有一致意见。"
   },
   "negotiate": {
     "eng": "It is not clear whether the president is willing to negotiate with the Democrats.",
     "chn": "尚不清楚总统是否愿意与民主党人进行谈判。"
   },
-  "nice": {
-    "eng": "I think silk ties can be quite nice.",
-    "chn": "我觉得真丝领带会非常好看。"
+  "neighborhood": {
+    "eng": "Our neighborhood is so dirty.",
+    "chn": "我们的社区太脏了。"
   },
   "nervous": {
     "eng": "The party has become deeply nervous about its prospects of winning the next election.",
     "chn": "该党对其赢得下一届大选的前景极其紧张。"
+  },
+  "newspaper": {
+    "eng": "He was carrying a newspaper.",
+    "chn": "他正拿着一份报纸。"
+  },
+  "nice": {
+    "eng": "I think silk ties can be quite nice.",
+    "chn": "我觉得真丝领带会非常好看。"
+  },
+  "northern": {
+    "eng": "Their two children were immigrants to Northern Ireland from Pennsylvania.",
+    "chn": "他们的两个孩子是从宾夕法尼亚到北爱尔兰的移民。"
   },
   "novel": {
     "eng": "...a novel by Herman Hesse.",
@@ -3131,17 +3131,17 @@
     "eng": "There were over 40 tenants, all occupying one wing of the building.",
     "chn": "有40多位房客，都住在该大楼的一翼。"
   },
-  "organic": {
-    "eng": "Organic farming is expanding everywhere.",
-    "chn": "有机农业在各处发展。"
+  "offend": {
+    "eng": "In the great effort not to offend, we end up saying nothing.",
+    "chn": "为了尽量不冒犯人，我们最终什么也没说。"
   },
   "offer": {
     "eng": "The number of companies offering them work increased.",
     "chn": "给他们提供工作的公司的数量增多了。"
   },
-  "option": {
-    "eng": "Criminals are given the option of going to jail or facing public humiliation.",
-    "chn": "罪犯们被给予进监狱或面对公众羞辱的选择权。"
+  "once": {
+    "eng": "I met Miquela once, briefly.",
+    "chn": "我见过蜜凯拉一次，时间很短。"
   },
   "open": {
     "eng": "He opened the window and looked out.",
@@ -3155,61 +3155,53 @@
     "eng": "I had an opportunity to go to New York and study.",
     "chn": "我曾有过一个去纽约学习的机会。"
   },
-  "offend": {
-    "eng": "In the great effort not to offend, we end up saying nothing.",
-    "chn": "为了尽量不冒犯人，我们最终什么也没说。"
-  },
   "opposite": {
     "eng": "Jennie had sat opposite her at breakfast.",
     "chn": "吃早餐时，珍妮已坐在她的对面。"
   },
-  "once": {
-    "eng": "I met Miquela once, briefly.",
-    "chn": "我见过蜜凯拉一次，时间很短。"
-  },
-  "ordinary": {
-    "eng": "I strongly suspect that most ordinary people would agree with me.",
-    "chn": "我强烈地感到大多数普通老百姓会赞同我。"
-  },
-  "organize": {
-    "eng": "In the end, we all decided to organize a concert for Easter.",
-    "chn": "最后，我们一致决定为复活节组织一场音乐会。"
-  },
-  "orange": {
-    "eng": "...men in bright orange uniforms.",
-    "chn": "…身穿鲜艳橙色制服的男人们。"
+  "option": {
+    "eng": "Criminals are given the option of going to jail or facing public humiliation.",
+    "chn": "罪犯们被给予进监狱或面对公众羞辱的选择权。"
   },
   "optional": {
     "eng": "Certain courses are compulsory, others are optional.",
     "chn": "某些课程是必修的，其他是选修的。"
   },
+  "orange": {
+    "eng": "...men in bright orange uniforms.",
+    "chn": "…身穿鲜艳橙色制服的男人们。"
+  },
+  "ordinary": {
+    "eng": "I strongly suspect that most ordinary people would agree with me.",
+    "chn": "我强烈地感到大多数普通老百姓会赞同我。"
+  },
+  "organic": {
+    "eng": "Organic farming is expanding everywhere.",
+    "chn": "有机农业在各处发展。"
+  },
   "organization": {
     "eng": "Most of the food for the homeless is provided by voluntary organizations.",
     "chn": "给无家可归者的大部分食物是由志愿组织提供的。"
+  },
+  "organize": {
+    "eng": "In the end, we all decided to organize a concert for Easter.",
+    "chn": "最后，我们一致决定为复活节组织一场音乐会。"
   },
   "origin": {
     "eng": "...theories about the origin of life.",
     "chn": "…有关生命起源的各种理论。"
   },
-  "outdoors": {
-    "eng": "It was warm enough to be outdoors all afternoon.",
-    "chn": "天气暖洋洋的，整个下午都可以在户外。"
-  },
-  "ourselves": {
-    "eng": "We sat around the fire to keep ourselves warm.",
-    "chn": "我们围火而坐取暖。"
+  "original": {
+    "eng": "The original plan was to go by bus.",
+    "chn": "起初的计划是乘公交车去。"
   },
   "otherwise": {
     "eng": "I'm lucky that I'm interested in school work, otherwise I'd go crazy.",
     "chn": "幸好我对学校作业还感兴趣，不然会疯的。"
   },
-  "original": {
-    "eng": "The original plan was to go by bus.",
-    "chn": "起初的计划是乘公交车去。"
-  },
-  "output": {
-    "eng": "Government statistics show the largest drop in industrial output for ten years.",
-    "chn": "政府的统计数字显示出10年来工业产量最大幅度的下降。"
+  "ourselves": {
+    "eng": "We sat around the fire to keep ourselves warm.",
+    "chn": "我们围火而坐取暖。"
   },
   "outcome": {
     "eng": "Mr. Singh said he was pleased with the outcome.",
@@ -3219,77 +3211,85 @@
     "eng": "If you enjoy outdoor activities, this is the trip for you.",
     "chn": "如果你喜欢户外活动，那么这个旅行适合你。"
   },
-  "overlook": {
-    "eng": "Pretty and comfortable rooms overlook a flower-filled garden.",
-    "chn": "那些漂亮、舒适的房间俯瞰着一个花团锦簇的花园。"
+  "outdoors": {
+    "eng": "It was warm enough to be outdoors all afternoon.",
+    "chn": "天气暖洋洋的，整个下午都可以在户外。"
+  },
+  "output": {
+    "eng": "Government statistics show the largest drop in industrial output for ten years.",
+    "chn": "政府的统计数字显示出10年来工业产量最大幅度的下降。"
   },
   "overcome": {
     "eng": "Molly had fought and overcome her fear of flying.",
     "chn": "莫莉经过努力克服了对飞行的恐惧。"
   },
-  "pace": {
-    "eng": "Many people were not satisfied with the pace of change.",
-    "chn": "许多人都不满意变化的速度。"
+  "overlook": {
+    "eng": "Pretty and comfortable rooms overlook a flower-filled garden.",
+    "chn": "那些漂亮、舒适的房间俯瞰着一个花团锦簇的花园。"
   },
   "owner": {
     "eng": "The owner of the shop was sweeping his floor when I walked in.",
     "chn": "我走进去的时候店主正在扫地。"
   },
-  "page": {
-    "eng": "Take out your book and turn to page 4.",
-    "chn": "拿出你的书，翻到第4页。"
-  },
-  "panic": {
-    "eng": "There was a moment of panic as it became clear just how vulnerable the nation was.",
-    "chn": "随着国家如此脆弱变得明显，出现了一阵恐慌局面。"
+  "pace": {
+    "eng": "Many people were not satisfied with the pace of change.",
+    "chn": "许多人都不满意变化的速度。"
   },
   "pack": {
     "eng": "When I was 17, I packed my bags and left home.",
     "chn": "在我17岁的时候，打起行囊离开了家。"
   },
+  "page": {
+    "eng": "Take out your book and turn to page 4.",
+    "chn": "拿出你的书，翻到第4页。"
+  },
   "painter": {
     "eng": "...the French painter Claude Monet.",
     "chn": "…法国画家克劳德·莫奈。"
   },
-  "park": {
-    "eng": "...Central Park.",
-    "chn": "...中央公园。"
+  "panic": {
+    "eng": "There was a moment of panic as it became clear just how vulnerable the nation was.",
+    "chn": "随着国家如此脆弱变得明显，出现了一阵恐慌局面。"
   },
   "paper": {
     "eng": "He wrote his name down on a piece of paper for me.",
     "chn": "他把他的名字写在一张纸上给我。"
   },
-  "participate": {
-    "eng": "They expected him to participate in the ceremony.",
-    "chn": "他们希望他参加这个典礼。"
+  "paragraph": {
+    "eng": "The length of a paragraph depends on the information it conveys.",
+    "chn": "段落的长度取决于它传达的信息。"
   },
   "parent": {
     "eng": "Children need their parents.",
     "chn": "孩子们需要父母。"
   },
+  "park": {
+    "eng": "...Central Park.",
+    "chn": "...中央公园。"
+  },
+  "participate": {
+    "eng": "They expected him to participate in the ceremony.",
+    "chn": "他们希望他参加这个典礼。"
+  },
   "partner": {
     "eng": "Wanting other friends doesn't mean you don't love your partner.",
     "chn": "需要其他朋友并不意味着你不爱你的伴侣。"
-  },
-  "pause": {
-    "eng": "\"It's rather embarrassing,\" he began, and paused.",
-    "chn": "“这很让人尴尬，” 他开始说道，又停顿了片刻。"
-  },
-  "paragraph": {
-    "eng": "The length of a paragraph depends on the information it conveys.",
-    "chn": "段落的长度取决于它传达的信息。"
   },
   "pass": {
     "eng": "As she passed the library door, the telephone began to ring.",
     "chn": "她经过图书馆门口时，电话开始响铃了。"
   },
+  "passion": {
+    "eng": "...my passion for a dark-haired, slender boy named Josh.",
+    "chn": "…我对一个黑头发、身材修长名叫乔希的男孩的强烈的情欲。"
+  },
   "patient": {
     "eng": "The earlier the treatment is given, the better the patient's chances.",
     "chn": "治疗给得越早，病人机遇越好。"
   },
-  "passion": {
-    "eng": "...my passion for a dark-haired, slender boy named Josh.",
-    "chn": "…我对一个黑头发、身材修长名叫乔希的男孩的强烈的情欲。"
+  "pause": {
+    "eng": "\"It's rather embarrassing,\" he began, and paused.",
+    "chn": "“这很让人尴尬，” 他开始说道，又停顿了片刻。"
   },
   "payment": {
     "eng": "He had sought to obtain payment of a sum which he had claimed was owed to him.",
@@ -3303,17 +3303,25 @@
     "eng": "The firm has slashed its workforce from a peak of 150,000 in 2000.",
     "chn": "2000年那家公司把其员工从15万峰值进行了大幅裁减。"
   },
-  "per": {
-    "eng": "...$6 per week for lunch.",
-    "chn": "…每周$6吃午饭。"
-  },
   "peer": {
     "eng": "I had been peering at a computer print-out that made no sense at all.",
     "chn": "我一直在费力地看一份不知所云的电脑打印稿。"
   },
+  "pen": {
+    "eng": "I really intended to pen this letter to you early this morning.",
+    "chn": "我本来真的打算今天一大早就给你撰写这封信的。"
+  },
   "pepper": {
     "eng": "Season with salt and pepper.",
     "chn": "用盐和胡椒调味。"
+  },
+  "per": {
+    "eng": "...$6 per week for lunch.",
+    "chn": "…每周$6吃午饭。"
+  },
+  "perceive": {
+    "eng": "Students must perceive for themselves the relationship between success and effort.",
+    "chn": "学生们必须自己去认识到成功与努力之间的关系。"
   },
   "percent": {
     "eng": "Crime has gone down 70 percent.",
@@ -3323,29 +3331,17 @@
     "eng": "He spoke perfect English.",
     "chn": "他讲一口纯正的英语。"
   },
-  "perceive": {
-    "eng": "Students must perceive for themselves the relationship between success and effort.",
-    "chn": "学生们必须自己去认识到成功与努力之间的关系。"
-  },
-  "pen": {
-    "eng": "I really intended to pen this letter to you early this morning.",
-    "chn": "我本来真的打算今天一大早就给你撰写这封信的。"
-  },
-  "perhaps": {
-    "eng": "In the end they lose millions, perhaps billions.",
-    "chn": "最终他们损失了数百万，也许数亿。"
-  },
   "perform": {
     "eng": "His council had had to perform miracles on a tiny budget.",
     "chn": "他的委员会不得不靠一笔微薄的预算来创造奇迹。"
   },
-  "personality": {
-    "eng": "She has such a kind, friendly personality.",
-    "chn": "她有着如此友善的性格。"
+  "performance": {
+    "eng": "Inside the theatre, they were giving a performance of Bizet's Carmen.",
+    "chn": "他们正在剧院里演出比才的《卡门》。"
   },
-  "pest": {
-    "eng": "...crops which are resistant to some of the major insect pests and diseases.",
-    "chn": "…能抵抗一些主要病虫害的庄稼。"
+  "perhaps": {
+    "eng": "In the end they lose millions, perhaps billions.",
+    "chn": "最终他们损失了数百万，也许数亿。"
   },
   "permission": {
     "eng": "He asked permission to leave the room.",
@@ -3355,17 +3351,25 @@
     "eng": "He learned this lesson the hard way – from his own personal experience.",
     "chn": "他惨痛地得到了这一教训–从他自己的亲身经历中得来的。"
   },
+  "personality": {
+    "eng": "She has such a kind, friendly personality.",
+    "chn": "她有着如此友善的性格。"
+  },
+  "pest": {
+    "eng": "...crops which are resistant to some of the major insect pests and diseases.",
+    "chn": "…能抵抗一些主要病虫害的庄稼。"
+  },
   "pet": {
     "eng": "It is plainly cruel to keep turtles as pets.",
     "chn": "把海龟当宠物养显然是残忍的。"
   },
-  "performance": {
-    "eng": "Inside the theatre, they were giving a performance of Bizet's Carmen.",
-    "chn": "他们正在剧院里演出比才的《卡门》。"
-  },
   "petroleum": {
     "eng": "If the organic material decays or is oxidized, it will not form petroleum.",
     "chn": "如果有机物腐烂或氧化，它不会形成石油。"
+  },
+  "pick": {
+    "eng": "Mr. Nowell had picked ten people to interview for six sales jobs in Dallas.",
+    "chn": "诺埃尔先生为在达拉斯的六个销售职位挑选了十人进行面试。"
   },
   "picnic": {
     "eng": "We're going on a picnic tomorrow.",
@@ -3375,6 +3379,10 @@
     "eng": "...drawing a small picture with coloured chalk.",
     "chn": "…用彩色粉笔画一幅小画。"
   },
+  "piece": {
+    "eng": "...a piece of cake.",
+    "chn": "…一块蛋糕。"
+  },
   "pig": {
     "eng": "...the grunting of the pigs.",
     "chn": "…猪的哼哼声。"
@@ -3383,125 +3391,121 @@
     "eng": "...a pile of sand.",
     "chn": "…一堆沙子。"
   },
-  "piece": {
-    "eng": "...a piece of cake.",
-    "chn": "…一块蛋糕。"
-  },
-  "pick": {
-    "eng": "Mr. Nowell had picked ten people to interview for six sales jobs in Dallas.",
-    "chn": "诺埃尔先生为在达拉斯的六个销售职位挑选了十人进行面试。"
-  },
-  "playmate": {
-    "eng": "The young girl loved to play with her playmates.",
-    "chn": "这个小女孩喜欢和她的玩伴们一起玩。"
-  },
-  "player": {
-    "eng": "...his greatness as a player.",
-    "chn": "…他作为运动员的伟大。"
-  },
-  "plant": {
-    "eng": "Water each plant as often as required.",
-    "chn": "按要求经常给每棵植物浇水。"
-  },
-  "planet": {
-    "eng": "The picture shows six of the nine planets in the solar system.",
-    "chn": "这张图片展示太阳系9个行星中的6个行星。"
-  },
   "pill": {
     "eng": "Why do I have to take all these pills?",
     "chn": "我为什么非得全部吃了这些药丸？"
-  },
-  "pleasure": {
-    "eng": "Watching sports gave him great pleasure.",
-    "chn": "观看体育运动带给他极大的愉悦。"
-  },
-  "plastic": {
-    "eng": "...a wooden crate, sheltered from rain by sheets of plastic.",
-    "chn": "…一只板条木箱，用塑料膜盖着遮雨。"
-  },
-  "plot": {
-    "eng": "Security forces have uncovered a plot to overthrow the government.",
-    "chn": "安全部队已经揭穿了一个推翻政府的阴谋。"
-  },
-  "pleasant": {
-    "eng": "I've got a pleasant little apartment.",
-    "chn": "我有一套舒适的小公寓。"
   },
   "pink": {
     "eng": "...pink lipstick.",
     "chn": "…粉红色口红。"
   },
+  "planet": {
+    "eng": "The picture shows six of the nine planets in the solar system.",
+    "chn": "这张图片展示太阳系9个行星中的6个行星。"
+  },
+  "plant": {
+    "eng": "Water each plant as often as required.",
+    "chn": "按要求经常给每棵植物浇水。"
+  },
+  "plastic": {
+    "eng": "...a wooden crate, sheltered from rain by sheets of plastic.",
+    "chn": "…一只板条木箱，用塑料膜盖着遮雨。"
+  },
+  "player": {
+    "eng": "...his greatness as a player.",
+    "chn": "…他作为运动员的伟大。"
+  },
+  "playmate": {
+    "eng": "The young girl loved to play with her playmates.",
+    "chn": "这个小女孩喜欢和她的玩伴们一起玩。"
+  },
+  "pleasant": {
+    "eng": "I've got a pleasant little apartment.",
+    "chn": "我有一套舒适的小公寓。"
+  },
+  "pleasure": {
+    "eng": "Watching sports gave him great pleasure.",
+    "chn": "观看体育运动带给他极大的愉悦。"
+  },
+  "plot": {
+    "eng": "Security forces have uncovered a plot to overthrow the government.",
+    "chn": "安全部队已经揭穿了一个推翻政府的阴谋。"
+  },
   "politician": {
     "eng": "They have arrested a number of leading opposition politicians.",
     "chn": "他们已经逮捕了一些主要的反对党政治家。"
-  },
-  "pool": {
-    "eng": "...a heated indoor pool.",
-    "chn": "…一个室内温水游泳池。"
   },
   "pollution": {
     "eng": "The fine was for the company's pollution of the air near its plants.",
     "chn": "公司被罚款是因为它的工厂污染了周围的空气。"
   },
+  "pool": {
+    "eng": "...a heated indoor pool.",
+    "chn": "…一个室内温水游泳池。"
+  },
   "population": {
     "eng": "Bangladesh now has a population of about 110 million.",
     "chn": "孟加拉国现有约一亿一千万人口。"
-  },
-  "potato": {
-    "eng": "...a political hot potato such as abortion.",
-    "chn": "…像堕胎这样的政治性烫手山芋。"
   },
   "portion": {
     "eng": "Damage was confined to a small portion of the castle.",
     "chn": "城堡仅有一小部分受到了损坏。"
   },
-  "pound": {
-    "eng": "Her weight was under ninety pounds.",
-    "chn": "她的体重不足90磅。"
-  },
   "position": {
     "eng": "The ship was identified, and its name and position were reported to the Coast Guard.",
     "chn": "该轮船的身份已得到确认，其名称和位置已报告给了海岸警卫队。"
-  },
-  "possession": {
-    "eng": "Those documents are now in the possession of the Washington Post.",
-    "chn": "那些文件现在归《华盛顿邮报》所有。"
-  },
-  "practice": {
-    "eng": "She was taking all three of her daughters to basketball practice every day.",
-    "chn": "她那时每天带她的3个女儿去进行篮球训练。"
-  },
-  "power": {
-    "eng": "In a democracy, power must be divided.",
-    "chn": "在民主政体中，权力必须被分散。"
   },
   "positive": {
     "eng": "Be positive about your future and get on with living a normal life.",
     "chn": "要积极面对未来，习惯过一种平常生活。"
   },
-  "predict": {
-    "eng": "The latest opinion polls are predicting a very close contest.",
-    "chn": "最新的民意测验预言将是一场势均力敌的竞赛。"
-  },
   "possess": {
     "eng": "He was then arrested and charged with possessing an offensive weapon.",
     "chn": "他之后被逮捕了并被指控拥有攻击性武器。"
+  },
+  "possession": {
+    "eng": "Those documents are now in the possession of the Washington Post.",
+    "chn": "那些文件现在归《华盛顿邮报》所有。"
+  },
+  "potato": {
+    "eng": "...a political hot potato such as abortion.",
+    "chn": "…像堕胎这样的政治性烫手山芋。"
+  },
+  "pound": {
+    "eng": "Her weight was under ninety pounds.",
+    "chn": "她的体重不足90磅。"
+  },
+  "power": {
+    "eng": "In a democracy, power must be divided.",
+    "chn": "在民主政体中，权力必须被分散。"
+  },
+  "practice": {
+    "eng": "She was taking all three of her daughters to basketball practice every day.",
+    "chn": "她那时每天带她的3个女儿去进行篮球训练。"
   },
   "praise": {
     "eng": "The American president praised Turkey for its courage.",
     "chn": "美国总统称赞了土耳其的勇气。"
   },
-  "prescription": {
-    "eng": "The new drug will not require a physician's prescription.",
-    "chn": "这种新药不需要医生的处方。"
-  },
-  "preserve": {
-    "eng": "We will do everything to preserve peace.",
-    "chn": "我们将竭尽全力维护和平。"
+  "predict": {
+    "eng": "The latest opinion polls are predicting a very close contest.",
+    "chn": "最新的民意测验预言将是一场势均力敌的竞赛。"
   },
   "prepare": {
     "eng": "Two technicians were preparing a videotape recording of last week's programme.",
     "chn": "两名技师正在准备上周节目的录像。"
+  },
+  "prescription": {
+    "eng": "The new drug will not require a physician's prescription.",
+    "chn": "这种新药不需要医生的处方。"
+  },
+  "present": {
+    "eng": "He has brought much of the present crisis on himself.",
+    "chn": "他目前的危机大多是他自己造成的。"
+  },
+  "preserve": {
+    "eng": "We will do everything to preserve peace.",
+    "chn": "我们将竭尽全力维护和平。"
   },
   "president": {
     "eng": "...President Mubarak.",
@@ -3511,9 +3515,21 @@
     "eng": "...the sense of pride in a job well done.",
     "chn": "…因一项工作完成得很好而感到的自豪。"
   },
-  "present": {
-    "eng": "He has brought much of the present crisis on himself.",
-    "chn": "他目前的危机大多是他自己造成的。"
+  "primary": {
+    "eng": "That's the primary reason the company's share price has held up so well.",
+    "chn": "这就是那家公司的股票价格一直保持得这么好的首要原因。"
+  },
+  "private": {
+    "eng": "...a joint venture with private industry.",
+    "chn": "…一个与私有企业合资的企业。"
+  },
+  "prize": {
+    "eng": "You must claim your prize by telephoning our claims line.",
+    "chn": "你必须通过打我们的领奖热线来领取奖品。"
+  },
+  "procedure": {
+    "eng": "A biopsy is usually a minor surgical procedure.",
+    "chn": "活组织切除通常是一个较小的外科手术。"
   },
   "process": {
     "eng": "There was total agreement to start the peace process as soon as possible.",
@@ -3523,137 +3539,129 @@
     "eng": "The drug is known to produce side-effects in women.",
     "chn": "众所周知，这种药会在女性身上产生各种副作用。"
   },
-  "profession": {
-    "eng": "Harper was a teacher by profession.",
-    "chn": "哈珀的职业是教师。"
-  },
-  "prize": {
-    "eng": "You must claim your prize by telephoning our claims line.",
-    "chn": "你必须通过打我们的领奖热线来领取奖品。"
-  },
-  "primary": {
-    "eng": "That's the primary reason the company's share price has held up so well.",
-    "chn": "这就是那家公司的股票价格一直保持得这么好的首要原因。"
-  },
   "product": {
     "eng": "Try to get the best product at the lowest price.",
     "chn": "尽力以最低的价格买到最好的产品。"
-  },
-  "private": {
-    "eng": "...a joint venture with private industry.",
-    "chn": "…一个与私有企业合资的企业。"
   },
   "production": {
     "eng": "That model won't go into production before late 2007.",
     "chn": "那种型号要到2007年底才会投入生产。"
   },
-  "profile": {
-    "eng": "His handsome profile was turned away from us.",
-    "chn": "他英俊的侧面轮廓转离了我们。"
-  },
-  "procedure": {
-    "eng": "A biopsy is usually a minor surgical procedure.",
-    "chn": "活组织切除通常是一个较小的外科手术。"
-  },
-  "program": {
-    "eng": "Parents can program the machine not to turn on at certain times.",
-    "chn": "父母可设定机器在某些时候不启动。"
+  "profession": {
+    "eng": "Harper was a teacher by profession.",
+    "chn": "哈珀的职业是教师。"
   },
   "professional": {
     "eng": "His professional career started at Colgate University.",
     "chn": "他的职业生涯始于科尔盖特大学。"
   },
-  "promote": {
-    "eng": "You don't have to sacrifice environmental protection to promote economic growth.",
-    "chn": "你们没有必要牺牲环保来促进经济增长。"
-  },
-  "prosperous": {
-    "eng": "...the youngest son of a relatively prosperous family.",
-    "chn": "…一个相对富裕的家庭里的小儿子。"
-  },
-  "proper": {
-    "eng": "Two out of five people lack a proper job.",
-    "chn": "2/5的人缺乏一份像样的工作。"
-  },
-  "project": {
-    "eng": "Money will also go into local development projects in Vietnam.",
-    "chn": "资金也会流入越南本地开发项目。"
+  "profile": {
+    "eng": "His handsome profile was turned away from us.",
+    "chn": "他英俊的侧面轮廓转离了我们。"
   },
   "profit": {
     "eng": "The bank made pre-tax profits of $6.5 million.",
     "chn": "该银行获得了税前650万美元的利润。"
   },
-  "psychological": {
-    "eng": "John received constant physical and psychological abuse from his father.",
-    "chn": "约翰受到来自他父亲的不断的身心摧残。"
+  "program": {
+    "eng": "Parents can program the machine not to turn on at certain times.",
+    "chn": "父母可设定机器在某些时候不启动。"
   },
-  "protein": {
-    "eng": "Fish was a major source of protein for the working man.",
-    "chn": "鱼曾是劳动者获取蛋白质的主要来源。"
+  "project": {
+    "eng": "Money will also go into local development projects in Vietnam.",
+    "chn": "资金也会流入越南本地开发项目。"
   },
-  "publish": {
-    "eng": "They publish reference books.",
-    "chn": "他们出版参考书。"
+  "promote": {
+    "eng": "You don't have to sacrifice environmental protection to promote economic growth.",
+    "chn": "你们没有必要牺牲环保来促进经济增长。"
+  },
+  "proper": {
+    "eng": "Two out of five people lack a proper job.",
+    "chn": "2/5的人缺乏一份像样的工作。"
   },
   "properly": {
     "eng": "You're too thin. You're not eating properly.",
     "chn": "你太瘦了。你没有好好吃饭。"
   },
-  "pursue": {
-    "eng": "He said Japan would continue to pursue the policies laid down at the London summit.",
-    "chn": "他说日本将继续贯彻伦敦峰会上确定的方针。"
+  "prosperous": {
+    "eng": "...the youngest son of a relatively prosperous family.",
+    "chn": "…一个相对富裕的家庭里的小儿子。"
+  },
+  "protein": {
+    "eng": "Fish was a major source of protein for the working man.",
+    "chn": "鱼曾是劳动者获取蛋白质的主要来源。"
   },
   "provide": {
     "eng": "I'll be glad to provide a copy of this.",
     "chn": "我将很乐意提供这东西的一个副本。"
   },
-  "punish": {
-    "eng": "I don't believe that George ever had to punish the children.",
-    "chn": "我不相信乔治曾不得不惩罚这些孩子。"
+  "psychological": {
+    "eng": "John received constant physical and psychological abuse from his father.",
+    "chn": "约翰受到来自他父亲的不断的身心摧残。"
   },
-  "qualify": {
-    "eng": "We qualified for the final by beating Stanford on Tuesday.",
-    "chn": "我们在星期二击败了斯坦福队，取得了决赛资格。"
+  "publish": {
+    "eng": "They publish reference books.",
+    "chn": "他们出版参考书。"
   },
   "pull": {
     "eng": "They have pulled out patients' teeth unnecessarily.",
     "chn": "他们毫无必要地拔掉了病人的牙。"
   },
-  "queen": {
-    "eng": "...Queen Victoria.",
-    "chn": "…维多利亚女王。"
+  "punish": {
+    "eng": "I don't believe that George ever had to punish the children.",
+    "chn": "我不相信乔治曾不得不惩罚这些孩子。"
   },
-  "quit": {
-    "eng": "He quit his job as an office boy.",
-    "chn": "他辞去了办公室勤杂员的工作。"
-  },
-  "quality": {
-    "eng": "Everyone can greatly improve the quality of life.",
-    "chn": "人人都能大幅提高生活质量。"
+  "pursue": {
+    "eng": "He said Japan would continue to pursue the policies laid down at the London summit.",
+    "chn": "他说日本将继续贯彻伦敦峰会上确定的方针。"
   },
   "push": {
     "eng": "The woman pushed back her chair and stood up.",
     "chn": "那女人把椅子向后一推，站了起来。"
   },
-  "range": {
-    "eng": "A wide range of colours and patterns are available.",
-    "chn": "一系列各种各样的颜色和图案都有。"
+  "qualify": {
+    "eng": "We qualified for the final by beating Stanford on Tuesday.",
+    "chn": "我们在星期二击败了斯坦福队，取得了决赛资格。"
   },
-  "rat": {
-    "eng": "This was demonstrated in a laboratory experiment with rats.",
-    "chn": "这点通过在实验室中用老鼠做试验得到证明。"
+  "quality": {
+    "eng": "Everyone can greatly improve the quality of life.",
+    "chn": "人人都能大幅提高生活质量。"
+  },
+  "queen": {
+    "eng": "...Queen Victoria.",
+    "chn": "…维多利亚女王。"
+  },
+  "question": {
+    "eng": "They asked a lot of questions about China.",
+    "chn": "他们问了许多有关中国的问题。"
+  },
+  "quit": {
+    "eng": "He quit his job as an office boy.",
+    "chn": "他辞去了办公室勤杂员的工作。"
   },
   "raise": {
     "eng": "He raised his hand to wave.",
     "chn": "他举起手来挥动。"
   },
+  "range": {
+    "eng": "A wide range of colours and patterns are available.",
+    "chn": "一系列各种各样的颜色和图案都有。"
+  },
   "rarely": {
     "eng": "They battled against other Indian tribes, but rarely fought with the whites.",
     "chn": "他们与其他印第安部落交战，但很少与白人作战。"
   },
-  "question": {
-    "eng": "They asked a lot of questions about China.",
-    "chn": "他们问了许多有关中国的问题。"
+  "rat": {
+    "eng": "This was demonstrated in a laboratory experiment with rats.",
+    "chn": "这点通过在实验室中用老鼠做试验得到证明。"
+  },
+  "rate": {
+    "eng": "His pulse rate dropped suddenly.",
+    "chn": "他的脉搏速率突然下降。"
+  },
+  "reach": {
+    "eng": "He did not stop until he reached the door.",
+    "chn": "他到门口才停住。"
   },
   "react": {
     "eng": "They reacted violently to the news.",
@@ -3663,33 +3671,21 @@
     "eng": "Reaction to the visit is mixed.",
     "chn": "对这次访问的反应不一。"
   },
-  "reach": {
-    "eng": "He did not stop until he reached the door.",
-    "chn": "他到门口才停住。"
-  },
-  "rate": {
-    "eng": "His pulse rate dropped suddenly.",
-    "chn": "他的脉搏速率突然下降。"
+  "real": {
+    "eng": "No, it wasn't a dream. It was real.",
+    "chn": "不，那不是梦。它是真实的。"
   },
   "reality": {
     "eng": "Fiction and reality were increasingly blurred.",
     "chn": "小说与现实越来越混淆难分。"
   },
-  "real": {
-    "eng": "No, it wasn't a dream. It was real.",
-    "chn": "不，那不是梦。它是真实的。"
+  "really": {
+    "eng": "I'm very sorry. I really am.",
+    "chn": "我很抱歉。真的。"
   },
   "recent": {
     "eng": "In the most recent attack, one man was shot dead and two others were wounded.",
     "chn": "在最近的这次袭击中有1人被打死，另2人受伤。"
-  },
-  "refrigerator": {
-    "eng": "To put an elephant in the refrigerator,how many steps does it take?",
-    "chn": "请问把大象装进冰箱分几步？"
-  },
-  "red": {
-    "eng": "...a bunch of red roses.",
-    "chn": "…一束红色的玫瑰花。"
   },
   "recognize": {
     "eng": "The receptionist recognized him at once.",
@@ -3699,49 +3695,57 @@
     "eng": "He is recovering from a knee injury.",
     "chn": "他的膝伤正在痊愈。"
   },
-  "really": {
-    "eng": "I'm very sorry. I really am.",
-    "chn": "我很抱歉。真的。"
-  },
-  "reference": {
-    "eng": "They publish reference books.",
-    "chn": "他们出版参考书。"
+  "red": {
+    "eng": "...a bunch of red roses.",
+    "chn": "…一束红色的玫瑰花。"
   },
   "reduce": {
     "eng": "It reduces the risks of heart disease.",
     "chn": "它减小了犯心脏病的危险。"
   },
-  "regulation": {
-    "eng": "Some in the market now want government regulation in order to reduce costs.",
-    "chn": "市场上现在有人想要政府来管理以降低成本。"
-  },
-  "regardless": {
-    "eng": "It takes in anybody regardless of religion, colour, or creed.",
-    "chn": "这个组织接纳任何人，不管其宗教、肤色或信仰。"
-  },
-  "regular": {
-    "eng": "Get regular exercise.",
-    "chn": "定期进行锻炼。"
-  },
   "refer": {
     "eng": "In his speech, he referred to a recent trip to Canada.",
     "chn": "在他的讲话中，他提到了最近的加拿大之行。"
+  },
+  "reference": {
+    "eng": "They publish reference books.",
+    "chn": "他们出版参考书。"
+  },
+  "refrigerator": {
+    "eng": "To put an elephant in the refrigerator,how many steps does it take?",
+    "chn": "请问把大象装进冰箱分几步？"
   },
   "regard": {
     "eng": "He was regarded as the most successful president of modern times.",
     "chn": "他被看成是近代最成功的总统。"
   },
-  "reject": {
-    "eng": "His rejection of our values is far more complete than that of D. H. Lawrence.",
-    "chn": "他对于我们价值观的摈弃远比D. H.劳伦斯更彻底。"
-  },
-  "relax": {
-    "eng": "I ought to relax and stop worrying about it.",
-    "chn": "我应该放心，不再为它担忧。"
+  "regardless": {
+    "eng": "It takes in anybody regardless of religion, colour, or creed.",
+    "chn": "这个组织接纳任何人，不管其宗教、肤色或信仰。"
   },
   "region": {
     "eng": "...Barcelona, capital of the autonomous region of Catalonia.",
     "chn": "…巴塞罗那，加泰罗尼亚自治区的首府。"
+  },
+  "regular": {
+    "eng": "Get regular exercise.",
+    "chn": "定期进行锻炼。"
+  },
+  "regulation": {
+    "eng": "Some in the market now want government regulation in order to reduce costs.",
+    "chn": "市场上现在有人想要政府来管理以降低成本。"
+  },
+  "reject": {
+    "eng": "His rejection of our values is far more complete than that of D. H. Lawrence.",
+    "chn": "他对于我们价值观的摈弃远比D. H.劳伦斯更彻底。"
+  },
+  "relate": {
+    "eng": "Other recommendations relate to the details of how such data is stored.",
+    "chn": "其他建议与如何存储这种数据的一些细节有关。"
+  },
+  "related": {
+    "eng": "The philosophical problems of chance and of free will are closely related.",
+    "chn": "关于偶然性和自由意志的哲学问题是紧密相联的。"
   },
   "relationship": {
     "eng": "...the friendly relationship between France and Britain.",
@@ -3751,21 +3755,17 @@
     "eng": "Get a relative to look after the children.",
     "chn": "找个亲戚来照看这些孩子。"
   },
-  "related": {
-    "eng": "The philosophical problems of chance and of free will are closely related.",
-    "chn": "关于偶然性和自由意志的哲学问题是紧密相联的。"
-  },
-  "remain": {
-    "eng": "The three men remained silent.",
-    "chn": "这3个人保持沉默。"
-  },
-  "relate": {
-    "eng": "Other recommendations relate to the details of how such data is stored.",
-    "chn": "其他建议与如何存储这种数据的一些细节有关。"
+  "relax": {
+    "eng": "I ought to relax and stop worrying about it.",
+    "chn": "我应该放心，不再为它担忧。"
   },
   "rely": {
     "eng": "They relied heavily on the advice of their professional advisers.",
     "chn": "他们非常依赖专业顾问的建议。"
+  },
+  "remain": {
+    "eng": "The three men remained silent.",
+    "chn": "这3个人保持沉默。"
   },
   "remark": {
     "eng": "I remarked that I would go shopping that afternoon.",
@@ -3779,53 +3779,49 @@
     "eng": "So she simply welcomed Tim and reminded him of the last time they had met.",
     "chn": "因此她只是欢迎了蒂姆，让他想起他们上次的相遇。"
   },
-  "repair": {
-    "eng": "Goldsmith has repaired the roof to ensure the house is windproof.",
-    "chn": "戈德史密斯已经修理了房顶以确保房子可以抵御狂风。"
-  },
-  "reporter": {
-    "eng": "...a TV reporter.",
-    "chn": "…一名电视台记者。"
+  "remove": {
+    "eng": "As soon as the cake is done, remove it from the oven.",
+    "chn": "蛋糕一烤好，就把它从烤箱里移出来。"
   },
   "rent": {
     "eng": "She rents a house with three other girls.",
     "chn": "她和另外3个女孩合租了一套房子。"
   },
-  "represent": {
-    "eng": "...the politicians we elect to represent us.",
-    "chn": "…我们所选的代表我们的政治家。"
+  "repair": {
+    "eng": "Goldsmith has repaired the roof to ensure the house is windproof.",
+    "chn": "戈德史密斯已经修理了房顶以确保房子可以抵御狂风。"
   },
   "replace": {
     "eng": "One species of tree replaces another as a forest ages.",
     "chn": "随着森林老化，一种树会取代另一种树。"
   },
-  "resident": {
-    "eng": "Local resident groups have united in opposition to the plan.",
-    "chn": "当地居民团体已联合起来反对这项计划。"
+  "report": {
+    "eng": "I reported the theft to the police.",
+    "chn": "我向警察报告了这起盗窃案。"
   },
-  "require": {
-    "eng": "If you require further information, you should consult the registrar.",
-    "chn": "如果你需要进一步的信息，你应该向注册主任咨询。"
+  "reporter": {
+    "eng": "...a TV reporter.",
+    "chn": "…一名电视台记者。"
+  },
+  "represent": {
+    "eng": "...the politicians we elect to represent us.",
+    "chn": "…我们所选的代表我们的政治家。"
   },
   "request": {
     "eng": "Mr. Dennis said he had requested access to a telephone.",
     "chn": "丹尼斯先生说他已正式要求要能够使用一部电话。"
   },
+  "require": {
+    "eng": "If you require further information, you should consult the registrar.",
+    "chn": "如果你需要进一步的信息，你应该向注册主任咨询。"
+  },
+  "resident": {
+    "eng": "Local resident groups have united in opposition to the plan.",
+    "chn": "当地居民团体已联合起来反对这项计划。"
+  },
   "resolve": {
     "eng": "We must find a way to resolve these problems before it's too late.",
     "chn": "我们必须找到一个办法去解决这些问题,不然就太晚了。"
-  },
-  "report": {
-    "eng": "I reported the theft to the police.",
-    "chn": "我向警察报告了这起盗窃案。"
-  },
-  "respond": {
-    "eng": "They are likely to respond positively to the president's request for aid.",
-    "chn": "他们有可能积极地回应该总统的援助请求。"
-  },
-  "remove": {
-    "eng": "As soon as the cake is done, remove it from the oven.",
-    "chn": "蛋糕一烤好，就把它从烤箱里移出来。"
   },
   "resource": {
     "eng": "Some families don't have the resources to feed themselves adequately.",
@@ -3835,69 +3831,65 @@
     "eng": "I want him to respect me as a career woman.",
     "chn": "我要他把我作为一个职业女性来尊重。"
   },
-  "responsibility": {
-    "eng": "Each manager had responsibility for just under 600 properties.",
-    "chn": "每位经理对差一点不到六百处房产负责。"
-  },
-  "retire": {
-    "eng": "At the age when most people retire, he is ready to face a new career.",
-    "chn": "在大多数人退休的年纪，他准备要面对一项新事业。"
+  "respond": {
+    "eng": "They are likely to respond positively to the president's request for aid.",
+    "chn": "他们有可能积极地回应该总统的援助请求。"
   },
   "response": {
     "eng": "There has been no response to his remarks from the government.",
     "chn": "政府方面对他的评论一直没有反应。"
   },
-  "return": {
-    "eng": "There are unconfirmed reports that Aziz will return to Moscow within hours.",
-    "chn": "有未经证实的报道称阿齐兹将在数小时内返回莫斯科。"
-  },
-  "reward": {
-    "eng": "The company is just starting to reap the rewards of long-term investments.",
-    "chn": "这家公司正开始收获长期投资的回报。"
+  "responsibility": {
+    "eng": "Each manager had responsibility for just under 600 properties.",
+    "chn": "每位经理对差一点不到六百处房产负责。"
   },
   "responsible": {
     "eng": "He still felt responsible for her death.",
     "chn": "他依然觉得对她的死负有责任。"
   },
-  "revolution": {
-    "eng": "The period since the revolution has been one of political turmoil.",
-    "chn": "自革命以来的这一段时期是一个政治动荡的时期。"
+  "result": {
+    "eng": "Fifty percent of road accidents result in head injuries.",
+    "chn": "50%的公路交通事故致使头部受伤。"
+  },
+  "retire": {
+    "eng": "At the age when most people retire, he is ready to face a new career.",
+    "chn": "在大多数人退休的年纪，他准备要面对一项新事业。"
+  },
+  "return": {
+    "eng": "There are unconfirmed reports that Aziz will return to Moscow within hours.",
+    "chn": "有未经证实的报道称阿齐兹将在数小时内返回莫斯科。"
   },
   "reveal": {
     "eng": "She has refused to reveal the whereabouts of her daughter.",
     "chn": "她已拒绝透露她女儿的行踪。"
   },
-  "result": {
-    "eng": "Fifty percent of road accidents result in head injuries.",
-    "chn": "50%的公路交通事故致使头部受伤。"
+  "revolution": {
+    "eng": "The period since the revolution has been one of political turmoil.",
+    "chn": "自革命以来的这一段时期是一个政治动荡的时期。"
+  },
+  "reward": {
+    "eng": "The company is just starting to reap the rewards of long-term investments.",
+    "chn": "这家公司正开始收获长期投资的回报。"
   },
   "rid": {
     "eng": "The owner needs to get rid of the car for financial reasons.",
     "chn": "出于经济原因，车主需要处理掉这辆车。"
   },
-  "ritual": {
-    "eng": "This is the most ancient, and holiest of the Shinto rituals.",
-    "chn": "这是最古老、最神圣的神道教仪式。"
-  },
   "right": {
     "eng": "That's absolutely right.",
     "chn": "那是完全正确的。"
-  },
-  "risk": {
-    "eng": "There is a small risk of brain damage from the procedure.",
-    "chn": "存在该手术导致脑损伤的小风险。"
-  },
-  "roof": {
-    "eng": "...a small stone cottage with a red slate roof.",
-    "chn": "…一座有一个红石板屋顶的小石屋。"
   },
   "ring": {
     "eng": "As soon as he got home, the phone rang.",
     "chn": "他一到家，电话就响了。"
   },
-  "rouse": {
-    "eng": "Hilton roused him at eight-thirty by rapping on the door.",
-    "chn": "希尔顿8:30急促地敲门把他弄醒了。"
+  "risk": {
+    "eng": "There is a small risk of brain damage from the procedure.",
+    "chn": "存在该手术导致脑损伤的小风险。"
+  },
+  "ritual": {
+    "eng": "This is the most ancient, and holiest of the Shinto rituals.",
+    "chn": "这是最古老、最神圣的神道教仪式。"
   },
   "river": {
     "eng": "...a chemical plant on the banks of the river.",
@@ -3907,92 +3899,876 @@
     "eng": "The ball rolled into the net.",
     "chn": "球滚进了网。"
   },
+  "roof": {
+    "eng": "...a small stone cottage with a red slate roof.",
+    "chn": "…一座有一个红石板屋顶的小石屋。"
+  },
+  "rouse": {
+    "eng": "Hilton roused him at eight-thirty by rapping on the door.",
+    "chn": "希尔顿8:30急促地敲门把他弄醒了。"
+  },
   "row": {
     "eng": "...a row of pretty little cottages.",
     "chn": "…一排漂亮的小村舍。"
-  },
-  "sadness": {
-    "eng": "There was more than a hint of sadness in his voice.",
-    "chn": "他的声音中流露出了深切的悲伤。"
-  },
-  "rubbish": {
-    "eng": "It's not rubbish—it's true!",
-    "chn": "这不是瞎说—是真的！"
-  },
-  "sacrifice": {
-    "eng": "The priest sacrificed a chicken.",
-    "chn": "牧师献祭了一只鸡。"
   },
   "rub": {
     "eng": "He rubbed his arms and stiff legs.",
     "chn": "他揉了揉他的两条胳膊和两条僵硬的腿。"
   },
-  "sail": {
-    "eng": "The white sails billow with the breezes they catch.",
-    "chn": "片片白帆随风扬起。"
-  },
-  "safety": {
-    "eng": "The report goes on to make a number of recommendations to improve safety on aircraft.",
-    "chn": "该报告接着提出了几点建议来加强飞行安全。"
+  "rubbish": {
+    "eng": "It's not rubbish—it's true!",
+    "chn": "这不是瞎说—是真的！"
   },
   "rule": {
     "eng": "...a thirty-two-page pamphlet explaining the rules of basketball.",
     "chn": "…一本说明篮球规则的32页的小册子。"
   },
-  "salad": {
-    "eng": "...a salad of tomato, onion and cucumber.",
-    "chn": "…一份番茄、洋葱和黄瓜色拉。"
+  "sacrifice": {
+    "eng": "The priest sacrificed a chicken.",
+    "chn": "牧师献祭了一只鸡。"
+  },
+  "sadness": {
+    "eng": "There was more than a hint of sadness in his voice.",
+    "chn": "他的声音中流露出了深切的悲伤。"
+  },
+  "safety": {
+    "eng": "The report goes on to make a number of recommendations to improve safety on aircraft.",
+    "chn": "该报告接着提出了几点建议来加强飞行安全。"
+  },
+  "sail": {
+    "eng": "The white sails billow with the breezes they catch.",
+    "chn": "片片白帆随风扬起。"
   },
   "sailing": {
     "eng": "There was swimming and sailing down on the lake.",
     "chn": "湖上有游泳的和驾船的。"
   },
+  "sailor": {
+    "eng": "...sailors, marines and Coast Guard personnel.",
+    "chn": "…船员们、海军陆战队士兵们和海岸警卫队人员。"
+  },
+  "salad": {
+    "eng": "...a salad of tomato, onion and cucumber.",
+    "chn": "…一份番茄、洋葱和黄瓜色拉。"
+  },
   "sale": {
     "eng": "Efforts were made to limit the sale of alcohol.",
     "chn": "做出努力来限制酒的销售。"
-  },
-  "sandwich": {
-    "eng": "...a ham sandwich.",
-    "chn": "…一个火腿三明治。"
-  },
-  "sample": {
-    "eng": "You'll receive samples of paint, curtains and upholstery.",
-    "chn": "你将收到涂料、窗帘和座套的样品。"
   },
   "salt": {
     "eng": "Season lightly with salt and pepper.",
     "chn": "用盐和胡椒稍微调一下味。"
   },
-  "sailor": {
-    "eng": "...sailors, marines and Coast Guard personnel.",
-    "chn": "…船员们、海军陆战队士兵们和海岸警卫队人员。"
+  "sample": {
+    "eng": "You'll receive samples of paint, curtains and upholstery.",
+    "chn": "你将收到涂料、窗帘和座套的样品。"
   },
-  "scarce": {
-    "eng": "Food was scarce and expensive.",
-    "chn": "食物匮乏而且昂贵。"
-  },
-  "saving": {
-    "eng": "You can enjoy a year's membership for just $28 – a saving of $7 off the regular rate.",
-    "chn": "你只需花$28就可以享受一年的会员资格–比正常会费节省了$7。"
+  "sandwich": {
+    "eng": "...a ham sandwich.",
+    "chn": "…一个火腿三明治。"
   },
   "satisfaction": {
     "eng": "She felt a small glow of satisfaction.",
     "chn": "她感到了一丝满足的喜悦。"
   },
+  "satisfy": {
+    "eng": "The pace of change has not been quick enough to satisfy everyone.",
+    "chn": "变化的速度还没有快到让所有人都满意。"
+  },
+  "saving": {
+    "eng": "You can enjoy a year's membership for just $28 – a saving of $7 off the regular rate.",
+    "chn": "你只需花$28就可以享受一年的会员资格–比正常会费节省了$7。"
+  },
+  "saw": {
+    "eng": "He escaped by sawing through the bars of his cell.",
+    "chn": "他锯断牢房的铁栅逃跑了。"
+  },
+  "scarce": {
+    "eng": "Food was scarce and expensive.",
+    "chn": "食物匮乏而且昂贵。"
+  },
   "scare": {
     "eng": "You're scaring me.",
     "chn": "你吓着我了。"
   },
-  "scientific": {
-    "eng": "...the use of animals in scientific experiments.",
-    "chn": "…科学实验中对动物的使用。"
+  "scenery": {
+    "eng": "...the island's spectacular scenery.",
+    "chn": "…岛上壮美的景色。"
   },
   "schedule": {
     "eng": "He has been forced to adjust his schedule.",
     "chn": "他已被迫调整了日程安排。"
   },
-  "satisfy": {
-    "eng": "The pace of change has not been quick enough to satisfy everyone.",
-    "chn": "变化的速度还没有快到让所有人都满意。"
+  "scientific": {
+    "eng": "...the use of animals in scientific experiments.",
+    "chn": "…科学实验中对动物的使用。"
+  },
+  "score": {
+    "eng": "Patten scored his second touchdown of the game.",
+    "chn": "帕顿在比赛中第2次持球触地得分。"
+  },
+  "sea": {
+    "eng": "Most of the kids have never seen the sea.",
+    "chn": "这些孩子中的大多数从没见过大海。"
+  },
+  "search": {
+    "eng": "The Turkish security forces have started searching for the missing men.",
+    "chn": "土耳其安全部队已经开始搜寻失踪人员。"
+  },
+  "season": {
+    "eng": "Autumn is my favourite season.",
+    "chn": "秋季是我最喜欢的季节。"
+  },
+  "secondary": {
+    "eng": "They argue that human rights considerations are now of only secondary importance.",
+    "chn": "他们争辩说人权考虑现在只是次要的。"
+  },
+  "secret": {
+    "eng": "Soldiers have been training at a secret location.",
+    "chn": "士兵们一直在一个秘密的地方训练。"
+  },
+  "section": {
+    "eng": "He said it was wrong to single out any section of society for AIDS testing.",
+    "chn": "他说挑出社会任何一部份人做艾滋病检查都是错误的。"
+  },
+  "seem": {
+    "eng": "The explosions seemed quite close by.",
+    "chn": "爆炸似乎就在近旁。"
+  },
+  "seldom": {
+    "eng": "They seldom speak.",
+    "chn": "他们很少说话。"
+  },
+  "select": {
+    "eng": "With a difficult tee shot, select a club which will keep you short of the trouble.",
+    "chn": "开球难度较大时，选择一根用起来能不给你添乱的高尔夫球杆。"
+  },
+  "self": {
+    "eng": "You're looking more like your usual self.",
+    "chn": "你现在看上去更像你平常的样子了。"
+  },
+  "sell": {
+    "eng": "Catlin sold the paintings to Philadelphia industrialist Joseph Harrison.",
+    "chn": "卡特林把这些画卖给了费城实业家约瑟夫·哈里森。"
+  },
+  "sentence": {
+    "eng": "Here we have several sentences incorrectly joined by commas.",
+    "chn": "这里有几个误用逗号连接的句子。"
+  },
+  "separate": {
+    "eng": "They are now making plans to form their own separate party.",
+    "chn": "他们现在正制订计划单独组建自己的政党。"
+  },
+  "series": {
+    "eng": "...a series of meetings with students and political leaders.",
+    "chn": "…与学生和政治领袖们的一连串会晤。"
+  },
+  "serious": {
+    "eng": "Crime is an increasingly serious problem in Russian society.",
+    "chn": "犯罪是俄罗斯社会一个日益严重的问题。"
+  },
+  "serve": {
+    "eng": "It is unfair to soldiers who have served their country well for many years.",
+    "chn": "对忠心效力国家多年的士兵们来说，这是不公平的。"
+  },
+  "session": {
+    "eng": "After two late night sessions, the Security Council has failed to reach agreement.",
+    "chn": "开过两次深夜会议之后，安理会仍未能达成协议。"
+  },
+  "settle": {
+    "eng": "They agreed to try to settle their dispute by negotiation.",
+    "chn": "他们同意尽量通过谈判解决他们之间的纠纷。"
+  },
+  "seventy": {
+    "eng": "Seventy people were killed.",
+    "chn": "70人丧生。"
+  },
+  "several": {
+    "eng": "I had lived two doors away from this family for several years.",
+    "chn": "我与相隔两户的这家人做了几年的邻居。"
+  },
+  "shame": {
+    "eng": "She felt a deep sense of shame.",
+    "chn": "她深感羞耻。"
+  },
+  "shape": {
+    "eng": "Each mirror is made to order and can be designed to almost any shape or size.",
+    "chn": "每面镜子都是定制做的，而且能设计成几乎任何形状或规格。"
+  },
+  "share": {
+    "eng": "People in China are eager to buy shares in new businesses.",
+    "chn": "中国民众热衷于购买新企业的股票。"
+  },
+  "shelter": {
+    "eng": "The city's bomb shelters were being prepared for possible air raids.",
+    "chn": "这座城市的防空掩体正在准备中，以防可能发生的空袭。"
+  },
+  "shirt": {
+    "eng": "His shirt was spotted with oil.",
+    "chn": "他的衬衣上满是油点。"
+  },
+  "shock": {
+    "eng": "The extent of the violence came as a shock.",
+    "chn": "暴力的程度令人震惊。"
+  },
+  "shocking": {
+    "eng": "The media coverage was shocking.",
+    "chn": "媒体的报道糟透了。"
+  },
+  "shoe": {
+    "eng": "...a pair of shoes.",
+    "chn": "…一双鞋。"
+  },
+  "short": {
+    "eng": "The announcement was made a short time ago.",
+    "chn": "这个通告是在不久前刚发布的。"
+  },
+  "shortage": {
+    "eng": "A shortage of funds is preventing the UN from monitoring relief.",
+    "chn": "资金短缺使得联合国无法监督救济工作。"
+  },
+  "shortcoming": {
+    "eng": "Marriages usually break down as a result of the shortcomings of both partners.",
+    "chn": "婚姻常常因双方的缺点而破裂。"
+  },
+  "shout": {
+    "eng": "He had to shout to make himself heard above the wind.",
+    "chn": "他不得不大喊，好让别人能在风中听见。"
+  },
+  "sick": {
+    "eng": "He's very sick. He needs medication.",
+    "chn": "他病得很重，需要药物治疗。"
+  },
+  "silent": {
+    "eng": "Trish was silent because she was reluctant to put her thoughts into words.",
+    "chn": "特里希一言不发，因为她不愿意把她的想法说出来。"
+  },
+  "similar": {
+    "eng": "...a savoury cake with a texture similar to that of carrot cake.",
+    "chn": "…一块口感跟胡萝卜饼差不多的咸味饼。"
+  },
+  "simply": {
+    "eng": "The table is simply a chipboard circle on a base.",
+    "chn": "这张桌子只不过是基座加圆形刨花板。"
+  },
+  "single": {
+    "eng": "A single shot rang out.",
+    "chn": "一声枪响。"
+  },
+  "sister": {
+    "eng": "His sister Sarah helped him.",
+    "chn": "他姐姐萨拉帮助了他。"
+  },
+  "sit": {
+    "eng": "Mother was sitting in her chair in the kitchen.",
+    "chn": "妈妈正坐在厨房的椅子上。"
+  },
+  "situation": {
+    "eng": "Army officers said the situation was under control.",
+    "chn": "军方官员说局势已得到控制。"
+  },
+  "size": {
+    "eng": "In 1970 the average size of a French farm was 19 hectares.",
+    "chn": "1970年法国农场的平均面积是19公顷。"
+  },
+  "ski": {
+    "eng": "...a pair of skis.",
+    "chn": "…一副滑雪板。"
+  },
+  "skin": {
+    "eng": "His skin is clear and smooth.",
+    "chn": "他的皮肤光洁滑润。"
+  },
+  "skirt": {
+    "eng": "We raced across a large field that skirted the slope of a hill.",
+    "chn": "我们快速穿越山坡边的一大片旷野。"
+  },
+  "sky": {
+    "eng": "The sun is already high in the sky.",
+    "chn": "太阳早已高挂在天上了。"
+  },
+  "slave": {
+    "eng": "He stares at the hundreds of workers slaving away in the intense sun.",
+    "chn": "他凝视着几百个正在烈日下苦干的工人们。"
+  },
+  "sleepy": {
+    "eng": "I was beginning to feel amazingly sleepy.",
+    "chn": "我开始感觉到特别困。"
+  },
+  "slip": {
+    "eng": "He had slipped on an icy pavement.",
+    "chn": "他在结冰的人行道上滑倒了。"
+  },
+  "small": {
+    "eng": "She is small for her age.",
+    "chn": "相对她的年龄而言，她个子小了。"
+  },
+  "smash": {
+    "eng": "Someone smashed a bottle.",
+    "chn": "有人打碎了一个瓶子。"
+  },
+  "smoke": {
+    "eng": "A cloud of black smoke blew over the city.",
+    "chn": "一团黑烟拂过了这座城市。"
+  },
+  "smooth": {
+    "eng": "...a rich cream that keeps skin soft and smooth.",
+    "chn": "…一种可以保持皮肤柔软光滑的富含营养的护肤霜。"
+  },
+  "soap": {
+    "eng": "...a bar of lavender soap.",
+    "chn": "…一块熏衣草肥皂。"
+  },
+  "society": {
+    "eng": "This reflects attitudes and values prevailing in society.",
+    "chn": "这反映出社会上普遍流行的态度和价值观。"
+  },
+  "sock": {
+    "eng": "...a pair of knee-high socks.",
+    "chn": "…一双齐膝的短袜。"
+  },
+  "soldier": {
+    "eng": "The soldier acted qua soldier, not as a human being.",
+    "chn": "那名士兵当时以军人的身份行事，而不是以一般人的身份。"
+  },
+  "sole": {
+    "eng": "Her sole aim is personal aggrandizement.",
+    "chn": "她唯一的目的就是扩大个人权势。"
+  },
+  "solution": {
+    "eng": "We invited readers who completed the puzzle to send in their solutions.",
+    "chn": "我们邀请解完谜的读者交出谜底。"
+  },
+  "solve": {
+    "eng": "Their domestic reforms did nothing to solve the problem of unemployment.",
+    "chn": "他们的国内改革没有采取任何措施以解决失业问题。"
+  },
+  "sometime": {
+    "eng": "The sales figures won't be released until sometime next month.",
+    "chn": "销售数据要到下个月的某个时候才会公布。"
+  },
+  "somewhere": {
+    "eng": "I've got a feeling I've seen him before somewhere.",
+    "chn": "我有一种感觉，我以前在某个地方见过他。"
+  },
+  "song": {
+    "eng": "...a voice singing a Spanish song.",
+    "chn": "…一个唱着西班牙歌曲的嗓音。"
+  },
+  "soon": {
+    "eng": "You'll be hearing from us very soon.",
+    "chn": "你很快就会收到我们来信的。"
+  },
+  "sorry": {
+    "eng": "\"We're all talking at the same time.\"—\"Yeah. Sorry.\"",
+    "chn": "“我们都在同时说话。”—“呃，对不起。”"
+  },
+  "sort": {
+    "eng": "What sort of school did you go to?",
+    "chn": "你上的是哪一类学校？"
+  },
+  "sound": {
+    "eng": "Peter heard the sound of gunfire.",
+    "chn": "彼得听见了枪炮声。"
+  },
+  "soup": {
+    "eng": "...home-made chicken soup.",
+    "chn": "…自家做的鸡汤。"
+  },
+  "southern": {
+    "eng": "The Everglades National Park stretches across the southern tip of Florida.",
+    "chn": "埃弗格莱兹国家公园一直延伸到佛罗里达州南端。"
+  },
+  "sow": {
+    "eng": "Sow the seed in a warm place in February/March.",
+    "chn": "2/3月里把种子播在温暖的地方。"
+  },
+  "space": {
+    "eng": "...cutting down yet more trees to make space for houses.",
+    "chn": "…砍掉更多的树以腾出空间来盖房屋。"
+  },
+  "span": {
+    "eng": "The batteries had a life span of six hours.",
+    "chn": "电池的使用寿命是6小时。"
+  },
+  "speak": {
+    "eng": "He tried to speak, but for once, his voice had left him.",
+    "chn": "他试图说话，但这一次，他已说不出声。"
+  },
+  "special": {
+    "eng": "You're very special to me, darling.",
+    "chn": "你对我来说很特别，亲爱的。"
+  },
+  "species": {
+    "eng": "Pandas are an endangered species.",
+    "chn": "大熊猫是一种濒危物种。"
+  },
+  "specific": {
+    "eng": "Massage may help to increase blood flow to specific areas of the body.",
+    "chn": "按摩也许会帮助加快血液流向身体各个特定部位。"
+  },
+  "speech": {
+    "eng": "...the development of speech in children.",
+    "chn": "…孩子言语能力的发展。"
+  },
+  "speed": {
+    "eng": "He drove off at high speed.",
+    "chn": "他高速驾车离去了。"
+  },
+  "sport": {
+    "eng": "I chose boxing because it is my favourite sport.",
+    "chn": "我选择了拳击，因为那是我最喜爱的运动。"
+  },
+  "stable": {
+    "eng": "The price of oil should remain stable for the rest of 1992.",
+    "chn": "石油价格在1992年余下时间里应该保持稳定。"
+  },
+  "stage": {
+    "eng": "Maya Angelou first staged the play \"And I Still Rise\" in the late 1970s.",
+    "chn": "玛雅•安吉罗在20世纪70年代末首次将戏剧《我仍将奋起》搬上舞台。"
+  },
+  "standard": {
+    "eng": "The standard of professional cricket has never been lower.",
+    "chn": "职业板球的水平从来没这么低过。"
+  },
+  "stare": {
+    "eng": "Tamara stared at him in disbelief, shaking her head.",
+    "chn": "塔玛拉摇着头不相信地盯着他看。"
+  },
+  "station": {
+    "eng": "Ingrid went with him to the train station to see him off.",
+    "chn": "英格丽德和他一起去火车站送他。"
+  },
+  "statistic": {
+    "eng": "Official statistics show real wages declining by 24%.",
+    "chn": "官方统计数据表明实际工资水平下降了24％。"
+  },
+  "step": {
+    "eng": "I took a step toward him.",
+    "chn": "我朝他迈出了一步。"
+  },
+  "stick": {
+    "eng": "...people carrying bundles of dried sticks to sell for firewood.",
+    "chn": "…背着成捆枯枝当柴火卖的人。"
+  },
+  "stock": {
+    "eng": "...the buying and selling of stocks and shares.",
+    "chn": "…证券和股票的买卖。"
+  },
+  "story": {
+    "eng": "The second story in the book is titled \"The Scholar.\"",
+    "chn": "这本书中的第2个故事标题为《学者》。"
+  },
+  "stranger": {
+    "eng": "Telling a complete stranger about your life is difficult.",
+    "chn": "向一位完全陌生的人讲述自己的生活是困难的。"
+  },
+  "street": {
+    "eng": "He lived at 66 Bingfield Street.",
+    "chn": "他住在宾菲尔德街66号。"
+  },
+  "stretch": {
+    "eng": "The procession stretched for several miles.",
+    "chn": "游行队伍延伸了数英里。"
+  },
+  "strict": {
+    "eng": "The officials had issued strict instructions that we were not to get out of the jeep.",
+    "chn": "这些官员们发出了我们不能从那辆吉普车里出来的严令。"
+  },
+  "strong": {
+    "eng": "I'm not strong enough to carry him.",
+    "chn": "我不够强壮，抱不动他。"
+  },
+  "structure": {
+    "eng": "The feet are highly specialized structures made up of 26 small delicate bones.",
+    "chn": "脚是非常特殊的、由26块细小骨头组成的结构体。"
+  },
+  "struggle": {
+    "eng": "They had to struggle against all kinds of adversity.",
+    "chn": "他们不得不同各种困境斗争。"
+  },
+  "student": {
+    "eng": "Warren's eldest son is an art student.",
+    "chn": "沃伦的长子是一名学艺术的学生。"
+  },
+  "stuff": {
+    "eng": "He pointed to a duffle bag. \"That's my stuff.\"",
+    "chn": "他指着一个旅行袋。“那是我的东西。”"
+  },
+  "style": {
+    "eng": "Our children's different needs and learning styles created many problems.",
+    "chn": "我们孩子们不同的需要和学习方式引起了许多问题。"
+  },
+  "substitute": {
+    "eng": "They were substituting violence for dialogue.",
+    "chn": "他们那时在以暴力代替对话。"
+  },
+  "successful": {
+    "eng": "How successful will this new treatment be?",
+    "chn": "这种新疗法将会有多大成效？"
+  },
+  "suggest": {
+    "eng": "He suggested a link between class size and test results of seven-year-olds.",
+    "chn": "他建议把7岁儿童的班级大小和考试结果相关联。"
+  },
+  "suit": {
+    "eng": "...a dark pin-striped business suit.",
+    "chn": "…一套黑色细条纹男职业装。"
+  },
+  "support": {
+    "eng": "The vice president insisted that he supported the hard-working people of New York.",
+    "chn": "副总统坚持认为他支持勤劳的纽约人民。"
+  },
+  "suppose": {
+    "eng": "Suppose someone gave you an egg and asked you to describe exactly what was inside.",
+    "chn": "假设某人给你一个蛋并要你准确描述里面的东西。"
+  },
+  "surface": {
+    "eng": "Ozone forms a protective layer between 12 and 30 miles above the Earth's surface.",
+    "chn": "臭氧在距地球表面12至30英里的地方形成一个保护层。"
+  },
+  "surprising": {
+    "eng": "It is not surprising that children learn to read at different rates.",
+    "chn": "孩子们以不同速度识字，这并不令人惊讶。"
+  },
+  "surround": {
+    "eng": "The small churchyard was surrounded by a rusted wrought-iron fence.",
+    "chn": "这个小墓地被一道生锈的锻铁栅栏围着。"
+  },
+  "survive": {
+    "eng": "He had survived heart bypass surgery.",
+    "chn": "他在心脏搭桥手术中活了下来。"
+  },
+  "suspect": {
+    "eng": "I suspect they were right.",
+    "chn": "我觉得他们是正确的。"
+  },
+  "sympathetic": {
+    "eng": "She was very sympathetic to the problems of adult students.",
+    "chn": "她对成年学生的问题很同情。"
+  },
+  "system": {
+    "eng": "The present system of funding for higher education is unsatisfactory.",
+    "chn": "目前高等教育的经费体制并不令人满意。"
+  },
+  "table": {
+    "eng": "She was sitting at the kitchen table eating a peach.",
+    "chn": "她正坐在餐桌旁吃着桃子。"
+  },
+  "talent": {
+    "eng": "She is proud that both her children have a talent for music.",
+    "chn": "她为自己的两个孩子都有音乐天赋感到自豪。"
+  },
+  "task": {
+    "eng": "Walker had the unenviable task of breaking the bad news to Mark.",
+    "chn": "沃克得把这个坏消息告诉马克，这可不是什么美差。"
+  },
+  "technology": {
+    "eng": "Technology is changing fast.",
+    "chn": "技术日新月异。"
+  },
+  "teenage": {
+    "eng": "She looked like any other teenage girl.",
+    "chn": "她看上去和别的少女一样。"
+  },
+  "telephone": {
+    "eng": "It's easier to reach her by telephone than by mail or email.",
+    "chn": "打电话比写信或发电子邮件更容易联系上她。"
+  },
+  "temperature": {
+    "eng": "Winter closes in and the temperature drops below freezing.",
+    "chn": "冬天来临，气温降至冰点以下。"
+  },
+  "term": {
+    "eng": "Our goods compete in terms of product quality, reliability and above all variety.",
+    "chn": "我们的产品从质量、可靠性、尤其是多样性来看很有竞争力。"
+  },
+  "terrible": {
+    "eng": "I often have terrible nightmares.",
+    "chn": "我经常做可怕的恶梦。"
+  },
+  "test": {
+    "eng": "Either measure the temperature with a thermometer or test the water with your wrist.",
+    "chn": "要么用温度计测量水温，要么用你的手腕来试水温。"
+  },
+  "thank": {
+    "eng": "Thank you very much for your call.",
+    "chn": "非常感谢您打电话来。"
+  },
+  "therefore": {
+    "eng": "Muscle cells need lots of fuel and therefore burn lots of calories.",
+    "chn": "肌肉细胞需要很多“燃料”，并因此燃烧大量卡路里。"
+  },
+  "thoughtful": {
+    "eng": "Nancy, who had been thoughtful for some time, suddenly spoke.",
+    "chn": "南希沉思半晌后，突然开口说话。"
+  },
+  "three": {
+    "eng": "We waited three months before going back to see the specialist.",
+    "chn": "我们等了3个月后才回去见那位专家。"
+  },
+  "tire": {
+    "eng": "If driving tires you, take the train.",
+    "chn": "如果开车使你感到疲劳，那就坐火车吧。"
+  },
+  "tool": {
+    "eng": "I find the best tool for the purpose is a pair of shears.",
+    "chn": "我发现达到这一目的的最好工具是一把大剪刀。"
+  },
+  "top": {
+    "eng": "I waited at the top of the stairs.",
+    "chn": "我在楼梯顶端上等着。"
+  },
+  "total": {
+    "eng": "Total recycling is a fiction.",
+    "chn": "完全回收利用是假象。"
+  },
+  "tourist": {
+    "eng": "...a tourist attraction.",
+    "chn": "…一处旅游景点。"
+  },
+  "town": {
+    "eng": "...the northern California town of Albany.",
+    "chn": "…加利福尼亚北部的奥尔巴尼镇。"
+  },
+  "toy": {
+    "eng": "He was really too old for children's toys.",
+    "chn": "他确实过了玩孩子的玩具的年纪了。"
+  },
+  "trade": {
+    "eng": "Texas has a long history of trade with Mexico.",
+    "chn": "得克萨斯与墨西哥有着悠久的贸易史。"
+  },
+  "tradition": {
+    "eng": "...the rich traditions of Afro-Cuban music and dance.",
+    "chn": "…非裔古巴人多姿多彩的音乐和舞蹈传统。"
+  },
+  "traditional": {
+    "eng": "Married women have traditionally been treated as dependent on their husbands.",
+    "chn": "已婚妇女传统上被认为是依附于其丈夫的。"
+  },
+  "traffic": {
+    "eng": "There was heavy traffic on the roads.",
+    "chn": "路上的交通很拥挤。"
+  },
+  "train": {
+    "eng": "The train pulled into a station.",
+    "chn": "那列火车驶入了一个车站。"
+  },
+  "training": {
+    "eng": "He called for much higher spending on education and training.",
+    "chn": "他呼吁在教育和培训上投入更多的资金。"
+  },
+  "translate": {
+    "eng": "Only a small number of Kadare's books have been translated into English.",
+    "chn": "卡达莱的书只有一小部分被翻译成了英文。"
+  },
+  "travel": {
+    "eng": "You had better travel to Nova Scotia tomorrow.",
+    "chn": "你最好明天去新斯科舍。"
+  },
+  "trip": {
+    "eng": "We're taking a trip to Montana.",
+    "chn": "我们要去一趟蒙大拿州。"
+  },
+  "trouble": {
+    "eng": "I had trouble parking.",
+    "chn": "我停车有困难。"
+  },
+  "truth": {
+    "eng": "Is it possible to separate truth from fiction?",
+    "chn": "有可能区分事实和谎言吗？"
+  },
+  "twist": {
+    "eng": "Her hands began to twist the handles of the bag she carried.",
+    "chn": "她的双手开始拧她拎着的那个包的拎柄。"
+  },
+  "type": {
+    "eng": "...several types of lettuce.",
+    "chn": "…生菜的几个品种。"
+  },
+  "uncertain": {
+    "eng": "He was uncertain about his brother's intentions.",
+    "chn": "他对他兄弟的意图心中无数。"
+  },
+  "understanding": {
+    "eng": "Her boss, who was very understanding, gave her time off.",
+    "chn": "她的老板很体谅她，给她放了假。"
+  },
+  "unhappy": {
+    "eng": "Her marriage is in trouble and she is desperately unhappy.",
+    "chn": "她的婚姻出了问题，她极不快乐。"
+  },
+  "union": {
+    "eng": "Do all teachers have a right to join a union?",
+    "chn": "所有的教师都有权利加入工会吗？"
+  },
+  "universe": {
+    "eng": "Einstein's equations showed the universe to be expanding.",
+    "chn": "爱因斯坦的方程式表明宇宙正在扩大。"
+  },
+  "unlike": {
+    "eng": "This was a foreign country, so unlike San Jose.",
+    "chn": "这是异国，因而不像圣何塞。"
+  },
+  "upset": {
+    "eng": "After she died I felt very, very upset.",
+    "chn": "她死后，我感觉非常非常难过。"
+  },
+  "usual": {
+    "eng": "It is a neighbourhood beset by all the usual inner-city problems.",
+    "chn": "这是个受所有常见市中心区问题所困扰的市区。"
+  },
+  "vague": {
+    "eng": "A lot of the talk was apparently vague and general.",
+    "chn": "这次会谈的许多内容显然是含糊而笼统的。"
+  },
+  "valley": {
+    "eng": "...a wooded valley set against the backdrop of Monte Rosa.",
+    "chn": "…罗莎峰前一个林木繁茂的山谷。"
+  },
+  "valuable": {
+    "eng": "Many of our teachers also have valuable academic links with Heidelberg University.",
+    "chn": "我们的许多教师也和海德堡大学保持着有价值的学术联系。"
+  },
+  "vegetable": {
+    "eng": "A good general diet should include plenty of fresh vegetables.",
+    "chn": "一份良好的日常饮食应当包括大量的新鲜蔬菜。"
+  },
+  "victory": {
+    "eng": "Union leaders are heading for victory in their battle over workplace rights.",
+    "chn": "工会领袖们在争取工作场所权利的斗争中正迈向胜利。"
+  },
+  "village": {
+    "eng": "He lives quietly in the country in a village near Lahti.",
+    "chn": "他在乡下拉赫蒂附近的一个村庄里过着平静的生活。"
+  },
+  "visit": {
+    "eng": "He wanted to visit his brother in Worcester.",
+    "chn": "他想去拜访住在伍斯特的兄弟。"
+  },
+  "visitor": {
+    "eng": "The other day we had some visitors from Switzerland.",
+    "chn": "前几天我们接待了一些瑞士的来访者。"
+  },
+  "vocabulary": {
+    "eng": "His speech is immature, his vocabulary limited.",
+    "chn": "他讲话不成熟，词汇量也有限。"
+  },
+  "volcano": {
+    "eng": "The volcano erupted last year killing about 600 people.",
+    "chn": "去年那座火山喷发导致大约六百人丧生。"
+  },
+  "voluntary": {
+    "eng": "Attention is drawn to a special voluntary course in Commercial French.",
+    "chn": "注意力被吸引到一门特别的商务法语选修课上。"
+  },
+  "volunteer": {
+    "eng": "She now helps in a local school as a volunteer three days a week.",
+    "chn": "她现在作为一名志愿者每周3天在当地一所学校帮忙。"
+  },
+  "waste": {
+    "eng": "There could be many reasons and he was not going to waste time speculating on them.",
+    "chn": "原因可能很多，而他不打算浪费时间猜测这些原因。"
+  },
+  "website": {
+    "eng": "...a website devoted to hip-hop music.",
+    "chn": "…一个嬉蹦乐专门网站。"
+  },
+  "weed": {
+    "eng": "With repeated applications of weedkiller, the weeds were overcome.",
+    "chn": "反复的施除草剂后，杂草终于被消灭了。"
+  },
+  "well-known": {
+    "eng": "Hubbard was well known for his work in the field of drug rehabilitation.",
+    "chn": "哈伯德因在戒毒领域的工作而出名。"
+  },
+  "wheel": {
+    "eng": "The car wheels spun and slipped on some oil on the road.",
+    "chn": "小汽车的车轮在路面的油迹上空转打了滑。"
+  },
+  "whole": {
+    "eng": "I was cold throughout the whole of my body.",
+    "chn": "我浑身冰冷。"
+  },
+  "wife": {
+    "eng": "He married his wife Jane 37 years ago.",
+    "chn": "他和妻子简37年前结婚。"
+  },
+  "win": {
+    "eng": "He does not have any realistic chance of winning the election.",
+    "chn": "他没有任何赢得这次选举的实际机会。"
+  },
+  "wine": {
+    "eng": "...a bottle of white wine.",
+    "chn": "…一瓶白葡萄酒。"
+  },
+  "wing": {
+    "eng": "The bird flapped its wings furiously.",
+    "chn": "那只鸟使劲地拍打着翅膀。"
+  },
+  "winner": {
+    "eng": "She will present the trophies to the award winners.",
+    "chn": "她将给获胜者颁奖。"
+  },
+  "winter": {
+    "eng": "In winter the nights are long and cold.",
+    "chn": "冬季的夜晚又长又冷。"
+  },
+  "wise": {
+    "eng": "She has the air of a wise woman.",
+    "chn": "她有才女的气质。"
+  },
+  "wish": {
+    "eng": "She was sincere and genuine in her wish to make amends for the past.",
+    "chn": "她诚恳而真心地希望弥补过去的错误。"
+  },
+  "within": {
+    "eng": "Clients are entertained within private dining rooms.",
+    "chn": "客户们在私人餐厅里受到款待。"
+  },
+  "wonder": {
+    "eng": "I wondered what that noise was.",
+    "chn": "我想知道那噪音是什么。"
+  },
+  "wonderful": {
+    "eng": "The cold, misty air felt wonderful on his face.",
+    "chn": "那凉凉的雾气使他脸上感觉好极了。"
+  },
+  "wood": {
+    "eng": "Their dishes were made of wood.",
+    "chn": "他们的盘子是用木头制成的。"
+  },
+  "wooden": {
+    "eng": "...the shop's bare brick walls and faded wooden floorboards.",
+    "chn": "…那家商店光秃秃的砖墙和褪了色的木地板。"
+  },
+  "worker": {
+    "eng": "She ate her sandwich alongside several other office workers taking their break.",
+    "chn": "她在其他几位正在休息的办公室人员旁边吃自己的三明治。"
+  },
+  "workplace": {
+    "eng": "...the difficulties facing women in the workplace.",
+    "chn": "…妇女在工作场所中面临的困难。"
+  },
+  "worried": {
+    "eng": "He seemed very worried.",
+    "chn": "他似乎非常担忧。"
+  },
+  "write": {
+    "eng": "Simply write your name and address on a postcard and send it to us.",
+    "chn": "只要在明信片上写下你的名字和地址，然后寄给我们。"
+  },
+  "writing": {
+    "eng": "If you have a complaint about your holiday, please inform us in writing.",
+    "chn": "如果你对你的假期有意见，请以书面形式告知我们。"
+  },
+  "wrong": {
+    "eng": "Pain is the body's way of telling us that something is wrong.",
+    "chn": "疼痛是身体在告诉我们有地方出毛病了。"
+  },
+  "yard": {
+    "eng": "The incident took place about 500 yards from where he was standing.",
+    "chn": "该事件发生在距他所站位置约五百码处。"
   }
 }
