@@ -22,7 +22,7 @@
     <link rel="apple-touch-icon" href="https://img.icons8.com/fluency/192/books.png">
     <link rel="icon" type="image/png" href="https://img.icons8.com/fluency/96/books.png">
 
-    <title>英语速记 v1.1.0</title>
+    <title>英语速记 v1.1.1</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
     
     <style>
@@ -333,7 +333,6 @@
             color: var(--text-main);
         }
 
-        /* Ultra-Minimalist Bottom-Left Speed Toggle Pill */
         .sentence-footer-bar {
             display: flex;
             justify-content: space-between;
@@ -510,7 +509,7 @@
     <header>
         <div class="sub-title">
             <span>英语速记</span>
-            <span class="version-tag">v1.1.0</span>
+            <span class="version-tag">v1.1.1</span>
         </div>
         <div class="streak-banner">
             已打卡 <span class="streak-num" id="streakDaysNum">1</span> 天
@@ -577,12 +576,12 @@
                     </div>
                     <div class="front-sentence-text" id="frontSentence">He didn't answer, but smiled instead.</div>
                     
-                    <!-- Ultra-Minimalist Bottom-Left Speed Toggle Pill -->
+                    <!-- Front Bottom-Left Speed Toggle Pill -->
                     <div class="sentence-footer-bar">
-                        <button class="speed-badge-btn" id="speedToggleBtn" onclick="event.stopPropagation(); toggleSpeed();">
-                            🐢 0.8x 慢速
+                        <button class="speed-badge-btn" id="speedToggleBtnFront" onclick="event.stopPropagation(); toggleSpeed();">
+                            🐢 0.75x 慢速
                         </button>
-                        <span style="font-size:0.68rem; color:var(--text-muted);">点击播放例句</span>
+                        <span style="font-size:0.68rem; color:var(--text-muted);">点击听读音句</span>
                     </div>
                 </div>
 
@@ -622,6 +621,14 @@
                     </div>
                     <div class="box-text" id="backSentence" style="font-size:0.82rem; color:var(--text-muted);">He didn't answer, but smiled instead.</div>
                     <div class="box-text trans" id="backTranslation" style="font-size:0.88rem; color:var(--text-main); font-weight:500;">他没有回答，反而笑了笑了。</div>
+                    
+                    <!-- Back Bottom-Left Speed Toggle Pill -->
+                    <div class="sentence-footer-bar">
+                        <button class="speed-badge-btn" id="speedToggleBtnBack" onclick="event.stopPropagation(); toggleSpeed();">
+                            🐢 0.75x 慢速
+                        </button>
+                        <span style="font-size:0.68rem; color:var(--text-muted);">点击听例句朗读</span>
+                    </div>
                 </div>
 
                 <div class="flip-hint">👇 点击下方标记掌握状态</div>
@@ -672,7 +679,7 @@
         let memoryState = JSON.parse(localStorage.getItem('zk_memory_full_state')) || {};
         let ebbState = JSON.parse(localStorage.getItem('zk_ebbinghaus_state')) || {};
         let dailyGoal = parseInt(localStorage.getItem('zk_daily_goal')) || 30;
-        let speechSpeed = parseFloat(localStorage.getItem('zk_speech_speed')) || 0.8;
+        let speechSpeed = parseFloat(localStorage.getItem('zk_speech_speed')) || 0.75; // Default slow 0.75x
         let savedVoiceURI = localStorage.getItem('zk_selected_voice_uri') || '';
 
         let streakDays = parseInt(localStorage.getItem('zk_streak_days')) || 1;
@@ -745,19 +752,18 @@
         }
 
         function syncSpeedBtnUI() {
-            const btn = document.getElementById('speedToggleBtn');
-            if (speechSpeed <= 0.85) {
-                btn.innerHTML = '🐢 0.8x 慢速';
-            } else {
-                btn.innerHTML = '⚡ 1.0x 正常';
-            }
+            const text = (speechSpeed <= 0.85) ? '🐢 0.75x 慢速' : '⚡ 1.0x 正常';
+            const bFront = document.getElementById('speedToggleBtnFront');
+            const bBack = document.getElementById('speedToggleBtnBack');
+            if (bFront) bFront.innerHTML = text;
+            if (bBack) bBack.innerHTML = text;
         }
 
         function toggleSpeed() {
             if (speechSpeed <= 0.85) {
                 speechSpeed = 1.0;
             } else {
-                speechSpeed = 0.8;
+                speechSpeed = 0.75;
             }
             localStorage.setItem('zk_speech_speed', speechSpeed);
             syncSpeedBtnUI();
@@ -1050,16 +1056,23 @@
             const secondaryUrl = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(cleanText.slice(0, 30))}&type=2`;
 
             audioPlayer.src = primaryUrl;
-            audioPlayer.playbackRate = speechSpeed;
             audioPlayer.load();
+            
+            // Enforce playbackRate before and immediately after play() for 100% Mobile Audio Speed Control!
+            audioPlayer.playbackRate = speechSpeed;
 
             const playPromise = audioPlayer.play();
             if (playPromise !== undefined) {
-                playPromise.catch(err => {
+                playPromise.then(() => {
+                    audioPlayer.playbackRate = speechSpeed;
+                }).catch(err => {
                     console.log('Primary audio blocked, switching to secondary audio source:', err);
                     audioPlayer.src = secondaryUrl;
                     audioPlayer.load();
-                    audioPlayer.play().catch(e => console.log('Secondary audio error:', e));
+                    audioPlayer.playbackRate = speechSpeed;
+                    audioPlayer.play().then(() => {
+                        audioPlayer.playbackRate = speechSpeed;
+                    }).catch(e => console.log('Secondary audio error:', e));
                 });
             }
         }
