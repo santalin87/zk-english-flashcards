@@ -428,7 +428,7 @@ root_dataset = [
     }
 ]
 
-version_str = "v1.5.0"
+version_str = "v1.5.1"
 
 html_template = f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -1235,7 +1235,7 @@ html_template = f"""<!DOCTYPE html>
         let speechSpeed = parseFloat(localStorage.getItem('zk_speech_speed')) || 1.0;
         let savedVoiceURI = localStorage.getItem('zk_selected_voice_uri') || '';
 
-        let streakDays = parseInt(localStorage.getItem('zk_streak_days')) || 1;
+        let streakDays = parseInt(localStorage.getItem('zk_streak_days')) || 0;
         let lastStreakDate = localStorage.getItem('zk_last_streak_date') || '';
 
         let currentMode = 'daily';
@@ -1257,12 +1257,21 @@ html_template = f"""<!DOCTYPE html>
             return d.toISOString().split('T')[0];
         }}
 
-        function updateStreakCount() {{
+        function updateStreakCountOnLoad() {{
             const today = getTodayStr();
-            if (!lastStreakDate) {{
-                streakDays = 1;
-                lastStreakDate = today;
-            }} else if (lastStreakDate !== today) {{
+            if (lastStreakDate && lastStreakDate !== today) {{
+                const yesterday = addDays(today, -1);
+                if (lastStreakDate !== yesterday) {{
+                    streakDays = 0;
+                    localStorage.setItem('zk_streak_days', 0);
+                }}
+            }}
+            document.getElementById('streakDaysNum').innerText = streakDays;
+        }}
+
+        function recordRealCheckIn() {{
+            const today = getTodayStr();
+            if (lastStreakDate !== today) {{
                 const yesterday = addDays(today, -1);
                 if (lastStreakDate === yesterday) {{
                     streakDays += 1;
@@ -1270,10 +1279,10 @@ html_template = f"""<!DOCTYPE html>
                     streakDays = 1;
                 }}
                 lastStreakDate = today;
+                localStorage.setItem('zk_streak_days', streakDays);
+                localStorage.setItem('zk_last_streak_date', lastStreakDate);
+                document.getElementById('streakDaysNum').innerText = streakDays;
             }}
-            localStorage.setItem('zk_streak_days', streakDays);
-            localStorage.setItem('zk_last_streak_date', lastStreakDate);
-            document.getElementById('streakDaysNum').innerText = streakDays;
         }}
 
         function unlockMobileAudio() {{

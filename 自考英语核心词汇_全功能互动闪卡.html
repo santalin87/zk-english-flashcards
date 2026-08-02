@@ -22,7 +22,7 @@
     <link rel="apple-touch-icon" href="https://img.icons8.com/fluency/192/books.png">
     <link rel="icon" type="image/png" href="https://img.icons8.com/fluency/96/books.png">
 
-    <title>英语速记 v1.5.0</title>
+    <title>英语速记 v1.5.1</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
     
     <style>
@@ -617,7 +617,7 @@
     <header>
         <div class="sub-title">
             <span>英语速记</span>
-            <span class="version-tag">v1.5.0</span>
+            <span class="version-tag">v1.5.1</span>
         </div>
         <div class="streak-banner">
             已打卡 <span class="streak-num" id="streakDaysNum">1</span> 天
@@ -803,7 +803,7 @@
         let speechSpeed = parseFloat(localStorage.getItem('zk_speech_speed')) || 1.0;
         let savedVoiceURI = localStorage.getItem('zk_selected_voice_uri') || '';
 
-        let streakDays = parseInt(localStorage.getItem('zk_streak_days')) || 1;
+        let streakDays = parseInt(localStorage.getItem('zk_streak_days')) || 0;
         let lastStreakDate = localStorage.getItem('zk_last_streak_date') || '';
 
         let currentMode = 'daily';
@@ -825,12 +825,21 @@
             return d.toISOString().split('T')[0];
         }
 
-        function updateStreakCount() {
+        function updateStreakCountOnLoad() {
             const today = getTodayStr();
-            if (!lastStreakDate) {
-                streakDays = 1;
-                lastStreakDate = today;
-            } else if (lastStreakDate !== today) {
+            if (lastStreakDate && lastStreakDate !== today) {
+                const yesterday = addDays(today, -1);
+                if (lastStreakDate !== yesterday) {
+                    streakDays = 0;
+                    localStorage.setItem('zk_streak_days', 0);
+                }
+            }
+            document.getElementById('streakDaysNum').innerText = streakDays;
+        }
+
+        function recordRealCheckIn() {
+            const today = getTodayStr();
+            if (lastStreakDate !== today) {
                 const yesterday = addDays(today, -1);
                 if (lastStreakDate === yesterday) {
                     streakDays += 1;
@@ -838,10 +847,10 @@
                     streakDays = 1;
                 }
                 lastStreakDate = today;
+                localStorage.setItem('zk_streak_days', streakDays);
+                localStorage.setItem('zk_last_streak_date', lastStreakDate);
+                document.getElementById('streakDaysNum').innerText = streakDays;
             }
-            localStorage.setItem('zk_streak_days', streakDays);
-            localStorage.setItem('zk_last_streak_date', lastStreakDate);
-            document.getElementById('streakDaysNum').innerText = streakDays;
         }
 
         function unlockMobileAudio() {
