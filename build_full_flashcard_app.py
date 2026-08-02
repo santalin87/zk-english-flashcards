@@ -428,7 +428,7 @@ root_dataset = [
     }
 ]
 
-version_str = "v1.5.1"
+version_str = "v1.5.2"
 
 html_template = f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -536,6 +536,67 @@ html_template = f"""<!DOCTYPE html>
             background: #E5E5E0;
             padding: 1px 5px;
             border-radius: 4px;
+        }}
+
+        .root-category-box {{
+            background: #FFFFFF;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 14px 12px;
+            margin-bottom: 14px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+            text-align: left;
+        }}
+
+        .root-category-header {{
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--accent-red);
+            margin-bottom: 10px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #F0F0EE;
+        }}
+
+        .root-chip-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            gap: 8px;
+        }}
+
+        .root-chip-item {{
+            background: #FBFBF9;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 8px 6px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }}
+
+        .root-chip-item:hover, .root-chip-item:active {{
+            background: var(--accent-red);
+            color: #FFFFFF;
+            border-color: var(--accent-red);
+        }}
+
+        .root-chip-affix {{
+            font-size: 1.05rem;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 2px;
+        }}
+
+        .root-chip-meaning {{
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: block;
+        }}
+
+        .root-chip-item:hover .root-chip-meaning, .root-chip-item:active .root-chip-meaning {{
+            color: rgba(255,255,255,0.9);
         }}
 
         .settings-bar {{
@@ -1297,14 +1358,132 @@ html_template = f"""<!DOCTYPE html>
         document.addEventListener('click', unlockMobileAudio, {{ once: true }});
 
         function init() {{
-            updateStreakCount();
+            updateStreakCountOnLoad();
             document.getElementById('dailyGoalSelect').value = dailyGoal;
             syncSpeedUI();
             updateCounts();
             buildDeck();
             
-            showListView();
+            showCardView();
             loadVoices();
+        }}
+
+        function showCardView() {{
+            viewState = 'card';
+            document.getElementById('listViewContainer').style.display = 'none';
+            document.getElementById('cardViewArea').style.display = 'block';
+            document.getElementById('finishCard').style.display = 'none';
+            renderCard(false);
+        }}
+
+        function showListView() {{
+            viewState = 'list';
+            document.getElementById('listViewContainer').style.display = 'block';
+            document.getElementById('cardViewArea').style.display = 'none';
+            document.getElementById('finishCard').style.display = 'none';
+            
+            const searchInput = document.getElementById('searchInput');
+            if (currentMode === 'roots') {{
+                searchInput.placeholder = "🔍 搜索词根词缀 (如 're' 或 'tion')...";
+            }} else {{
+                searchInput.placeholder = "🔍 输入字母搜单词 (如 'ab')...";
+            }}
+
+            renderWordList();
+        }}
+
+        /* PREFIX-FIRST SEARCH LOGIC & ROOT CATEGORY BOXES */
+        function renderWordList() {{
+            const query = document.getElementById('searchInput').value.trim().toLowerCase();
+            const grid = document.getElementById('wordGrid');
+            grid.innerHTML = '';
+
+            let filtered = [];
+
+            if (currentMode === 'roots') {{
+                if (!query) {{
+                    filtered = currentDeck;
+                }} else {{
+                    let prefixMatches = currentDeck.filter(item => item.affix.toLowerCase().replace('-', '').startsWith(query));
+                    if (prefixMatches.length > 0) {{
+                        filtered = prefixMatches;
+                    }} else {{
+                        filtered = currentDeck.filter(item => item.affix.toLowerCase().includes(query) || item.meaning.includes(query));
+                    }}
+                }}
+            }} else {{
+                if (!query) {{
+                    filtered = currentDeck;
+                }} else {{
+                    // Rule: Filter words that START WITH the query first!
+                    let prefixMatches = currentDeck.filter(item => item.word.toLowerCase().startsWith(query));
+                    if (prefixMatches.length > 0) {{
+                        filtered = prefixMatches;
+                    }} else {{
+                        // Fallback: If no prefix matches, filter words that contain the query
+                        filtered = currentDeck.filter(item => item.word.toLowerCase().includes(query));
+                    }}
+                }}
+            }}
+
+            if (filtered.length === 0) {{
+                grid.style.display = 'grid';
+                grid.innerHTML = '<div style="grid-column:1/-1; text-align:center; color:var(--text-muted); padding:20px; font-size:0.85rem;">未搜索到匹配项</div>';
+                return;
+            }}
+
+            if (currentMode === 'roots') {{
+                grid.style.display = 'block';
+
+                const rootCategoryItems = filtered.filter(item => item.type.includes('词根'));
+                const prefixCategoryItems = filtered.filter(item => item.type.includes('前缀'));
+                const suffixCategoryItems = filtered.filter(item => item.type.includes('后缀'));
+
+                const categories = [
+                    {{ title: '🌳 核心词根 (Roots)', items: rootCategoryItems }},
+                    {{ title: '🔤 高频前缀 (Prefixes)', items: prefixCategoryItems }},
+                    {{ title: '🔠 常用后缀 (Suffixes)', items: suffixCategoryItems }}
+                ];
+
+                let html = '';
+                categories.forEach(cat => {{
+                    if (cat.items.length > 0) {{
+                        html += `<div class="root-category-box">
+                            <div class="root-category-header">${{cat.title}} <span style="font-size:0.75rem; color:var(--text-muted); font-weight:normal;">(${{cat.items.length}}个)</span></div>
+                            <div class="root-chip-grid">`;
+                        
+                        cat.items.forEach(item => {{
+                            const origIndex = currentDeck.indexOf(item);
+                            html += `<div class="root-chip-item" onclick="selectWordFromList(${{origIndex}})">
+                                <span class="root-chip-affix">${{item.affix}}</span>
+                                <span class="root-chip-meaning" title="${{item.meaning}}">${{item.meaning}}</span>
+                            </div>`;
+                        }});
+
+                        html += `</div></div>`;
+                    }}
+                }});
+
+                grid.innerHTML = html;
+                return;
+            }} else {{
+                grid.style.display = 'grid';
+            }}
+
+            filtered.forEach((item) => {{
+                const origIndex = currentDeck.indexOf(item);
+                const div = document.createElement('div');
+                div.className = 'word-grid-item';
+                div.onclick = function() {{
+                    selectWordFromList(origIndex);
+                }};
+                
+                div.innerHTML = `
+                    <span class="grid-item-num">#${{origIndex + 1}}</span>
+                    <span class="grid-item-word">${{item.word}}</span>
+                `;
+                grid.appendChild(div);
+            }});
         }}
 
         function syncSpeedUI() {{
