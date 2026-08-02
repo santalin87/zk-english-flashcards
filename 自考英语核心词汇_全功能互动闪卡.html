@@ -22,7 +22,7 @@
     <link rel="apple-touch-icon" href="https://img.icons8.com/fluency/192/books.png">
     <link rel="icon" type="image/png" href="https://img.icons8.com/fluency/96/books.png">
 
-    <title>英语速记 v1.2.0</title>
+    <title>英语速记 v1.2.1</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
     
     <style>
@@ -135,6 +135,29 @@
             outline: none;
             cursor: pointer;
             font-weight: 500;
+        }
+
+        .speed-pill-group {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+
+        .btn-speed-pill {
+            padding: 2px 7px;
+            border: 1px solid var(--border-color);
+            background: #FFFFFF;
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+
+        .btn-speed-pill.active {
+            background: var(--accent-black);
+            color: #FFFFFF;
+            border-color: var(--accent-black);
         }
 
         @media (max-width: 640px) {
@@ -333,31 +356,6 @@
             color: var(--text-main);
         }
 
-        .sentence-footer-bar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 6px;
-            padding-top: 4px;
-            border-top: 1px dashed var(--border-color);
-        }
-
-        .speed-badge-btn {
-            font-size: 0.7rem;
-            font-weight: 600;
-            padding: 1px 6px;
-            background: #FFFFFF;
-            border: 1px solid var(--border-color);
-            color: var(--text-secondary);
-            cursor: pointer;
-            display: inline-flex;
-            align-items: center;
-            gap: 3px;
-        }
-        .speed-badge-btn:hover {
-            background: #EEEEEE;
-        }
-
         .back-header {
             display: flex;
             justify-content: space-between;
@@ -509,7 +507,7 @@
     <header>
         <div class="sub-title">
             <span>英语速记</span>
-            <span class="version-tag">v1.2.0</span>
+            <span class="version-tag">v1.2.1</span>
         </div>
         <div class="streak-banner">
             已打卡 <span class="streak-num" id="streakDaysNum">1</span> 天
@@ -525,6 +523,15 @@
                 <option value="50">50词</option>
                 <option value="100">100词</option>
             </select>
+        </div>
+
+        <div class="setting-item">
+            <span>⏱️ 语速:</span>
+            <div class="speed-pill-group">
+                <button class="btn-speed-pill" id="spd08" onclick="setSpeed(0.8)">0.8</button>
+                <button class="btn-speed-pill active" id="spd10" onclick="setSpeed(1.0)">1.0</button>
+                <button class="btn-speed-pill" id="spd12" onclick="setSpeed(1.2)">1.2</button>
+            </div>
         </div>
 
         <div class="setting-item voice-setting-item">
@@ -572,17 +579,9 @@
                 <div class="front-sentence-box" onclick="event.stopPropagation(); speakSentence();" title="点击整框朗读英文例句">
                     <div class="front-sentence-title">
                         <span>💬 英文例句语境</span>
-                        <span style="font-size: 0.8rem; color: var(--text-main);">🔊 听句</span>
+                        <span style="font-size: 0.8rem; color: var(--text-main);">🔊 点击听句</span>
                     </div>
                     <div class="front-sentence-text" id="frontSentence">He didn't answer, but smiled instead.</div>
-                    
-                    <!-- Front Bottom-Left Speed Toggle Pill -->
-                    <div class="sentence-footer-bar">
-                        <button class="speed-badge-btn" id="speedToggleBtnFront" onclick="event.stopPropagation(); toggleSpeed();">
-                            🐢 0.75x 慢速
-                        </button>
-                        <span style="font-size:0.68rem; color:var(--text-muted);">点击听读音句</span>
-                    </div>
                 </div>
 
                 <div class="flip-hint">👆 点击空白区域翻面验证答案</div>
@@ -617,18 +616,10 @@
                 <div class="section-box sentence-box" onclick="event.stopPropagation(); speakSentence();" title="点击整框朗读例句">
                     <div class="box-title">
                         <span>💬 例句翻译 (点击听例句)</span>
-                        <span style="font-size: 0.8rem;">🔊 听句</span>
+                        <span style="font-size: 0.8rem;">🔊 点击听句</span>
                     </div>
                     <div class="box-text" id="backSentence" style="font-size:0.82rem; color:var(--text-muted);">He didn't answer, but smiled instead.</div>
                     <div class="box-text trans" id="backTranslation" style="font-size:0.88rem; color:var(--text-main); font-weight:500;">他没有回答，反而笑了笑了。</div>
-                    
-                    <!-- Back Bottom-Left Speed Toggle Pill -->
-                    <div class="sentence-footer-bar">
-                        <button class="speed-badge-btn" id="speedToggleBtnBack" onclick="event.stopPropagation(); toggleSpeed();">
-                            🐢 0.75x 慢速
-                        </button>
-                        <span style="font-size:0.68rem; color:var(--text-muted);">点击听例句朗读</span>
-                    </div>
                 </div>
 
                 <div class="flip-hint">👇 点击下方标记掌握状态</div>
@@ -679,7 +670,7 @@
         let memoryState = JSON.parse(localStorage.getItem('zk_memory_full_state')) || {};
         let ebbState = JSON.parse(localStorage.getItem('zk_ebbinghaus_state')) || {};
         let dailyGoal = parseInt(localStorage.getItem('zk_daily_goal')) || 30;
-        let speechSpeed = parseFloat(localStorage.getItem('zk_speech_speed')) || 0.75;
+        let speechSpeed = parseFloat(localStorage.getItem('zk_speech_speed')) || 1.0;
         let savedVoiceURI = localStorage.getItem('zk_selected_voice_uri') || '';
 
         let streakDays = parseInt(localStorage.getItem('zk_streak_days')) || 1;
@@ -736,7 +727,7 @@
         function init() {
             updateStreakCount();
             document.getElementById('dailyGoalSelect').value = dailyGoal;
-            syncSpeedBtnUI();
+            syncSpeedUI();
             updateCounts();
             buildDeck();
             
@@ -751,22 +742,28 @@
             loadVoices();
         }
 
-        function syncSpeedBtnUI() {
-            const text = (speechSpeed <= 0.85) ? '🐢 0.75x 慢速' : '⚡ 1.0x 正常';
-            const bFront = document.getElementById('speedToggleBtnFront');
-            const bBack = document.getElementById('speedToggleBtnBack');
-            if (bFront) bFront.innerHTML = text;
-            if (bBack) bBack.innerHTML = text;
+        function syncSpeedUI() {
+            const btn08 = document.getElementById('spd08');
+            const btn10 = document.getElementById('spd10');
+            const btn12 = document.getElementById('spd12');
+            
+            if (btn08) btn08.classList.remove('active');
+            if (btn10) btn10.classList.remove('active');
+            if (btn12) btn12.classList.remove('active');
+
+            if (speechSpeed <= 0.85) {
+                if (btn08) btn08.classList.add('active');
+            } else if (speechSpeed >= 1.15) {
+                if (btn12) btn12.classList.add('active');
+            } else {
+                if (btn10) btn10.classList.add('active');
+            }
         }
 
-        function toggleSpeed() {
-            if (speechSpeed <= 0.85) {
-                speechSpeed = 1.0;
-            } else {
-                speechSpeed = 0.75;
-            }
+        function setSpeed(spd) {
+            speechSpeed = parseFloat(spd);
             localStorage.setItem('zk_speech_speed', speechSpeed);
-            syncSpeedBtnUI();
+            syncSpeedUI();
             speakSentence();
         }
 
