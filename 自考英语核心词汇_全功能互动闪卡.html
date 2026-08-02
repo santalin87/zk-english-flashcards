@@ -2,32 +2,33 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="自考英语闪卡">
-    <meta name="application-name" content="自考英语闪卡">
-    <meta name="theme-color" content="#0f172a">
+    <meta name="apple-mobile-web-app-title" content="英语速记打卡">
+    <meta name="application-name" content="英语速记打卡">
+    <meta name="theme-color" content="#FBFBF9">
+
     <link rel="apple-touch-icon" href="https://img.icons8.com/fluency/192/books.png">
     <link rel="icon" type="image/png" href="https://img.icons8.com/fluency/96/books.png">
 
-    <title>自考英语核心词汇：艾宾浩斯记忆卡片</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>英语速记每日打卡</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+    
     <style>
+        /* MailsDev Minimalist Style Palette (from shiWeb) */
         :root {
-            --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #2e1065 100%);
-            --card-bg: rgba(30, 41, 59, 0.8);
-            --card-border: rgba(255, 255, 255, 0.15);
-            --text-primary: #f8fafc;
-            --text-secondary: #94a3b8;
-            --accent-primary: #818cf8;
-            --accent-glow: rgba(129, 140, 248, 0.3);
-            --success: #10b981;
-            --danger: #f43f5e;
-            --etymology-color: #fbbf24;
-            --sentence-color: #38bdf8;
-            --phrase-color: #f472b6;
+            --bg-color: #FBFBF9; /* 纸张感米白色 */
+            --sidebar-bg: #FFFFFF;
+            --text-main: #000000;
+            --text-secondary: #333333;
+            --text-muted: #777777;
+            --border-color: #E5E5E0;
+            --accent-green: #22C55E;
+            --accent-black: #000000;
+            --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+            --font-serif: "Source Serif Pro", Georgia, serif;
         }
 
         * {
@@ -35,138 +36,138 @@
             margin: 0;
             padding: 0;
             -webkit-tap-highlight-color: transparent !important;
+            font-family: var(--font-sans);
         }
 
         body {
-            font-family: 'Outfit', 'Noto Sans SC', sans-serif;
-            background: var(--bg-gradient);
-            color: var(--text-primary);
+            background-color: var(--bg-color);
+            color: var(--text-main);
             min-height: 100vh;
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 20px;
+            padding: 12px 16px;
             overflow-x: hidden;
         }
 
+        /* Compact Header */
         header {
             text-align: center;
-            margin-bottom: 14px;
-            max-width: 540px;
+            margin-bottom: 10px;
             width: 100%;
+            max-width: 480px;
         }
 
         h1 {
+            font-family: var(--font-serif);
             font-size: 1.6rem;
-            font-weight: 700;
-            background: linear-gradient(to right, #fbbf24, #c084fc, #38bdf8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 4px;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+            color: var(--text-main);
+            margin-bottom: 2px;
         }
 
-        p.subtitle {
-            font-size: 0.82rem;
-            color: var(--text-secondary);
-        }
-
+        /* Minimal Settings Bar */
         .settings-bar {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            gap: 10px;
-            margin-bottom: 12px;
+            gap: 6px;
+            margin-bottom: 10px;
             width: 100%;
-            max-width: 520px;
-            background: rgba(255, 255, 255, 0.05);
-            padding: 8px 14px;
-            border-radius: 16px;
-            border: 1px solid var(--card-border);
-            font-size: 0.82rem;
-            position: relative;
-            z-index: 10;
+            max-width: 480px;
+            background: #FFFFFF;
+            padding: 6px 12px;
+            border: 1px solid var(--border-color);
+            font-size: 0.8rem;
         }
 
         .setting-item {
             display: flex;
             align-items: center;
-            gap: 6px;
+            gap: 4px;
         }
 
-        .goal-select, .voice-select {
-            background: rgba(15, 23, 42, 0.95);
-            color: #fbbf24;
-            border: 1px solid rgba(251, 191, 36, 0.4);
-            border-radius: 10px;
-            padding: 6px 10px;
-            font-size: 0.82rem;
+        .goal-select, .voice-select, .speed-select {
+            background: #FFFFFF;
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+            padding: 3px 6px;
+            font-size: 0.78rem;
             outline: none;
             cursor: pointer;
+            font-weight: 500;
         }
 
+        /* Hide Voice Selector on Mobile Devices */
+        @media (max-width: 640px) {
+            .voice-setting-item {
+                display: none !important;
+            }
+        }
+
+        /* Mode Selector Pills */
         .controls {
             display: flex;
-            gap: 8px;
-            margin-bottom: 14px;
-            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 10px;
             justify-content: center;
             width: 100%;
-            max-width: 520px;
+            max-width: 480px;
         }
 
         .btn-mode {
-            padding: 6px 14px;
-            border-radius: 18px;
-            border: 1px solid var(--card-border);
-            background: rgba(255, 255, 255, 0.05);
+            padding: 5px 12px;
+            border: 1px solid var(--border-color);
+            background: #FFFFFF;
             color: var(--text-secondary);
-            font-size: 0.82rem;
+            font-size: 0.78rem;
             cursor: pointer;
-            transition: all 0.3s ease;
-            backdrop-filter: blur(8px);
+            transition: all 0.2s ease;
         }
 
         .btn-mode.active {
-            background: var(--accent-primary);
-            color: #fff;
-            border-color: var(--accent-primary);
-            box-shadow: 0 0 12px var(--accent-glow);
+            background: var(--accent-black);
+            color: #FFFFFF;
+            border-color: var(--accent-black);
+            font-weight: 600;
         }
 
+        /* Compact Progress Bar */
         .progress-container {
             width: 100%;
-            max-width: 520px;
-            margin-bottom: 14px;
+            max-width: 480px;
+            margin-bottom: 10px;
         }
 
         .progress-stats {
             display: flex;
             justify-content: space-between;
-            font-size: 0.82rem;
-            color: var(--text-secondary);
-            margin-bottom: 6px;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-bottom: 4px;
         }
 
         .progress-bar {
-            height: 8px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 4px;
+            height: 4px;
+            background: var(--border-color);
             overflow: hidden;
         }
 
         .progress-fill {
             height: 100%;
             width: 0%;
-            background: linear-gradient(90deg, #fbbf24, var(--accent-primary));
+            background: var(--accent-black);
             transition: width 0.3s ease;
         }
 
+        /* Compact Card Container (Fits Mobile Screen Heights) */
         .card-wrapper {
             perspective: 1000px;
             width: 100%;
-            max-width: 520px;
-            height: 460px;
-            margin-bottom: 18px;
+            max-width: 480px;
+            height: 410px;
+            margin-bottom: 14px;
             cursor: pointer;
         }
 
@@ -175,8 +176,7 @@
             height: 100%;
             position: relative;
             transform-style: preserve-3d;
-            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-            border-radius: 24px;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .card.flipped {
@@ -188,16 +188,13 @@
             width: 100%;
             height: 100%;
             backface-visibility: hidden;
-            border-radius: 24px;
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            backdrop-filter: blur(16px);
-            padding: 24px;
+            background: #FFFFFF;
+            border: 1px solid var(--border-color);
+            padding: 18px 20px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            box-shadow: 6px 6px 0px rgba(0,0,0,0.03);
         }
 
         .card-front {
@@ -206,8 +203,7 @@
 
         .card-back {
             transform: rotateY(180deg);
-            background: rgba(15, 23, 42, 0.95);
-            border-color: rgba(251, 191, 36, 0.3);
+            background: #FFFFFF;
             align-items: stretch;
             justify-content: space-between;
             overflow-y: auto;
@@ -220,97 +216,95 @@
         }
 
         .card-tag {
-            font-size: 0.75rem;
-            padding: 4px 12px;
-            border-radius: 12px;
-            background: rgba(255, 255, 255, 0.08);
-            color: var(--accent-primary);
+            font-size: 0.72rem;
+            padding: 2px 8px;
+            background: var(--bg-color);
+            color: var(--text-muted);
+            border: 1px solid var(--border-color);
             font-weight: 500;
         }
 
         .ebbinghaus-badge {
-            font-size: 0.75rem;
-            padding: 4px 10px;
-            border-radius: 12px;
-            background: rgba(251, 191, 36, 0.15);
-            color: #fbbf24;
+            font-size: 0.72rem;
+            padding: 2px 8px;
+            background: var(--bg-color);
+            color: var(--text-main);
             font-weight: 600;
-            border: 1px solid rgba(251, 191, 36, 0.3);
+            border: 1px solid var(--border-color);
         }
 
         .card-word {
-            font-size: 2.6rem;
-            font-weight: 700;
+            font-family: var(--font-serif);
+            font-size: 2.5rem;
+            font-weight: 600;
             text-align: center;
-            color: #ffffff;
-            text-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
-            margin: 10px 0 6px 0;
+            color: var(--text-main);
+            margin: 6px 0 4px 0;
             cursor: pointer;
         }
 
         .card-ipa {
-            font-size: 1.1rem;
-            color: #cbd5e1;
+            font-size: 1rem;
+            color: var(--text-secondary);
             font-family: monospace;
-            background: rgba(0, 0, 0, 0.35);
-            padding: 6px 18px;
-            border-radius: 12px;
+            background: var(--bg-color);
+            padding: 4px 14px;
             display: inline-flex;
             align-items: center;
-            gap: 10px;
-            border: 1px solid rgba(129, 140, 248, 0.3);
+            gap: 8px;
+            border: 1px solid var(--border-color);
             cursor: pointer;
         }
 
         .audio-btn {
             background: none;
             border: none;
-            color: var(--accent-primary);
+            color: var(--text-main);
             cursor: pointer;
-            font-size: 1.1rem;
+            font-size: 1rem;
             pointer-events: none;
         }
 
         .flip-hint {
-            font-size: 0.8rem;
-            color: var(--text-secondary);
-            opacity: 0.7;
+            font-size: 0.75rem;
+            color: var(--text-muted);
             text-align: center;
         }
 
         .front-sentence-box {
-            background: rgba(56, 189, 248, 0.08);
-            border: 1px solid rgba(56, 189, 248, 0.25);
-            border-radius: 16px;
-            padding: 16px;
-            margin: 12px 0;
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            padding: 12px 14px;
+            margin: 8px 0;
             cursor: pointer;
         }
 
         .front-sentence-title {
-            font-size: 0.75rem;
-            font-weight: 700;
-            color: var(--sentence-color);
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: var(--text-muted);
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 8px;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
 
         .front-sentence-text {
-            font-size: 1rem;
-            line-height: 1.5;
-            color: #f1f5f9;
-            font-weight: 500;
+            font-family: var(--font-serif);
+            font-size: 0.95rem;
+            line-height: 1.4;
+            color: var(--text-main);
         }
 
         .back-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
-            padding-bottom: 8px;
-            margin-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 6px;
+            margin-bottom: 8px;
         }
 
         .back-word-box {
@@ -318,186 +312,184 @@
             align-items: center;
             gap: 8px;
             cursor: pointer;
-            padding: 4px 8px;
-            border-radius: 8px;
         }
 
         .back-word {
+            font-family: var(--font-serif);
             font-size: 1.3rem;
-            font-weight: 700;
-            color: #fff;
+            font-weight: 600;
+            color: var(--text-main);
         }
 
         .back-ipa {
-            font-size: 0.9rem;
-            color: #cbd5e1;
+            font-size: 0.85rem;
+            color: var(--text-muted);
             font-family: monospace;
         }
 
         .back-meaning {
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             font-weight: 600;
-            color: #38bdf8;
+            color: var(--text-main);
         }
 
         .section-box {
-            background: rgba(255, 255, 255, 0.04);
-            border-radius: 12px;
-            padding: 10px 14px;
-            margin-bottom: 8px;
-            border-left: 3px solid var(--accent-primary);
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            padding: 8px 12px;
+            margin-bottom: 6px;
             cursor: pointer;
         }
 
         .section-box.etymology-box {
-            border-left-color: var(--etymology-color);
-            background: rgba(251, 191, 36, 0.05);
             cursor: default;
         }
 
-        .section-box.sentence-box {
-            border-left-color: var(--sentence-color);
-            background: rgba(56, 189, 248, 0.05);
-        }
-
-        .section-box.phrase-box {
-            border-left-color: var(--phrase-color);
-            background: rgba(244, 114, 182, 0.05);
-        }
-
         .box-title {
-            font-size: 0.75rem;
-            font-weight: 700;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--text-muted);
             text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 4px;
+            letter-spacing: 0.05em;
+            margin-bottom: 3px;
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
 
-        .etymology-box .box-title { color: var(--etymology-color); }
-        .sentence-box .box-title { color: var(--sentence-color); }
-        .phrase-box .box-title { color: var(--phrase-color); }
-
         .box-text {
-            font-size: 0.88rem;
-            line-height: 1.4;
-            color: #e2e8f0;
+            font-size: 0.85rem;
+            line-height: 1.35;
+            color: var(--text-secondary);
         }
 
         .box-text.trans {
-            color: var(--text-secondary);
-            font-size: 0.82rem;
+            color: var(--text-muted);
+            font-size: 0.8rem;
             margin-top: 2px;
         }
 
+        /* Action Buttons */
         .action-btns {
             display: flex;
-            gap: 16px;
+            gap: 12px;
             width: 100%;
-            max-width: 520px;
+            max-width: 480px;
         }
 
         .btn-action {
             flex: 1;
-            padding: 14px;
-            border-radius: 16px;
-            border: none;
-            font-size: 0.95rem;
+            padding: 12px;
+            border: 1px solid var(--text-main);
+            font-size: 0.9rem;
             font-weight: 600;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 6px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transition: all 0.2s ease;
         }
 
         .btn-dont-know {
-            background: linear-gradient(135deg, #f43f5e 0%, #e11d48 100%);
-            color: white;
+            background: #FFFFFF;
+            color: var(--text-main);
+        }
+        .btn-dont-know:hover {
+            background: #F0F0EE;
         }
 
         .btn-know {
-            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-            color: white;
+            background: var(--accent-black);
+            color: #FFFFFF;
+        }
+        .btn-know:hover {
+            background: #222222;
         }
 
         .finish-card {
             text-align: center;
-            padding: 30px 20px;
+            padding: 24px 16px;
             display: none;
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 24px;
-            max-width: 520px;
+            background: #FFFFFF;
+            border: 1px solid var(--border-color);
+            max-width: 480px;
             width: 100%;
-            backdrop-filter: blur(16px);
         }
 
         .finish-card h2 {
-            font-size: 1.8rem;
-            color: #fbbf24;
-            margin-bottom: 10px;
+            font-family: var(--font-serif);
+            font-size: 1.6rem;
+            color: var(--text-main);
+            margin-bottom: 8px;
         }
 
         .finish-stats-box {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 16px;
-            padding: 16px;
-            margin: 16px 0 24px 0;
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            margin: 14px 0 20px 0;
             display: flex;
             justify-content: space-around;
         }
 
         .stat-num {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             font-weight: 700;
-            color: #fff;
+            color: var(--text-main);
         }
 
         .stat-label {
-            font-size: 0.75rem;
-            color: var(--text-secondary);
+            font-size: 0.72rem;
+            color: var(--text-muted);
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>自考英语核心词汇：艾宾浩斯记忆卡片</h1>
-        <p class="subtitle">【全平台发音兼容 + 艾宾浩斯曲线复习】｜ 1311 核心词</p>
+        <h1>英语速记每日打卡</h1>
     </header>
 
+    <!-- Minimal Settings Bar -->
     <div class="settings-bar">
         <div class="setting-item">
-            <span>📅 每日定量:</span>
+            <span>📅 目标:</span>
             <select class="goal-select" id="dailyGoalSelect" onchange="changeDailyGoal()">
-                <option value="20">20 词/天</option>
-                <option value="30" selected>30 词/天 (推荐)</option>
-                <option value="50">50 词/天</option>
-                <option value="100">100 词/天</option>
+                <option value="20">20词</option>
+                <option value="30" selected>30词</option>
+                <option value="50">50词</option>
+                <option value="100">100词</option>
             </select>
         </div>
+
         <div class="setting-item">
+            <span>🔊 语速:</span>
+            <select class="speed-select" id="speechSpeedSelect" onchange="changeSpeed()">
+                <option value="1.0">⚡ 1.0x 正常</option>
+                <option value="0.8" selected>🐢 0.8x 慢速</option>
+            </select>
+        </div>
+
+        <div class="setting-item voice-setting-item">
             <span>🎤 声音:</span>
             <select class="voice-select" id="voiceSelect" onchange="changeVoice()">
-                <option value="">标准美音 (全平台兼容)</option>
+                <option value="">默认声音</option>
             </select>
         </div>
     </div>
 
+    <!-- Mode Selector -->
     <div class="controls">
         <button class="btn-mode active" id="btnDaily" onclick="setMode('daily')">🌟 今日任务 (<span id="dailyTotalCount">30</span>)</button>
-        <button class="btn-mode" id="btnUnlearned" onclick="setMode('unlearned')">🎯 顽固生词库 (<span id="unlearnedCount">0</span>)</button>
+        <button class="btn-mode" id="btnUnlearned" onclick="setMode('unlearned')">🎯 顽固生词本 (<span id="unlearnedCount">0</span>)</button>
         <button class="btn-mode" id="btnAll" onclick="setMode('all')">全量词库 (1311)</button>
     </div>
 
     <div class="progress-container">
         <div class="progress-stats">
-            <span>今日进度: <strong id="currentIndex">1</strong> / <span id="totalIndex">30</span></span>
-            <span>艾宾浩斯复习词: <strong id="reviewCountNum" style="color:#fbbf24;">0</strong> 词</span>
+            <span>进度: <strong id="currentIndex">1</strong> / <span id="totalIndex">30</span></span>
+            <span>艾宾浩斯复习: <strong id="reviewCountNum" style="color:var(--text-main);">0</strong> 词</span>
         </div>
         <div class="progress-bar">
             <div class="progress-fill" id="progressFill"></div>
@@ -518,19 +510,19 @@
                 <div style="text-align:center;">
                     <div class="card-ipa" onclick="event.stopPropagation(); speakWord();" title="点击区域朗读单词发音">
                         <span id="cardIpa">/ɪnˈsted/</span>
-                        <button class="audio-btn" title="朗读单词">🔊 读单词</button>
+                        <button class="audio-btn" title="朗读单词">🔊 读音</button>
                     </div>
                 </div>
 
                 <div class="front-sentence-box" onclick="event.stopPropagation(); speakSentence();" title="点击整框朗读英文例句">
                     <div class="front-sentence-title">
-                        <span>💬 英文例句语境 (推断词义)</span>
-                        <span style="font-size: 0.85rem; color: var(--sentence-color);">🔊 听例句</span>
+                        <span>💬 英文例句语境 (点击读句)</span>
+                        <span style="font-size: 0.8rem; color: var(--text-main);">🔊 听句</span>
                     </div>
                     <div class="front-sentence-text" id="frontSentence">He didn't answer, but smiled instead.</div>
                 </div>
 
-                <div class="flip-hint">👆 点击空白区域翻面验证答案 ｜ 点击例句/音标框精准听音</div>
+                <div class="flip-hint">👆 点击空白区域翻面验证答案</div>
             </div>
 
             <!-- Back -->
@@ -539,74 +531,73 @@
                     <div class="back-word-box" onclick="event.stopPropagation(); speakWord();" title="点击读单词">
                         <span class="back-word" id="backWord">instead</span>
                         <span class="back-ipa" id="backIpa">/ɪnˈsted/</span>
-                        <span style="font-size:0.9rem; color:var(--accent-primary);">🔊</span>
+                        <span style="font-size:0.85rem;">🔊</span>
                     </div>
                     <span class="back-meaning" id="backMeaning">adv. 代替;反而;却</span>
                 </div>
 
                 <div class="section-box etymology-box">
                     <div class="box-title">
-                        <span>🧩 词根词缀拆解与演变逻辑</span>
+                        <span>🧩 词根演变拆解</span>
                     </div>
                     <div class="box-text" id="backEtymology">in- (在内) + stead (地方) ➔ 站在别人的位置上 ➔ 替换、反而</div>
                 </div>
 
                 <div class="section-box phrase-box" onclick="event.stopPropagation(); speakPhrase();" title="点击整框朗读短语">
                     <div class="box-title">
-                        <span>📌 极简高频短语 & 自然拼读 (点击读短语)</span>
-                        <span style="font-size: 0.85rem; color: var(--phrase-color);">🔊 读短语</span>
+                        <span>📌 高频短语 (点击读短语)</span>
+                        <span style="font-size: 0.8rem;">🔊 读短语</span>
                     </div>
                     <div class="box-text" id="backPhrase">instead of (代替/而不是) ｜ in - stead (因-斯泰德)</div>
                 </div>
 
                 <div class="section-box sentence-box" onclick="event.stopPropagation(); speakSentence();" title="点击整框朗读例句">
                     <div class="box-title">
-                        <span>💬 例句完整翻译 (点击听例句)</span>
-                        <span style="font-size: 0.85rem; color: var(--sentence-color);">🔊 听例句</span>
+                        <span>💬 例句翻译 (点击听例句)</span>
+                        <span style="font-size: 0.8rem;">🔊 听句</span>
                     </div>
-                    <div class="box-text" id="backSentence" style="font-size:0.85rem; color:#94a3b8;">He didn't answer, but smiled instead.</div>
-                    <div class="box-text trans" id="backTranslation" style="font-size:0.9rem; color:#f1f5f9; font-weight:500;">他没有回答，反而笑了笑。</div>
+                    <div class="box-text" id="backSentence" style="font-size:0.82rem; color:var(--text-muted);">He didn't answer, but smiled instead.</div>
+                    <div class="box-text trans" id="backTranslation" style="font-size:0.88rem; color:var(--text-main); font-weight:500;">他没有回答，反而笑了笑了。</div>
                 </div>
 
-                <div class="flip-hint">👇 点击下方按钮标记掌握状态 ｜ 点击空白区域翻回正面</div>
+                <div class="flip-hint">👇 点击下方标记掌握状态</div>
             </div>
         </div>
     </div>
 
     <div class="action-btns" id="actionBtns">
         <button class="btn-action btn-dont-know" onclick="markResult(false)">
-            ❌ 没记住 (生词/重置)
+            ❌ 没记住
         </button>
         <button class="btn-action btn-know" onclick="markResult(true)">
-            ✅ 记住啦 (升级阶段)
+            ✅ 记住啦
         </button>
     </div>
 
     <div class="finish-card" id="finishCard">
-        <h2>🎉 恭喜！今日目标已完成！</h2>
-        <p style="color: var(--text-secondary);">遵照艾宾浩斯记忆曲线，明天点开网页将自动优先复习巩固！</p>
+        <h2>🎉 今日目标已完成</h2>
+        <p style="color: var(--text-muted); font-size: 0.85rem;">明日点开网页将遵照艾宾浩斯曲线自动推送复习！</p>
         
         <div class="finish-stats-box">
             <div>
-                <div class="stat-num" id="statReviewDone" style="color:#fbbf24;">0</div>
-                <div class="stat-label">艾宾浩斯复习词</div>
+                <div class="stat-num" id="statReviewDone">0</div>
+                <div class="stat-label">复习词数</div>
             </div>
             <div>
-                <div class="stat-num" id="statNewDone" style="color:#818cf8;">30</div>
+                <div class="stat-num" id="statNewDone">30</div>
                 <div class="stat-label">完成新词</div>
             </div>
             <div>
-                <div class="stat-num" id="statUnlearned" style="color:#f43f5e;">0</div>
-                <div class="stat-label">顽固生词</div>
+                <div class="stat-num" id="statUnlearned">0</div>
+                <div class="stat-label">生词数</div>
             </div>
         </div>
 
-        <button class="btn-action btn-know" onclick="continueExtraDeck()" style="max-width: 260px; margin: 0 auto;">
-            ⚡ 感觉不错，再刷一组！
+        <button class="btn-action btn-know" onclick="continueExtraDeck()" style="max-width: 240px; margin: 0 auto;">
+            ⚡ 再来一组！
         </button>
     </div>
 
-    <!-- Hidden Universal Audio Element Fallback for Non-Chrome Browsers / WeChat / Safari -->
     <audio id="universalAudioPlayer" style="display:none;"></audio>
 
     <script>
@@ -617,6 +608,7 @@
         let memoryState = JSON.parse(localStorage.getItem('zk_memory_full_state')) || {};
         let ebbState = JSON.parse(localStorage.getItem('zk_ebbinghaus_state')) || {};
         let dailyGoal = parseInt(localStorage.getItem('zk_daily_goal')) || 30;
+        let speechSpeed = parseFloat(localStorage.getItem('zk_speech_speed')) || 0.8;
         let savedVoiceURI = localStorage.getItem('zk_selected_voice_uri') || '';
 
         let currentMode = 'daily';
@@ -638,9 +630,19 @@
 
         function init() {
             document.getElementById('dailyGoalSelect').value = dailyGoal;
+            document.getElementById('speechSpeedSelect').value = speechSpeed;
             updateCounts();
             buildDeck();
-            renderCard(false); // Do not auto-speak on initial un-clicked page load for Safari/WeChat policy compatibility
+            
+            // Restore saved index on refresh to prevent resetting back to 1!
+            const today = getTodayStr();
+            const savedIndexKey = `zk_daily_index_${today}_${currentMode}`;
+            const savedIdx = parseInt(localStorage.getItem(savedIndexKey));
+            if (!isNaN(savedIdx) && savedIdx >= 0 && savedIdx < currentDeck.length) {
+                currentDeckIndex = savedIdx;
+            }
+
+            renderCard(false);
             loadVoices();
         }
 
@@ -651,7 +653,7 @@
                         const voices = window.speechSynthesis.getVoices();
                         availableVoices = voices.filter(v => v.lang && (v.lang.startsWith('en') || v.lang.startsWith('EN')));
                         const select = document.getElementById('voiceSelect');
-                        select.innerHTML = '<option value="">标准系统声音 (通用)</option>';
+                        select.innerHTML = '<option value="">系统发音人</option>';
                         
                         if (availableVoices.length > 0) {
                             availableVoices.forEach((v) => {
@@ -665,10 +667,9 @@
                             });
                         }
                     } catch(e) {
-                        console.log('Voice enum non-critical error:', e);
+                        console.log('Voice load non-critical warning');
                     }
                 }
-                
                 populateVoices();
                 if (speechSynthesis.onvoiceschanged !== undefined) {
                     speechSynthesis.onvoiceschanged = populateVoices;
@@ -680,6 +681,13 @@
             const select = document.getElementById('voiceSelect');
             savedVoiceURI = select.value;
             localStorage.setItem('zk_selected_voice_uri', savedVoiceURI);
+            speakWord();
+        }
+
+        function changeSpeed() {
+            const select = document.getElementById('speechSpeedSelect');
+            speechSpeed = parseFloat(select.value);
+            localStorage.setItem('zk_speech_speed', speechSpeed);
             speakWord();
         }
 
@@ -761,6 +769,14 @@
             if (mode === 'all') document.getElementById('btnAll').classList.add('active');
             
             buildDeck();
+
+            // Restore saved index for mode if available
+            const today = getTodayStr();
+            const savedIdx = parseInt(localStorage.getItem(`zk_daily_index_${today}_${currentMode}`));
+            if (!isNaN(savedIdx) && savedIdx >= 0 && savedIdx < currentDeck.length) {
+                currentDeckIndex = savedIdx;
+            }
+
             renderCard(true);
         }
 
@@ -769,6 +785,10 @@
             const wrapper = document.querySelector('.card-wrapper');
             const actions = document.getElementById('actionBtns');
             const finishCard = document.getElementById('finishCard');
+
+            // Save index on every render to ensure refresh does not reset progress!
+            const today = getTodayStr();
+            localStorage.setItem(`zk_daily_index_${today}_${currentMode}`, currentDeckIndex);
 
             if (currentDeck.length === 0 || currentDeckIndex >= currentDeck.length) {
                 wrapper.style.display = 'none';
@@ -791,17 +811,13 @@
 
             const item = currentDeck[currentDeckIndex];
             
-            document.getElementById('cardTag').innerText = `词汇 #${currentDeckIndex + 1} (序号 #${item.row})`;
+            document.getElementById('cardTag').innerText = `#${currentDeckIndex + 1} (${item.word})`;
             
             const badgeEl = document.getElementById('ebbinghausBadge');
             if (item._isReview) {
-                badgeEl.innerText = `🔄 艾宾浩斯复习 (第${item._ebbStage + 1}阶段)`;
-                badgeEl.style.color = '#fbbf24';
-                badgeEl.style.borderColor = 'rgba(251, 191, 36, 0.4)';
+                badgeEl.innerText = `🔄 艾宾浩斯 (第${item._ebbStage + 1}阶段)`;
             } else {
                 badgeEl.innerText = `🌟 今日新词`;
-                badgeEl.style.color = '#818cf8';
-                badgeEl.style.borderColor = 'rgba(129, 140, 248, 0.4)';
             }
 
             document.getElementById('cardWord').innerText = item.word;
@@ -839,18 +855,16 @@
             else cardEl.classList.remove('flipped');
         }
 
-        // Universal Double-Insurance Speech Engine (WebSpeech API + Dict Audio Fallback)
         function speakText(text) {
             text = text.trim();
             if (!text) return;
 
-            // Try Web Speech API first
             if ('speechSynthesis' in window) {
                 try {
                     window.speechSynthesis.cancel();
                     const u = new SpeechSynthesisUtterance(text);
                     u.lang = 'en-US';
-                    u.rate = 0.85;
+                    u.rate = speechSpeed; // Adjustable speech rate (e.g. 0.8x slow or 1.0x normal)
                     const v = getSelectedVoiceObj();
                     if (v) u.voice = v;
                     
@@ -859,7 +873,6 @@
                     
                     window.speechSynthesis.speak(u);
 
-                    // Fallback timer if SpeechSynthesis hangs in WeChat/Safari
                     setTimeout(() => {
                         if (!spoken) {
                             playUniversalAudio(text);
@@ -871,16 +884,15 @@
                 }
             }
 
-            // Fallback audio player for WeChat / Safari / Firefox
             playUniversalAudio(text);
         }
 
         function playUniversalAudio(text) {
             try {
                 const audioPlayer = document.getElementById('universalAudioPlayer');
-                // High reliability online dictionary audio API fallback
                 const audioUrl = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(text)}&type=2`;
                 audioPlayer.src = audioUrl;
+                audioPlayer.playbackRate = speechSpeed;
                 audioPlayer.play().catch(err => console.log('Audio playback error:', err));
             } catch(e) {
                 console.log('Audio fallback error:', e);
