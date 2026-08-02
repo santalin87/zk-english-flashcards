@@ -22,7 +22,7 @@
     <link rel="apple-touch-icon" href="https://img.icons8.com/fluency/192/books.png">
     <link rel="icon" type="image/png" href="https://img.icons8.com/fluency/96/books.png">
 
-    <title>英语速记 v1.0.8</title>
+    <title>英语速记 v1.0.9</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
     
     <style>
@@ -62,7 +62,7 @@
 
         header {
             text-align: center;
-            margin-bottom: 12px;
+            margin-bottom: 10px;
             width: 100%;
             max-width: 480px;
             position: relative;
@@ -126,7 +126,7 @@
             gap: 4px;
         }
 
-        .goal-select, .voice-select, .speed-select {
+        .goal-select, .voice-select {
             background: #FFFFFF;
             color: var(--text-main);
             border: 1px solid var(--border-color);
@@ -200,7 +200,7 @@
             perspective: 1000px;
             width: 100%;
             max-width: 480px;
-            height: 410px;
+            height: 425px;
             margin-bottom: 14px;
             cursor: pointer;
         }
@@ -224,7 +224,7 @@
             backface-visibility: hidden;
             background: #FFFFFF;
             border: 1px solid var(--border-color);
-            padding: 18px 20px;
+            padding: 16px 18px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -273,7 +273,7 @@
             font-weight: 600;
             text-align: center;
             color: var(--text-main);
-            margin: 6px 0 4px 0;
+            margin: 4px 0 2px 0;
             cursor: pointer;
         }
 
@@ -308,8 +308,8 @@
         .front-sentence-box {
             background: var(--bg-color);
             border: 1px solid var(--border-color);
-            padding: 12px 14px;
-            margin: 8px 0;
+            padding: 10px 12px;
+            margin: 6px 0 4px 0;
             cursor: pointer;
         }
 
@@ -330,6 +330,42 @@
             font-size: 0.95rem;
             line-height: 1.4;
             color: var(--text-main);
+        }
+
+        /* Prominent Sentence Speed Bar Component */
+        .sentence-speed-bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            background: #FFFFFF;
+            border: 1px solid var(--border-color);
+            padding: 4px 8px;
+            margin-bottom: 4px;
+        }
+
+        .speed-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+
+        .speed-pill {
+            padding: 2px 8px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-color);
+            color: var(--text-secondary);
+            font-size: 0.72rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .speed-pill.active {
+            background: var(--accent-black);
+            color: #FFFFFF;
+            border-color: var(--accent-black);
+            font-weight: 600;
         }
 
         .back-header {
@@ -483,7 +519,7 @@
     <header>
         <div class="sub-title">
             <span>英语速记</span>
-            <span class="version-tag">v1.0.8</span>
+            <span class="version-tag">v1.0.9</span>
         </div>
         <div class="streak-banner">
             已打卡 <span class="streak-num" id="streakDaysNum">1</span> 天
@@ -498,14 +534,6 @@
                 <option value="30" selected>30词</option>
                 <option value="50">50词</option>
                 <option value="100">100词</option>
-            </select>
-        </div>
-
-        <div class="setting-item">
-            <span>🔊 语速:</span>
-            <select class="speed-select" id="speechSpeedSelect" onchange="changeSpeed()">
-                <option value="1.0">⚡ 1.0x 正常</option>
-                <option value="0.8" selected>🐢 0.8x 慢速</option>
             </select>
         </div>
 
@@ -553,10 +581,17 @@
 
                 <div class="front-sentence-box" onclick="event.stopPropagation(); speakSentence();" title="点击整框朗读英文例句">
                     <div class="front-sentence-title">
-                        <span>💬 英文例句语境 (点击读句)</span>
+                        <span>💬 英文例句语境 (点击听例句)</span>
                         <span style="font-size: 0.8rem; color: var(--text-main);">🔊 听句</span>
                     </div>
                     <div class="front-sentence-text" id="frontSentence">He didn't answer, but smiled instead.</div>
+                </div>
+
+                <!-- Prominent Sentence Speed Bar Component -->
+                <div class="sentence-speed-bar" onclick="event.stopPropagation();">
+                    <span class="speed-label">🔊 听句语速:</span>
+                    <button class="speed-pill" id="pillSpeed08" onclick="setSpeedPill(0.8)">🐢 0.8x 慢速</button>
+                    <button class="speed-pill active" id="pillSpeed10" onclick="setSpeedPill(1.0)">⚡ 1.0x 正常</button>
                 </div>
 
                 <div class="flip-hint">👆 点击空白区域翻面验证答案</div>
@@ -648,7 +683,6 @@
         let speechSpeed = parseFloat(localStorage.getItem('zk_speech_speed')) || 0.8;
         let savedVoiceURI = localStorage.getItem('zk_selected_voice_uri') || '';
 
-        // Streak Days Calculation
         let streakDays = parseInt(localStorage.getItem('zk_streak_days')) || 1;
         let lastStreakDate = localStorage.getItem('zk_last_streak_date') || '';
 
@@ -689,7 +723,6 @@
             document.getElementById('streakDaysNum').innerText = streakDays;
         }
 
-        // Proactively unlock HTML5 Audio Context on mobile touch
         function unlockMobileAudio() {
             if (!isAudioUnlocked) {
                 const p = document.getElementById('universalAudioPlayer');
@@ -704,7 +737,7 @@
         function init() {
             updateStreakCount();
             document.getElementById('dailyGoalSelect').value = dailyGoal;
-            document.getElementById('speechSpeedSelect').value = speechSpeed;
+            syncSpeedUI();
             updateCounts();
             buildDeck();
             
@@ -717,6 +750,22 @@
 
             renderCard(false);
             loadVoices();
+        }
+
+        function syncSpeedUI() {
+            document.querySelectorAll('.speed-pill').forEach(p => p.classList.remove('active'));
+            if (speechSpeed <= 0.85) {
+                document.getElementById('pillSpeed08').classList.add('active');
+            } else {
+                document.getElementById('pillSpeed10').classList.add('active');
+            }
+        }
+
+        function setSpeedPill(speed) {
+            speechSpeed = speed;
+            localStorage.setItem('zk_speech_speed', speechSpeed);
+            syncSpeedUI();
+            speakSentence();
         }
 
         function loadVoices() {
@@ -757,13 +806,6 @@
             speakWord();
         }
 
-        function changeSpeed() {
-            const select = document.getElementById('speechSpeedSelect');
-            speechSpeed = parseFloat(select.value);
-            localStorage.setItem('zk_speech_speed', speechSpeed);
-            speakWord();
-        }
-
         function getSelectedVoiceObj() {
             if (!savedVoiceURI || availableVoices.length === 0) return null;
             return availableVoices.find(v => v.voiceURI === savedVoiceURI) || null;
@@ -794,11 +836,49 @@
 
         // Fisher-Yates Random Shuffle Helper
         function shuffleArray(array) {
-            for (let i = array.length - 1; i > 0; i--) {
+            const arr = [...array];
+            for (let i = arr.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
+                [arr[i], arr[j]] = [arr[j], arr[i]];
             }
-            return array;
+            return arr;
+        }
+
+        // Difficulty Classification: Easy (<=4 chars), Medium (5-7 chars), Hard (>=8 chars)
+        function categorizeDifficulty(words) {
+            let easy = [], medium = [], hard = [];
+            words.forEach(w => {
+                const len = w.word.trim().length;
+                if (len <= 4) easy.push(w);
+                else if (len <= 7) medium.push(w);
+                else hard.push(w);
+            });
+            return { easy, medium, hard };
+        }
+
+        // Proportional Allocation Sampling: 25% Easy : 50% Medium : 25% Hard
+        function getProportionalDeck(poolWords, goal) {
+            const { easy, medium, hard } = categorizeDifficulty(poolWords);
+            
+            let nEasy = Math.round(goal * 0.25);
+            let nHard = Math.round(goal * 0.25);
+            let nMed = goal - nEasy - nHard;
+
+            const selectedEasy = shuffleArray(easy).slice(0, nEasy);
+            const selectedMed = shuffleArray(medium).slice(0, nMed);
+            const selectedHard = shuffleArray(hard).slice(0, nHard);
+
+            let combined = [...selectedEasy, ...selectedMed, ...selectedHard];
+
+            // If any category has fewer words, fill remaining count from pool
+            if (combined.length < goal) {
+                const selectedWords = new Set(combined.map(x => x.word));
+                const remaining = poolWords.filter(x => !selectedWords.has(x.word));
+                combined.push(...shuffleArray(remaining).slice(0, goal - combined.length));
+            }
+
+            // Shuffle all selected words randomly!
+            return shuffleArray(combined);
         }
 
         function buildDeck() {
@@ -815,28 +895,25 @@
                     }
                 });
 
-                let newItems = [];
-                rawWordsData.forEach(item => {
-                    if (!ebbState[item.word] && memoryState[item.word] === undefined) {
-                        item._isReview = false;
-                        newItems.push(item);
-                    }
-                });
+                let newPool = rawWordsData.filter(item => !ebbState[item.word] && memoryState[item.word] === undefined);
+                newPool.forEach(item => { item._isReview = false; });
                 
-                // Shuffle new items randomly so the first card is dynamically random on start!
-                newItems = shuffleArray(newItems).slice(0, dailyGoal);
-                currentDeck = [...reviewItems, ...newItems];
+                // Sample 25% Easy : 50% Medium : 25% Hard
+                let sampledNew = getProportionalDeck(newPool, dailyGoal);
+                currentDeck = [...shuffleArray(reviewItems), ...sampledNew];
 
                 if (currentDeck.length === 0) {
-                    currentDeck = shuffleArray(rawWordsData.filter(item => memoryState[item.word] !== true)).slice(0, dailyGoal);
+                    const unmastered = rawWordsData.filter(item => memoryState[item.word] !== true);
+                    currentDeck = getProportionalDeck(unmastered, dailyGoal);
                 }
 
                 document.getElementById('dailyTotalCount').innerText = currentDeck.length;
 
             } else if (currentMode === 'unlearned') {
-                currentDeck = shuffleArray(rawWordsData.filter(item => memoryState[item.word] === false));
+                const unlearned = rawWordsData.filter(item => memoryState[item.word] === false);
+                currentDeck = shuffleArray(unlearned);
             } else if (currentMode === 'all') {
-                currentDeck = [...rawWordsData];
+                currentDeck = shuffleArray(rawWordsData);
             }
             
             currentDeckIndex = 0;
@@ -936,7 +1013,6 @@
             else cardEl.classList.remove('flipped');
         }
 
-        // Universal WeChat & Mobile Double-Engine Speech System
         function speakText(text) {
             const cleanText = text.replace(/['"']/g, '').trim();
             if (!cleanText) return;
@@ -973,18 +1049,14 @@
         }
 
         function playUniversalAudio(text) {
-            // Clean non-standard quotes and trailing dots for WeChat audio compatibility
             const cleanText = text.replace(/['"']/g, '').trim();
             if (!cleanText) return;
 
             const audioPlayer = document.getElementById('universalAudioPlayer');
             
-            // Build unblocked audio endpoints (no-referrer meta tag bypasses WeChat & Mobile hotlink protection)
-            // Primary: Youdao DictVoice API; Secondary: Baidu TTS API
             let primaryUrl = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(cleanText)}&type=2`;
             let secondaryUrl = `https://fanyi.baidu.com/gettts?lan=en&text=${encodeURIComponent(cleanText)}&spd=3&source=web`;
 
-            // If it's a long sentence, Baidu TTS handles full sentences seamlessly in WeChat
             if (cleanText.length > 25 || cleanText.includes(' ')) {
                 primaryUrl = `https://fanyi.baidu.com/gettts?lan=en&text=${encodeURIComponent(cleanText)}&spd=3&source=web`;
                 secondaryUrl = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(cleanText.slice(0, 35))}&type=2`;
@@ -992,7 +1064,7 @@
 
             audioPlayer.src = primaryUrl;
             audioPlayer.playbackRate = speechSpeed;
-            audioPlayer.load(); // Force WeChat browser to reload audio buffer
+            audioPlayer.load();
 
             const playPromise = audioPlayer.play();
             if (playPromise !== undefined) {
