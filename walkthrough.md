@@ -1,6 +1,6 @@
 # 📚 自考英语速记打卡 (zk-english-flashcards) 项目全景总结与接棒指南
 
-> **当前构建版本**: `v1.5.7`  
+> **当前构建版本**: `v1.5.8`  
 > **线上发布地址**: [https://santalin87.github.io/zk-english-flashcards/](https://santalin87.github.io/zk-english-flashcards/)  
 > **本地工作区目录**: `d:\User\Documents\自考英语`  
 > **核心仓库**: `santalin87/zk-english-flashcards`

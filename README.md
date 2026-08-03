@@ -2,7 +2,7 @@
 
 专为自考英语备考打造的 **极简高效互动闪卡 Web 应用** (zk-english-flashcards)。包含全量 **1311 个自考核心重点词汇**（重难点精选词 + 核心大纲词），支持 **艾宾浩斯遗忘曲线复习**、**真实 Anki 共享牌组地道例句**、**每日定量学习**、**全语音朗读** 以及 **PWA 手机桌面全屏沉浸体验**。
 
-> **当前构建版本**: `v1.5.7`  
+> **当前构建版本**: `v1.5.8`  
 > **线上发布地址**: [https://santalin87.github.io/zk-english-flashcards/](https://santalin87.github.io/zk-english-flashcards/)  
 > **源码仓库**: [https://github.com/santalin87/zk-english-flashcards](https://github.com/santalin87/zk-english-flashcards)
 
