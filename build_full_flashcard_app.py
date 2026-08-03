@@ -428,7 +428,7 @@ root_dataset = [
     }
 ]
 
-version_str = "v1.5.6"
+version_str = "v1.5.7"
 
 html_template = f"""<!DOCTYPE html>
 <html lang="zh-CN">
