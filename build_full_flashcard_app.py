@@ -428,7 +428,7 @@ root_dataset = [
     }
 ]
 
-version_str = "v1.5.2"
+version_str = "v1.5.3"
 
 html_template = f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -1167,7 +1167,7 @@ html_template = f"""<!DOCTYPE html>
     <div class="list-view-container" id="listViewContainer">
         <div class="list-header-bar">
             <input type="text" class="search-input" id="searchInput" placeholder="🔍 输入字母搜单词 (如 'ab')..." oninput="renderWordList()">
-            <button class="btn-start-study" id="btnStartStudy" onclick="startCardStudyFromFirst()">🎴 顺序刷卡</button>
+            <button class="btn-start-study" id="btnStartStudy" onclick="manualRandomShuffleStudy()">🔀 随机打卡</button>
         </div>
         <div class="word-grid" id="wordGrid"></div>
     </div>
@@ -1621,10 +1621,47 @@ html_template = f"""<!DOCTYPE html>
             return shuffleArray(combined);
         }}
 
-        function buildDeck() {{
+        function buildDeck(forceReshuffle = false) {{
             const today = getTodayStr();
             
             if (currentMode === 'daily') {{
+                const dailyDeckKey = `zk_daily_deck_${{today}}_${{dailyGoal}}`;
+                let savedWordNames = null;
+
+                if (!forceReshuffle) {{
+                    try {{
+                        savedWordNames = JSON.parse(localStorage.getItem(dailyDeckKey));
+                    }} catch(e) {{}}
+                }}
+
+                if (savedWordNames && Array.isArray(savedWordNames) && savedWordNames.length > 0) {{
+                    let mapByName = {{}};
+                    rawWordsData.forEach(w => {{ mapByName[w.word] = w; }});
+                    
+                    let hydrated = [];
+                    savedWordNames.forEach(wName => {{
+                        if (mapByName[wName]) {{
+                            let item = mapByName[wName];
+                            const ebb = ebbState[item.word];
+                            if (ebb && ebb.nextReview <= today && ebb.stage < EBBINGHAUS_INTERVALS.length) {{
+                                item._isReview = true;
+                                item._ebbStage = ebb.stage;
+                            }} else {{
+                                item._isReview = false;
+                            }}
+                            hydrated.push(item);
+                        }}
+                    }});
+                    
+                    if (hydrated.length > 0) {{
+                        currentDeck = hydrated;
+                        document.getElementById('dailyTotalCount').innerText = currentDeck.length;
+                        currentDeckIndex = 0;
+                        isFlipped = false;
+                        return;
+                    }}
+                }}
+
                 let reviewItems = [];
                 rawWordsData.forEach(item => {{
                     const ebb = ebbState[item.word];
@@ -1646,6 +1683,9 @@ html_template = f"""<!DOCTYPE html>
                     currentDeck = getProportionalDeck(unmastered, dailyGoal);
                 }}
 
+                const wordNamesToSave = currentDeck.map(item => item.word);
+                localStorage.setItem(dailyDeckKey, JSON.stringify(wordNamesToSave));
+
                 document.getElementById('dailyTotalCount').innerText = currentDeck.length;
 
             }} else if (currentMode === 'unlearned') {{
@@ -1659,6 +1699,15 @@ html_template = f"""<!DOCTYPE html>
             
             currentDeckIndex = 0;
             isFlipped = false;
+        }}
+
+        function manualRandomShuffleStudy() {{
+            if (currentMode === 'roots') {{
+                selectWordFromList(0);
+                return;
+            }}
+            buildDeck(true);
+            showCardView();
         }}
 
         function setMode(mode) {{
